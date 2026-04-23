@@ -30,7 +30,7 @@ Rules:
 1. Each set or show must be its own record. 
 2. Replace any internal pipes (|) with forward slashes (/).
 3. Use "TBD" for any missing details (time, price, age).
-4. The "youtube_sample" value MUST be: https://www.youtube.com/results?search_query=[artist+name]+playing+live
+4. The "youtube_sample" value MUST be: https://www.youtube.com/results?search_query=[artist+name]+playing+live+after%3A2024
 5. Only include venues with a capacity of 5,000 or less.
 """
 
