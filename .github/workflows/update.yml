@@ -25,4 +25,4 @@ jobs:
           git config --global user.email 'action@github.com'
           git add concerts.json
           git commit -m "Automated update: $(date +'%Y-%m-%d')" || exit 0
-          git push
+          git push 
