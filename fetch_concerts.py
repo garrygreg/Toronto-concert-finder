@@ -18,7 +18,7 @@ venues = [
     "El Mocambo", "The Garrison", "The Great Hall"
 ]
 
-# Updated Venue Mapping - Preservation + Targeted Fixes
+# Updated Venue Mapping - Preservation + Targeted Fixes for the "Broken 4"
 venue_map = """
 - Massey Hall: https://masseyhall.mhrth.com/tickets/
 - History Toronto: https://www.historytoronto.com/events/detail/
@@ -33,21 +33,23 @@ venue_map = """
 """
 
 prompt = f"""
-Using Google Search, find the specific unique event detail URLs for upcoming concerts at these Toronto venues:
+Using Google Search, find the unique event detail URLs for upcoming concerts at these Toronto venues:
 {venue_map}
 
 Return a JSON array of objects with: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
 
 STRICT ARTIST LINK RULES (APRIL 2026):
-1. PRESERVE SUCCESS: Do not change the logic for El Mocambo, History, Massey Hall, The Garrison, The Great Hall, or The Opera House.
-2. HORSESHOE & LEE'S FIX: These venues MUST NOT link to the main calendar. 
-   - The URL must follow: [domain]/event/[artist-slug]
-   - You MUST find the exact slug by searching specifically on their sites. For example, Lee's Palace often uses slugs like 'master-boot-record' or 'outer-space-2026'.
-3. PHOENIX CONCERT THEATRE: The URL pattern MUST be exactly: https://thephoenixconcerttheatre.com/events/event/[artist-slug]/
-   - IMPORTANT: The trailing slash at the very end is required for the link to resolve.
-4. DANFORTH MUSIC HALL: Follow the same pattern as History Toronto: https://www.thedanforth.com/events/detail/[artist-slug]
-   - Search specifically for the 'More Info' link on thedanforth.com to ensure the slug is correct.
-5. NO TICKETMASTER: Every link MUST stay on the official venue domain provided in the map. If a deep link is absolutely not found on the venue's domain, use the venue's main listings page on their OWN domain.
+1. PRESERVE WORKING VENUES: Do not change how you find links for El Mocambo, History, Horseshoe, Phoenix, The Garrison, or The Opera House.
+2. MASSEY HALL (FIX): The URL MUST follow the pattern: https://masseyhall.mhrth.com/tickets/[artist-slug]/
+   - Example: 'https://masseyhall.mhrth.com/tickets/calum-scott/'
+3. LEE'S PALACE (FIX): The URL MUST follow the pattern: https://www.leespalace.com/event/[slug]
+   - Example: 'https://www.leespalace.com/event/uada-mortiis-lees'
+4. THE DANFORTH (FIX): The URL MUST follow the pattern: https://www.thedanforth.com/events/detail/[slug]
+   - Force search on thedanforth.com only. Never use livenation.com or ticketmaster.ca links.
+5. THE GREAT HALL (FIX): Use the singular pattern: https://thegreathall.ca/event/[slug]
+   - Example: 'https://thegreathall.ca/event/archive-joycut/'
+6. NO TICKETMASTER: Every link MUST stay on the official venue domain provided in the map. If a deep link is absolutely not found on the venue's domain, use the venue's main /events or /tickets page as the fallback on their OWN domain.
+7. SLUG SEARCH: For Lee's, Danforth, and Great Hall, do not guess. Search for the artist name + the venue on their official domain to grab the exact slug used in their calendar.
 """
 
 try:
