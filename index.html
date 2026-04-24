@@ -56,9 +56,10 @@
                     { 
                         data: 'artist',
                         render: function(data, type, row) {
-                            return (row.url && row.url.startsWith('http')) 
-                                ? `<a href="${row.url}" target="_blank">${data}</a>` 
-                                : data;
+                            if (row.url && row.url.startsWith('http')) {
+                                return `<a href="${row.url}" target="_blank">${data}</a>`;
+                            }
+                            return data; 
                         }
                     },
                     { data: 'venue' },
