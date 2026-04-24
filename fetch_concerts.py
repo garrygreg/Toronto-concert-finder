@@ -18,7 +18,7 @@ venues = [
     "El Mocambo", "The Garrison", "The Great Hall"
 ]
 
-# Updated Venue Mapping - Grounding the model in actual 2026 paths
+# Updated Venue Mapping
 venue_map = """
 - Massey Hall: https://masseyhall.mhrth.com/tickets/
 - History Toronto: https://www.historytoronto.com/events/detail/
@@ -33,20 +33,18 @@ venue_map = """
 """
 
 prompt = f"""
-Using Google Search, find the unique event detail URLs for upcoming concerts at these Toronto venues:
+Using Google Search, find the specific unique event detail URLs for upcoming concerts at these Toronto venues:
 {venue_map}
 
 Return a JSON array of objects with: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
 
-STRICT DEEP-LINKING RULES (APRIL 2026):
-1. DOMAIN ENFORCEMENT: Every "url" MUST use the domain from the map (e.g., leespalace.com). NO ticketmaster.ca or livenation.com links.
-2. SLUG PRECISION: Do not guess slugs. Search the venue's site for the exact permalink.
-   - Example (Lee's Palace): 'https://www.leespalace.com/event/uada-mortiis-lees' (not just /uada/)
-   - Example (El Mocambo): 'https://elmocambo.com/event/global-warming-2026-way-better-north-america-tour/'
-   - Example (Great Hall): 'https://thegreathall.ca/event/archive-joycut/'
-3. THE GARRISON: Since this venue uses a single-page list, use 'http://www.garrisontoronto.com/' for all their events.
-4. THE OPERA HOUSE: Use 'https://www.theoperahousetoronto.com/events/' for all their events.
-5. DANFORTH: Attempt to find the /events/detail/[slug] link. If it cannot be found on thedanforth.com, use 'https://www.thedanforth.com/shows'.
+STRICT ARTIST LINK RULES:
+1. OFFICIAL DOMAINS ONLY: Every "url" MUST use the official domain from the map. Under no circumstances use ticketmaster.ca, livenation.com, or any other third-party ticketing site.
+2. EL MOCAMBO FIX: Do not guess the slug for tours like 'Global Warming Tour'. Search 'site:elmocambo.com [artist name]' to find the exact long-form slug (e.g., /event/global-warming-tour-2026/).
+3. HORSESHOE TAVERN FIX: Slugs for the Horseshoe often include the year or a trailing number (e.g., /event/steve-poltz-2026/ or /event/artist-name-2/). You MUST find the exact link currently active on their site.
+4. DANFORTH / OPERA HOUSE FIX: Force the search to find the /[venue-domain]/events/detail/[slug] path. If no detail page exists on the official domain, use the venue's main /events or /shows page as the fallback. 
+5. THE GARRISON FIX: Since this site is often a single-page list, if a specific /event/ page is not found on garrisontoronto.com, use 'http://www.garrisontoronto.com/' for every event at that venue.
+6. NO 404s: Before finalizing a URL, ensure it follows the known patterns provided in the venue_map.
 """
 
 try:
