@@ -1,92 +1,92 @@
 [
     {
-        "date": "April 25, 2026",
-        "artist": "Waxahatchee",
-        "url": "https://masseyhall.mhrth.com/tickets/waxahatchee-and-mj-lenderman",
+        "date": "April 23, 2026",
+        "artist": "The Last Dinner Party",
+        "url": "https://masseyhall.mhrth.com/tickets/the-last-dinner-party/",
         "venue": "Massey Hall",
-        "price": "$116.00",
+        "price": "From $55.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/watch?v=R0Sshf7YidY"
+        "youtube_sample": "https://www.youtube.com/watch?v=rl92p_L50IE"
     },
     {
         "date": "April 25, 2026",
         "artist": "William Black",
-        "url": "https://www.historytoronto.com/events/detail/william-black",
+        "url": "https://www.historytoronto.com/events/detail/william-black/",
         "venue": "History Toronto",
-        "price": "$45.00",
+        "price": "From $42.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=0_uFfN_D70c"
+        "youtube_sample": "https://www.youtube.com/watch?v=F3_l-I1r36M"
+    },
+    {
+        "date": "May 12, 2026",
+        "artist": "Biffy Clyro",
+        "url": "https://www.thedanforth.com/events/detail/biffy-clyro/",
+        "venue": "The Danforth Music Hall",
+        "price": "From $60.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Yp9N_Zk6qXc"
+    },
+    {
+        "date": "May 19, 2026",
+        "artist": "Shadow Of Intent",
+        "url": "https://theoperahousetoronto.com/events/detail/shadow-of-intent/",
+        "venue": "The Opera House",
+        "price": "From $35.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=UAsI68m8x7M"
+    },
+    {
+        "date": "April 22, 2026",
+        "artist": "Floating Mansions",
+        "url": "https://horseshoetavern.com/events/",
+        "venue": "Horseshoe Tavern",
+        "price": "$12.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=B7v-p83P-3s"
     },
     {
         "date": "April 24, 2026",
-        "artist": "Joyce Manor",
-        "url": "https://www.thedanforth.com/events/detail/joyce-manor",
-        "venue": "The Danforth Music Hall",
-        "price": "$35.00",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/watch?v=S_7f0X3p87M"
-    },
-    {
-        "date": "April 28, 2026",
-        "artist": "Drug Church",
-        "url": "https://www.theoperahousetoronto.com/events/detail/drug-church-x-white-reaper",
-        "venue": "The Opera House",
-        "price": "$43.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=N5tY_z2D-f4"
-    },
-    {
-        "date": "April 29, 2026",
-        "artist": "Steve Poltz",
-        "url": "https://horseshoetavern.com/event/steve-poltz",
-        "venue": "Horseshoe Tavern",
-        "price": "$39.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=M57hS7wU68g"
-    },
-    {
-        "date": "April 29, 2026",
-        "artist": "Front Line Assembly",
-        "url": "https://www.leespalace.com/event/front-line-assembly-w-shallow-waves",
+        "artist": "UADA & MORTIIS",
+        "url": "https://www.leespalace.com/events/",
         "venue": "Lee's Palace",
-        "price": "$32.50",
+        "price": "$30.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=t89r5F1Y8A8"
+        "youtube_sample": "https://www.youtube.com/watch?v=Zf5_CqRre0E"
     },
     {
-        "date": "April 28, 2026",
-        "artist": "Slomosa",
+        "date": "April 29, 2026",
+        "artist": "The Casualties",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
-        "price": "$25.00",
+        "price": "$40.48",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=8mKjL-U0S2I"
+        "youtube_sample": "https://www.youtube.com/watch?v=B6mR8G3zX8I"
     },
     {
         "date": "April 25, 2026",
         "artist": "Bo Steezy",
-        "url": "https://elmocambo.com/event/bo-steezy-presents-bo-with-a-side-of-steez-album-release/",
+        "url": "https://elmocambo.com/event/bo-steezy/",
         "venue": "El Mocambo",
-        "price": "$25.00",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/watch?v=V6Tcl7J7jSc"
+        "price": "From $25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=46T_A0_0uM0"
     },
     {
         "date": "April 24, 2026",
-        "artist": "Archive",
-        "url": "https://thegreathall.ca/event/archive-joycut",
+        "artist": "Archive + JoyCut",
+        "url": "https://thegreathall.ca/event/archive-joycut/",
         "venue": "The Great Hall",
-        "price": "$40.00",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/watch?v=mD2k2RkS_aM"
+        "price": "From $38.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=38D56U-O-vE"
     },
     {
-        "date": "April 30, 2026",
-        "artist": "Archspire",
-        "url": "https://thephoenixconcerttheatre.com/events/event/archspire-long-roads-big-loads-tour/",
+        "date": "April 23, 2026",
+        "artist": "Dark Tranquillity + Soen",
+        "url": "https://thephoenixconcerttheatre.com/events/event/dark-tranquillity-soen/",
         "venue": "Phoenix Concert Theatre",
-        "price": "$74.00",
+        "price": "From $48.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=W36VpB6fHnU"
+        "youtube_sample": "https://www.youtube.com/watch?v=X2mH2Yp5xLk"
     }
 ]
