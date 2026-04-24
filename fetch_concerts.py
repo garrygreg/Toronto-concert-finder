@@ -1,52 +1,64 @@
 import os
 import json
 import datetime
+import re
 from google import genai
 from google.genai import types
 
-# 1. Initialize Gemini Client
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+# Use Environment Variable for GitHub, but allow local testing
+api_key = os.environ.get("GEMINI_API_KEY", "YOUR_LOCAL_KEY_HERE")
+client = genai.Client(api_key=api_key)
 
-# 2. Calculate Date Range
 today = datetime.date.today()
 next_year = today + datetime.timedelta(days=364)
 
-# 3. Define the Venues
 venues = [
     "Massey Hall", "Horseshoe Tavern", "Lee's Palace", "History Toronto", 
     "Phoenix Concert Theatre", "The Danforth Music Hall", "The Opera House", 
     "El Mocambo", "The Garrison", "The Great Hall"
 ]
 
-# 4. Construct the Prompt
 prompt = f"""
 Thoroughly scour the official websites for these Toronto venues: {', '.join(venues)}.
-Exhaustively list ALL upcoming events from {today.isoformat()} through {next_year.isoformat()}.
+List upcoming events from {today.isoformat()} through {next_year.isoformat()}.
 
-Return the results ONLY as a raw JSON array of objects with these keys: 
+Return ONLY a raw JSON array of objects with these exact keys: 
 "date" (YYYY-MM-DD), "time", "artist", "url", "price", "venue", "age", "youtube_sample".
 
 Rules:
-1. Each show must be its own record. 
-2. The "url" key must be the direct link to the specific event page or ticket page on the venue's site.
-3. Replace any internal pipes (|) with forward slashes (/).
-4. Use "TBD" for any missing details.
-5. "youtube_sample" MUST be: https://www.youtube.com/results?search_query=[artist+name]+playing+live
-6. Only include venues with a capacity of 5,000 or less.
+1. Each show is its own record. 
+2. The "url" must be the direct link to the event or ticket page.
+3. Replace pipes (|) with forward slashes (/).
+4. Use "TBD" for missing info.
+5. "youtube_sample" must be: https://www.youtube.com/results?search_query=[artist+name]+playing+live
 """
 
-# 5. Call Gemini with Search Grounding
-response = client.models.generate_content(
-    model="gemini-3-flash-preview",
-    contents=prompt,
-    config=types.GenerateContentConfig(
-        tools=[types.Tool(google_search=types.GoogleSearch())],
-        response_mime_type="application/json"
+try:
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview", 
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            tools=[types.Tool(google_search=types.GoogleSearch())]
+        )
     )
-)
 
-# 6. Save directly to concerts.json
-with open("concerts.json", "w") as f:
-    f.write(response.text)
+    raw_text = response.text
+    # Find everything between the first [ and the LAST ]
+    json_match = re.search(r'(\[.*\])', raw_text, re.DOTALL)
 
-print(f"Update complete: {today.isoformat()}")
+    if json_match:
+        clean_json = json_match.group(1)
+        # Validate that it is actually valid JSON before saving
+        parsed_data = json.loads(clean_json)
+        
+        with open("concerts.json", "w") as f:
+            json.dump(parsed_data, f, indent=4)
+        print(f"Success! {len(parsed_data)} concerts found.")
+    else:
+        print("ERROR: Gemini output did not contain a JSON list.")
+        print("Raw output sample:", raw_text[:500])
+        exit(1) # Forces GitHub to show the error
+
+except Exception as e:
+    print(f"CRITICAL ERROR: {str(e)}")
+    exit(1)
