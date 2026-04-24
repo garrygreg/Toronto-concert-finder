@@ -99,11 +99,12 @@
                     { 
                         data: 'artist',
                         render: function(data, type, row) {
-                            // If url is missing or 'TBD', just show the name. Otherwise, link it.
-                            if (!row.url || row.url === 'TBD' || row.url === '#') {
-                                return data;
+                            // ONLY create a link if the URL starts with http
+                            if (row.url && row.url.startsWith('http')) {
+                                return `<a href="${row.url}" target="_blank" title="View event details">${data}</a>`;
                             }
-                            return `<a href="${row.url}" target="_blank" title="View event details">${data}</a>`;
+                            // Otherwise, just show the plain text name
+                            return data;
                         }
                     },
                     { data: 'venue' },
@@ -112,7 +113,11 @@
                     { 
                         data: 'youtube_sample',
                         render: function(data, type, row) {
-                            return `<a href="${data}" target="_blank">See on YouTube</a>`;
+                            // ONLY create the YouTube link if it's a real URL
+                            if (data && data.startsWith('http')) {
+                                return `<a href="${data}" target="_blank">See on YouTube</a>`;
+                            }
+                            return '<span style="color: #666;">No Sample</span>';
                         }
                     }
                 ],
