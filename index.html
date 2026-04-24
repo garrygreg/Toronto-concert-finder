@@ -99,11 +99,11 @@
                     { 
                         data: 'artist',
                         render: function(data, type, row) {
-                            // Only make it a link if row.url starts with http
+                            // This will now correctly handle both venue-site links and ticketmaster links
                             if (row.url && row.url.startsWith('http')) {
-                                return `<a href="${row.url}" target="_blank">${data}</a>`;
+                                return `<a href="${row.url}" target="_blank" title="Go to ${row.venue} event page">${data}</a>`;
                             }
-                            return data; // Show plain text if the URL is "TBD" or broken
+                            return data; 
                         }
                     },
                     { data: 'venue' },
