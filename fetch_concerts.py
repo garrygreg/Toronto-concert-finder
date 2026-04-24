@@ -18,35 +18,35 @@ venues = [
     "El Mocambo", "The Garrison", "The Great Hall"
 ]
 
-# Updated Venue Mapping - Strict Official Domains Only
+# Updated Venue Mapping - Grounding the model in actual 2026 paths
 venue_map = """
 - Massey Hall: https://masseyhall.mhrth.com/tickets/
 - History Toronto: https://www.historytoronto.com/events/detail/
 - The Danforth Music Hall: https://www.thedanforth.com/events/detail/
-- The Opera House: https://www.theoperahousetoronto.com/events/detail/
+- The Opera House: https://www.theoperahousetoronto.com/events/
 - Horseshoe Tavern: https://horseshoetavern.com/event/
 - Lee's Palace: https://www.leespalace.com/event/
-- The Garrison: https://www.garrisontoronto.com/event/
+- The Garrison: http://www.garrisontoronto.com/
 - El Mocambo: https://elmocambo.com/event/
 - The Great Hall: https://thegreathall.ca/event/
 - Phoenix Concert Theatre: https://thephoenixconcerttheatre.com/events/event/
 """
 
 prompt = f"""
-Find upcoming concerts for these Toronto venues from {today} to {next_year}:
+Using Google Search, find the unique event detail URLs for upcoming concerts at these Toronto venues:
 {venue_map}
 
 Return a JSON array of objects with: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
 
-STRICT URL & DOMAIN RULES:
-1. FORBIDDEN DOMAINS: Never use ticketmaster.ca, livenation.com, eventbrite.ca, or dice.fm.
-2. MANDATORY DOMAINS: The "url" MUST use the official domain from the map (e.g., historytoronto.com, leespalace.com).
-3. DEEP LINK PATTERNS:
-   - History / Danforth / Opera House: Use [domain]/events/detail/[artist-slug]
-   - Horseshoe / Lee's / Garrison / El Mocambo: Use [domain]/event/[artist-slug]
-4. SLUG PRECISION: For "Global Warming Tour" and other tours, search the venue's site specifically for the correct slug.
-5. FALLBACK: If a deep link is not found, use the venue's main listings page on their OWN domain (e.g., https://www.historytoronto.com/events).
-6. YOUTUBE: Use https://www.youtube.com/results?search_query=Artist+Name+Live (replace spaces with +).
+STRICT DEEP-LINKING RULES (APRIL 2026):
+1. DOMAIN ENFORCEMENT: Every "url" MUST use the domain from the map (e.g., leespalace.com). NO ticketmaster.ca or livenation.com links.
+2. SLUG PRECISION: Do not guess slugs. Search the venue's site for the exact permalink.
+   - Example (Lee's Palace): 'https://www.leespalace.com/event/uada-mortiis-lees' (not just /uada/)
+   - Example (El Mocambo): 'https://elmocambo.com/event/global-warming-2026-way-better-north-america-tour/'
+   - Example (Great Hall): 'https://thegreathall.ca/event/archive-joycut/'
+3. THE GARRISON: Since this venue uses a single-page list, use 'http://www.garrisontoronto.com/' for all their events.
+4. THE OPERA HOUSE: Use 'https://www.theoperahousetoronto.com/events/' for all their events.
+5. DANFORTH: Attempt to find the /events/detail/[slug] link. If it cannot be found on thedanforth.com, use 'https://www.thedanforth.com/shows'.
 """
 
 try:
