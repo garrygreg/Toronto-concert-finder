@@ -33,17 +33,16 @@ venue_map = """
 """
 
 prompt = f"""
-Thoroughly scour the official websites for these Toronto venues using the provided Base URLs as your source of truth:
+Using Google Search, find the specific, unique event detail page for every upcoming concert at these Toronto venues from {today.isoformat()} to {next_year.isoformat()}:
 {venue_map}
 
-List ALL upcoming concerts from {today.isoformat()} through {next_year.isoformat()}.
-Return ONLY a raw JSON array of objects with keys: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
+Return a JSON array of objects with keys: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
 
-STRICT LINK RULES:
-1. Every "url" MUST start with the domain provided in the mapping above. 
-2. If you cannot find a direct link to the specific show, use the venue's Base URL from the map instead of guessing.
-3. NEVER use domains like 'ticketmaster.com' or 'livenation.com' for the "url" field; always link back to the venue's own site.
-4. "youtube_sample" remains a search query: https://www.youtube.com/results?search_query=[artist+name]+live
+STRICT URL REQUIREMENTS:
+1. The "url" MUST be the direct 'deep link' to the individual event page (e.g., https://www.historytoronto.com/events/detail/william-black-1).
+2. DO NOT simply return the venue's general calendar or home page.
+3. If a direct event page cannot be found after searching, use the most specific listing page available (like the specific month's calendar), but prioritize the individual show link.
+4. If multiple ticket platforms exist (Ticketmaster, Dice, etc.), prioritize the link that lives on the official venue domain first.
 """
 
 try:
