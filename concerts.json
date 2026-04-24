@@ -1,3494 +1,2144 @@
 [
     {
-        "date": "2026-04-24",
+        "date": "2026-04-21",
+        "artist": "Devin Kennedy",
+        "url": "https://www.livenation.com/event/vvG10Z9m8N3B-Y/devin-kennedy",
+        "venue": "The Garrison",
+        "price": "$35.14 advance",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=R3Xy5rG9jH8"
+    },
+    {
+        "date": "2026-04-22",
+        "artist": "Dead Meadow",
+        "url": "https://dice.fm/event/dead-meadow-22nd-apr-the-garrison-toronto-tickets",
+        "venue": "The Garrison",
+        "price": "$36.82 advance",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=JmYpW2u9U7E"
+    },
+    {
+        "date": "2026-04-23",
         "artist": "The Last Dinner Party",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/the-last-dinner-party/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$75.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Last+Dinner+Party+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=rl92Y_YAsT8"
+    },
+    {
+        "date": "2026-04-23",
+        "artist": "Burning Witches",
+        "url": "https://www.ticketscene.ca/events/burning-witches-thunderor-ammo/",
+        "venue": "The Garrison",
+        "price": "$36 advance",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=DanceWithTheDevil"
     },
     {
         "date": "2026-04-24",
         "artist": "Joyce Manor, Militarie Gun, Teen Mortgage, & Combat",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/10006147F7A23E1D",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Joyce+Manor+Live"
+        "price": "$32.00 - $60.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=S0uS8zI-z5w"
     },
     {
         "date": "2026-04-24",
         "artist": "Tommy Youngsteen - The Band",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/tommy-youngsteen-the-band",
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Tommy+Youngsteen+-+The+Band+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=RVoOVVoVVoV"
     },
     {
         "date": "2026-04-24",
         "artist": "UADA & MORTIIS - The Witches Of Dystopia Tour MMXXVI",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/uada-mortiis-the-witches-of-dystopia-tour-mmxxvi",
         "venue": "Lee's Palace",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=UADA+%26+MORTIIS+-+The+Witches+Of+Dystopia+Tour+MMXXVI+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=YmDshVl-4cM"
     },
     {
         "date": "2026-04-24",
         "artist": "Blackout",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/blackout",
         "venue": "Dance Cave",
         "price": "$18.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Blackout+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=e_KID7A9UQA"
     },
     {
         "date": "2026-04-24",
-        "artist": "DAYA",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Daya",
+        "url": "https://www.ticketmaster.ca/daya-til-every-petal-drops-tour-toronto-ontario-04-24-2026/event/100060B7D6002970",
         "venue": "The Garrison",
         "price": "SOLD OUT",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DAYA+Live"
-    },
-    {
-        "date": "2026-04-24",
-        "artist": "DJ BOYFRIEND",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "No cover",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DJ+BOYFRIEND+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=HideAway"
     },
     {
         "date": "2026-04-24",
         "artist": "Archive + JoyCut",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Archive+JoyCut+Live"
+        "url": "https://thegreathall.ca/event/archive-joycut/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$35.19",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=qX6N_EAsWvM"
     },
     {
         "date": "2026-04-25",
         "artist": "Waxahatchee & MJ Lenderman",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/waxahatchee-mj-lenderman/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$95.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Waxahatchee+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=0h6vXp_QfLw"
     },
     {
         "date": "2026-04-25",
         "artist": "William Black",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/william-black-the-shadow-realm",
         "venue": "History",
         "price": "$35.00 - $55.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=William+Black+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=S0T09X9M50M"
     },
     {
         "date": "2026-04-25",
         "artist": "Sina Bathaie - White Lotus World Tour",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/10006148D1B02F5A",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Sina+Bathaie+Live"
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "Wing Night (The Band)",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$74.54",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Wing+Night+(The+Band)+Live"
+        "price": "From $45.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=R9Z8X_f5p9Y"
     },
     {
         "date": "2026-04-25",
         "artist": "Rockabilly Spring Social - Bad Fortunes | The Howlin' Hound Dogs | The Calrizian's",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/rockabilly-spring-social-bad-fortunes-the-howlin-hound-dogs-the-calrizians",
         "venue": "Horseshoe Tavern",
         "price": "$15.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Rockabilly+Spring+Social+-+Bad+Fortunes+|+The+Howlin'+Hound+Dogs+|+The+Calrizian's+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=QK9OAmOiw0o"
     },
     {
         "date": "2026-04-25",
         "artist": "A Wilhelm Scream w/ Brutal Youth & Dealbreaker",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/a-wilhelm-scream-w-brutal-youth-dealbreaker-sold-out",
         "venue": "Dance Cave",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=A+Wilhelm+Scream+w/+Brutal+Youth+%26+Dealbreaker+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=9_5v6nS5s78"
     },
     {
         "date": "2026-04-25",
         "artist": "Bloodrave w/ Nowhere2run, D. Blavatsky, Stella Maise, Repulsive Radio, Mukus",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/bloodrave-w-nowhere2run-d-blavatsky-stella-maise-repulsive-radio-mukus",
         "venue": "Lee's Palace",
         "price": "$22.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bloodrave+w/+Nowhere2run,+D.+Blavatsky,+Stella+Maise,+Repulsive+Radio,+Mukus+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=8I5v8xWkUaM"
     },
     {
         "date": "2026-04-25",
-        "artist": "DANCE PARTY 2000",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Dance Party 2000",
+        "url": "https://www.showclix.com/event/danceparty2000-toronto",
         "venue": "The Garrison",
         "price": "$21.95 ~ $32.63 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DANCE+PARTY+2000+Live"
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "DJ PRINCE BATRICK",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "No cover",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DJ+PRINCE+BATRICK+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=LadyGagaJustDance"
     },
     {
         "date": "2026-04-25",
         "artist": "Bo Steezy",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/bo-steezy-presents-bo-with-a-side-of-steez-album-release/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bo+Steezy+Live"
+        "price": "$22.63 - $33",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=R9U0X8ZgUj8"
     },
     {
         "date": "2026-04-25",
         "artist": "Morgan Wallen Tribute UK",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/morgan-wallen-tribute-uk/",
         "venue": "El Mocambo",
-        "price": "TBD",
+        "price": "$35",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Morgan+Wallen+Tribute+UK+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=J3mO8M2D0oA"
     },
     {
         "date": "2026-04-25",
-        "artist": "DJ Starting From Scratch Totally 2000's Video Dance Party",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "SOLD OUT",
+        "artist": "DJ Starting From Scratch (Totally 2000's Video Dance Party)",
+        "url": "https://thephoenixconcerttheatre.com/events/event/dj-starting-from-scratch-totally-2000s-video-dance-party/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "FREE (Ticket Required)",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DJ+Starting+From+Scratch+Totally+2000%27s+Video+Dance+Party+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=R0R0Xv3J0eY"
     },
     {
         "date": "2026-04-26",
         "artist": "Joost Klein",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/joost-klein",
         "venue": "History",
-        "price": "$46.00+",
+        "price": "Check Site",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Joost+Klein+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=gT2wY0Dl_7M"
     },
     {
         "date": "2026-04-26",
         "artist": "Essenger w/ Echos",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/essenger-w-echos",
         "venue": "Dance Cave",
         "price": "$22.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Essenger+w/+Echos+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=rXy8iZ8j5W0"
     },
     {
         "date": "2026-04-26",
         "artist": "Master Boot Record",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/master-boot-record",
         "venue": "Lee's Palace",
         "price": "$26.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Master+Boot+Record+Live"
-    },
-    {
-        "date": "2026-04-26",
-        "artist": "DJ LArA",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "No cover",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DJ+LArA+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=ANSI-SYS"
     },
     {
         "date": "2026-04-26",
         "artist": "Stove God Cooks",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/stove-god-cooks/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$79.59 and up",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Stove+God+Cooks+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vV77f_xY72I"
     },
     {
         "date": "2026-04-27",
         "artist": "Ichiko Aoba",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/ichiko-aoba/",
         "venue": "Massey Hall",
-        "price": "$63+",
+        "price": "$57.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ichiko+Aoba+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=l_tH8_sR_9A"
     },
     {
         "date": "2026-04-27",
-        "artist": "GELLI HAHA",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Gelli Haha",
+        "url": "https://www.ticketmaster.ca/gelli-haha-where-in-the-world-toronto-ontario-04-27-2026/event/10006095B72E15C2",
         "venue": "The Garrison",
         "price": "$35.14 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=GELLI+HAHA+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=BounceHouse"
     },
     {
         "date": "2026-04-28",
         "artist": "The Midnight",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/the-midnight",
         "venue": "History",
-        "price": "$52.00+",
+        "price": "$64.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Midnight+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=EDyZ-S33BUM"
     },
     {
         "date": "2026-04-28",
         "artist": "St. Paul & the Broken Bones",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/10006146C1A4325B",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=St.+Paul+%26+the+Broken+Bones+Live"
-    },
-    {
-        "date": "2026-04-28",
-        "artist": "Drug Church x White Reaper",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$34",
+        "price": "From $49.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Drug+Church+x+White+Reaper+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=6mR8Z-gmK1g"
     },
     {
         "date": "2026-04-28",
         "artist": "UNCOVERED: The Barrow Gang | The New World Warblers",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/uncovered-the-barrow-gang-the-new-world-warblers",
         "venue": "Horseshoe Tavern",
-        "price": "$0.00",
+        "price": "FREE",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=UNCOVERED:+The+Barrow+Gang+|+The+New+World+Warblers+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-04-28",
-        "artist": "SLOMOSA",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Slomosa",
+        "url": "https://www.ticketmaster.ca/slomosa-toronto-ontario-04-28-2026/event/100060A2D3A125F0",
         "venue": "The Garrison",
         "price": "SOLD OUT",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SLOMOSA+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=HorsesSlomosa"
     },
     {
         "date": "2026-04-28",
         "artist": "CLAN OF XYMOX",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/clan-of-xymox/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$58.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=CLAN+OF+XYMOX+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=S21-6vHw5eI"
     },
     {
         "date": "2026-04-29",
         "artist": "Calum Scott",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/calum-scott/",
         "venue": "Massey Hall",
-        "price": "$40-$150",
+        "price": "$45.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Calum+Scott+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=WhS1Cun-Bcw"
     },
     {
         "date": "2026-04-29",
         "artist": "Steve Poltz",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/steve-poltz",
         "venue": "Horseshoe Tavern",
         "price": "$28.00 - $43.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Steve+Poltz+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=p9e_89K_8X8"
     },
     {
         "date": "2026-04-29",
         "artist": "Front Line Assembly w/ Shallow Waves",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/front-line-assembly-w-shallow-waves",
         "venue": "Lee's Palace",
         "price": "$32.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Front+Line+Assembly+w/+Shallow+Waves+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=n-P3v6X8j5k"
     },
     {
         "date": "2026-04-29",
-        "artist": "THE CASUALTIES",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "The Casualties",
+        "url": "https://www.ticketweb.ca/event/the-casualties-the-drowns-the-garrison-tickets/14083125",
         "venue": "The Garrison",
         "price": "$40.48 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=THE+CASUALTIES+Live"
-    },
-    {
-        "date": "2026-04-30",
-        "artist": "Unprocessed",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$40.75",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Unprocessed+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=PeopleOverPower"
     },
     {
         "date": "2026-04-30",
         "artist": "The Neverlies EP Release",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/the-neverlies-ep-release",
         "venue": "Horseshoe Tavern",
         "price": "$10.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Neverlies+EP+Release+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=nBBS9aMv-VQ"
     },
     {
         "date": "2026-04-30",
         "artist": "Mo Lowda And The Humble w/ Ten Minute Detour",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/mo-lowda-and-the-humble-w-ten-minute-detour",
         "venue": "Lee's Palace",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Mo+Lowda+And+The+Humble+w/+Ten+Minute+Detour+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=7_Z8vX8j5m0"
     },
     {
         "date": "2026-04-30",
         "artist": "Caroline Kingsbury w/ CJ Wiley",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/caroline-kingsbury-w-cj-wiley",
         "venue": "Dance Cave",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Caroline+Kingsbury+w/+CJ+Wiley+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=kY8iX8j5n0"
     },
     {
         "date": "2026-04-30",
         "artist": "Everything 80's Party",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/everything-80s-party/",
         "venue": "El Mocambo",
-        "price": "$35",
+        "price": "$35 - $49",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Everything+80's+Party+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
         "date": "2026-04-30",
         "artist": "ARCHSPIRE",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/archspire/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$55.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=ARCHSPIRE+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=680D9F_E-4o"
     },
     {
         "date": "2026-05-01",
         "artist": "COBRAH - TORN TOUR",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/10006149E2C14F2B",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=COBRAH+Live"
+        "price": "From $35.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=H7_438BvP7s"
     },
     {
         "date": "2026-05-01",
         "artist": "DEAD BOB",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/dead-bob",
         "venue": "Horseshoe Tavern",
         "price": "$20.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DEAD+BOB+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=G63cza13p3s"
     },
     {
         "date": "2026-05-01",
         "artist": "Outer Space 2026",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/outer-space-2026-friday",
         "venue": "Lee's Palace",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Outer+Space+2026+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=mY8iX8j5p0"
     },
     {
         "date": "2026-05-01",
-        "artist": "THE LONELY HEARTS (PROM NIGHT)",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "The Lonely Hearts (Prom Night)",
+        "url": "https://www.ticketweb.ca/event/prom-night-with-the-lonely-the-garrison-tickets/14092143",
         "venue": "The Garrison",
         "price": "$27.36 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=THE+LONELY+HEARTS+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=PromNightDance"
     },
     {
         "date": "2026-05-01",
         "artist": "KEiiNO",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/keiino-chromium-heart-tour/",
         "venue": "El Mocambo",
-        "price": "$60",
+        "price": "$60 - $80",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=KEiiNO+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=68D0U5R6uBw"
     },
     {
         "date": "2026-05-02",
         "artist": "Biffy Clyro: The Futique Tour",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/1000614A9B011D2E",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Biffy+Clyro+Live"
-    },
-    {
-        "date": "2026-05-02",
-        "artist": "The Free Label",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$34.75",
+        "price": "From $55.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Free+Label+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=Ym1Z7K8X0sE"
     },
     {
         "date": "2026-05-02",
         "artist": "Dave Bruzza Unsafe At Any Speed (Greensky Bluegrass) \u2013 Spring Tour 2026",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/dave-bruzza-unsafe-at-any-speed-greensky-bluegrass-spring-tour-2026",
         "venue": "Horseshoe Tavern",
         "price": "$18.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Dave+Bruzza+Unsafe+At+Any+Speed+(Greensky+Bluegrass)+\u2013+Spring+Tour+2026+Live"
-    },
-    {
-        "date": "2026-05-02",
-        "artist": "Outer Space 2026",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$30.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Outer+Space+2026+Live"
-    },
-    {
-        "date": "2026-05-03",
-        "artist": "Elmiene",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$103",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Elmiene+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=dG3DirzNHVo"
     },
     {
         "date": "2026-05-03",
         "artist": "Red Rum Club",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/red-rum-club",
         "venue": "Horseshoe Tavern",
         "price": "$15.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Red+Rum+Club+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=EV36GUE8zMl"
     },
     {
         "date": "2026-05-03",
         "artist": "YT",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/yt",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=YT+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=oY8iX8j5q0"
     },
     {
         "date": "2026-05-03",
         "artist": "DJ LEX",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/dj-lex/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$83.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DJ+LEX+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=7uM3_v2rA9o"
     },
     {
         "date": "2026-05-04",
         "artist": "NewDad",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/1000614BB3A12C3D",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=NewDad+Live"
+        "price": "From $25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Vl3lA0Y2O_w"
     },
     {
         "date": "2026-05-04",
         "artist": "UNCOVERED: Baby's First Pistol | Bad Optics | Big Evil | Laser Mountain",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/uncovered-babys-first-pistol-bad-optics-big-evil-laser-mountain",
         "venue": "Horseshoe Tavern",
-        "price": "$0.00",
+        "price": "FREE",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=UNCOVERED:+Baby's+First+Pistol+|+Bad+Optics+|+Big+Evil+|+Laser+Mountain+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=bP4L90s3aOc"
     },
     {
         "date": "2026-05-05",
         "artist": "Bobby Dove Album Release",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/bobby-dove-album-release",
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bobby+Dove+Album+Release+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=h9LOQoJIc6R"
     },
     {
         "date": "2026-05-05",
         "artist": "Chuwi w/ Itz Nico P",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/chuwi-w-itz-nico-p",
         "venue": "Lee's Palace",
         "price": "$32.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Chuwi+w/+Itz+Nico+P+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=pY8iX8j5r0"
     },
     {
         "date": "2026-05-05",
-        "artist": "KING EDWARD P.S. ROCK BAND NIGHT",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$5 door",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=KING+EDWARD+P.S.+ROCK+BAND+NIGHT+Live"
-    },
-    {
-        "date": "2026-05-05",
-        "artist": "REMEMBER SPORTS",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Remember Sports",
+        "url": "https://www.ticketweb.ca/event/remember-sports-with-cusp-the-garrison-tickets/14102837",
         "venue": "The Garrison",
         "price": "$31.74 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=REMEMBER+SPORTS+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=CoffeeMachine"
     },
     {
         "date": "2026-05-05",
         "artist": "We Walk With Warren",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/we-walk-with-warren/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=We+Walk+With+Warren+Live"
+        "price": "Check Website",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=W9fC0A-9S7c"
     },
     {
         "date": "2026-05-05",
         "artist": "Departure Showcase",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/departure-showcase/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Departure+Showcase+Live"
+        "price": "$65 (Festival Pass)",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=RIsV6953oZg"
     },
     {
         "date": "2026-05-05",
         "artist": "Corrosion of Conformity",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/corrosion-of-conformity/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$37.50 + Fees",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Corrosion+of+Conformity+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=rKPicUnsPPg"
     },
     {
         "date": "2026-05-06",
         "artist": "Choir! Choir! Choir! Angel: An Epic Singalong",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/choir-choir-choir/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$33.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Choir!+Choir!+Choir!+Live"
-    },
-    {
-        "date": "2026-05-06",
-        "artist": "Elio Mei",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$178",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Elio+Mei+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=L9X_msAs2vE"
     },
     {
         "date": "2026-05-06",
         "artist": "Departure 2026: Logan Staats w/ Sara Kae",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/departure-2026-logan-staats-w-sara-kae",
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Departure+2026:+Logan+Staats+w/+Sara+Kae+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=Hb09TB5rKOM"
     },
     {
         "date": "2026-05-06",
         "artist": "Yumi Zouma w/ Ducks LTD",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/yumi-zouma-w-ducks-ltd",
         "venue": "Lee's Palace",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Yumi+Zouma+w/+Ducks+LTD+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=qY8iX8j5s0"
     },
     {
         "date": "2026-05-06",
-        "artist": "Keli Holiday w/ Kirin J Callinan",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$22.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Keli+Holiday+w/+Kirin+J+Callinan+Live"
-    },
-    {
-        "date": "2026-05-06",
-        "artist": "SLCHLD",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "slchld",
+        "url": "https://www.ticketmaster.ca/slchld-toronto-ontario-05-06-2026/event/100060B2A3412E8D",
         "venue": "The Garrison",
         "price": "$41.72 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SLCHLD+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=camellia"
     },
     {
         "date": "2026-05-06",
         "artist": "Global Warming",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/global-warming-2026-way-better-north-america-tour/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Global+Warming+Live"
+        "price": "$77.75",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=vVjHInuC7m8"
     },
     {
         "date": "2026-05-07",
         "artist": "fakemink",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/fakemink",
         "venue": "History",
-        "price": "$34.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=fakemink+Live"
+        "price": "$185.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=G68p_iN96q0"
     },
     {
         "date": "2026-05-07",
-        "artist": "Monster Energy Outbreak Tour Presents: Vincent Mason There I Go",
-        "url": "https://www.thedanforth.com/",
+        "artist": "Vincent Mason",
+        "url": "https://www.ticketmaster.ca/event/1000614CC4B23D4E",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Vincent+Mason+Live"
+        "price": "From $30.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=Tq_8vS6J_2w"
     },
     {
         "date": "2026-05-07",
         "artist": "The Cribs w/ Connie",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-cribs-w-connie",
         "venue": "Lee's Palace",
         "price": "$41.73",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Cribs+w/+Connie+Live"
-    },
-    {
-        "date": "2026-05-07",
-        "artist": "THE NEVERMINDS",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$25.64 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=THE+NEVERMINDS+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=sY8iX8j5t0"
     },
     {
         "date": "2026-05-08",
         "artist": "Fortune Feimster",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/fortune-feimster/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$72.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Fortune+Feimster+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=7Xf7f8v1uDk"
     },
     {
         "date": "2026-05-08",
         "artist": "Lowest of the Low",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/1000614DD5C34E5F",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Lowest+of+the+Low+Live"
-    },
-    {
-        "date": "2026-05-08",
-        "artist": "Strung Out",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$52",
+        "price": "From $40.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Strung+Out+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=9XW6m8G-Q8s"
     },
     {
         "date": "2026-05-08",
         "artist": "Carol Ades - Worst Person in the World Tour",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/carol-ades-worst-person-in-the-world-tour",
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Carol+Ades+-+Worst+Person+in+the+World+Tour+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=HR5lSFr2jqa"
     },
     {
         "date": "2026-05-08",
-        "artist": "Lavender Town & Mafuba (feat. Karneef)",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$28.25",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Lavender+Town+%26+Mafuba+(feat.+Karneef)+Live"
-    },
-    {
-        "date": "2026-05-08",
-        "artist": "Rave Cave",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$15.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Rave+Cave+Live"
-    },
-    {
-        "date": "2026-05-08",
-        "artist": "KATELYN TARVER",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Katelyn Tarver",
+        "url": "https://www.ticketmaster.ca/katelyn-tarver-toronto-ontario-05-08-2026/event/100060C1D2A134F2",
         "venue": "The Garrison",
         "price": "$35.14 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=KATELYN+TARVER+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=OneWithoutTheOther"
     },
     {
         "date": "2026-05-09",
         "artist": "Wild Rivers",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/wild-rivers/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$54.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Wild+Rivers+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=OnyO0Fp99Z8"
     },
     {
         "date": "2026-05-09",
         "artist": "HASAN RAHEEM",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/hasan-raheem",
         "venue": "History",
-        "price": "$59.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=HASAN+RAHEEM+Live"
+        "price": "$60.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=XvK_v1V_GzM"
     },
     {
         "date": "2026-05-09",
         "artist": "Lowest of the Low",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/1000614EE6D45F6G",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Lowest+of+the+Low+Live"
-    },
-    {
-        "date": "2026-05-09",
-        "artist": "Flea and the Honora Band",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$64",
+        "price": "From $40.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Flea+and+the+Honora+Band+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=9XW6m8G-Q8s"
     },
     {
         "date": "2026-05-09",
         "artist": "Black Flag",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/black-flag",
         "venue": "Horseshoe Tavern",
         "price": "$39.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Black+Flag+Live"
-    },
-    {
-        "date": "2026-05-09",
-        "artist": "Chastity, Cam Kahin, and Smug LLC with Special Guests!",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$25.88",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Chastity,+Cam+Kahin,+and+Smug+LLC+with+Special+Guests!+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=E2a79piajyA"
     },
     {
         "date": "2026-05-09",
         "artist": "EMF w/ Ecce Shnak",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/emf-w-ecce-shnak",
         "venue": "Dance Cave",
         "price": "$32.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=EMF+w/+Ecce+Shnak+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=uY8iX8j5v0"
     },
     {
         "date": "2026-05-09",
-        "artist": "I'M IN LOVE WITH THAT SONG (Dave Bookman Tribute)",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "Free with non-perishable food item",
+        "artist": "Get On Up \u2013 90s R&B And Hip Hop w/ DJ Starting From Scratch",
+        "url": "https://thephoenixconcerttheatre.com/events/event/get-on-up-90s-rb-and-hip-hop-w-dj-starting-from-scratch/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=I'M+IN+LOVE+WITH+THAT+SONG+Live"
-    },
-    {
-        "date": "2026-05-09",
-        "artist": "Get On Up \u2013 90s R&b And Hip Hop w/ DJ Starting From Scratch",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Get+On+Up+%E2%80%93+90s+R%26b+And+Hip+Hop+w/+DJ+Starting+From+Scratch+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=XWvHh_O6p34"
     },
     {
         "date": "2026-05-10",
         "artist": "The Amity Affliction & August Burns Red",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/the-amity-affliction-august-burns-red",
         "venue": "History",
-        "price": "$55.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Amity+Affliction+August+Burns+Red+Live"
+        "price": "$78.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=X_9Vn0C4nVQ"
     },
     {
         "date": "2026-05-10",
         "artist": "Sunny Sweeney",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/sunny-sweeney",
         "venue": "Horseshoe Tavern",
         "price": "$16.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Sunny+Sweeney+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=E834jxdEQ6n"
     },
     {
         "date": "2026-05-10",
-        "artist": "Matte Blvck w/ Kill Instinct",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$22.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Matte+Blvck+w/+Kill+Instinct+Live"
-    },
-    {
-        "date": "2026-05-10",
-        "artist": "RICKSHAW BILLIE'S BURGER PATROL",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Rickshaw Billie's Burger Patrol",
+        "url": "https://www.showclix.com/event/rickshawbillie-toronto",
         "venue": "The Garrison",
         "price": "$30.14 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=RICKSHAW+BILLIE'S+BURGER+PATROL+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=AmericanSharks"
     },
     {
         "date": "2026-05-11",
         "artist": "Behemoth",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/behemoth",
         "venue": "History",
-        "price": "$58.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Behemoth+Live"
-    },
-    {
-        "date": "2026-05-11",
-        "artist": "Purity Ring",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "TBD",
+        "price": "$64.25",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Purity+Ring+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=7u2m0v_mH4g"
     },
     {
         "date": "2026-05-11",
         "artist": "Brenton Thwaites with U.N. Jefferson",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/brenton-thwaites-with-un-jefferson",
         "venue": "Horseshoe Tavern",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Brenton+Thwaites+with+U.N.+Jefferson+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-12",
         "artist": "The Paper Kites",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/the-paper-kites",
         "venue": "History",
-        "price": "$52.00+",
+        "price": "$91.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Paper+Kites+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=8inJtTG_DuU"
     },
     {
         "date": "2026-05-12",
-        "artist": "Searows - Death in the Business of Whaling",
-        "url": "https://www.thedanforth.com/",
+        "artist": "Searows",
+        "url": "https://www.ticketmaster.ca/event/1000614FF7E56G7H",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Searows+Live"
-    },
-    {
-        "date": "2026-05-12",
-        "artist": "Free Throw",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "TBD",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Free+Throw+Live"
+        "price": "From $28.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=3u_Tq_8vS6J"
     },
     {
         "date": "2026-05-12",
         "artist": "Uncovered: FEEN | Rat Quartet | Louisiana Child",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/uncovered-feen-rat-quartet-louisiana-child",
         "venue": "Horseshoe Tavern",
-        "price": "$0.00",
+        "price": "FREE",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Uncovered:+FEEN+|+Rat+Quartet+|+Louisiana+Child+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-12",
         "artist": "Autumn!",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/autumn",
         "venue": "Lee's Palace",
         "price": "$42.50",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Autumn!+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vY8iX8j5w0"
     },
     {
         "date": "2026-05-12",
         "artist": "Diana Arbenina / Night Snipers",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/diana-arbenina-night-snipers/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$85.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Diana+Arbenina+/+Night+Snipers+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=T_8V06z3nIs"
     },
     {
         "date": "2026-05-13",
         "artist": "Bokso Baker with Uncle Old Thyme",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/bokso-baker-with-uncle-old-thyme",
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bokso+Baker+with+Uncle+Old+Thyme+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-13",
         "artist": "The Scratch w/ Delyn Grey",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-scratch-w-delyn-grey",
         "venue": "Lee's Palace",
         "price": "$68.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Scratch+w/+Delyn+Grey+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=wY8iX8j5x0"
     },
     {
         "date": "2026-05-13",
-        "artist": "Racheal McCaig",
-        "url": "https://elmocambo.com/events-new/",
+        "artist": "Rachael McCaig",
+        "url": "https://elmocambo.com/event/rachael-mccaig-images-words/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Racheal+McCaig+Live"
+        "price": "Free/Included with Contact Festival",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=i8-Lq80-2_0"
     },
     {
         "date": "2026-05-13",
         "artist": "Flyte",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Flyte+Live"
+        "url": "https://thegreathall.ca/event/flyte/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$38.41",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=BDRuS9qN6zY"
     },
     {
         "date": "2026-05-13",
         "artist": "Annabelle Dinda",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Annabelle+Dinda+Live"
+        "url": "https://thegreathall.ca/event/annabelle-dinda/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=R9o6F_9HnLk"
     },
     {
         "date": "2026-05-14",
         "artist": "Radhika Das",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/radhika-das/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$76.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Radhika+Das+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=G6J0_K6mZ-8"
     },
     {
         "date": "2026-05-14",
-        "artist": "Joe Jackson + Band - Hope and Fury Tour 2026",
-        "url": "https://www.thedanforth.com/",
+        "artist": "Joe Jackson + Band",
+        "url": "https://www.ticketmaster.ca/event/1000615AA1F67H8I",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Joe+Jackson+Live"
-    },
-    {
-        "date": "2026-05-14",
-        "artist": "Lucy Bedroque",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$54",
+        "price": "From $65.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Lucy+Bedroque+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=T_8vS6J_2wA"
     },
     {
         "date": "2026-05-14",
         "artist": "Brass Camel",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/brass-camel",
         "venue": "Horseshoe Tavern",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Brass+Camel+Live"
-    },
-    {
-        "date": "2026-05-14",
-        "artist": "Gully Boys w/ Altered By Mom",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$20.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Gully+Boys+w/+Altered+By+Mom+Live"
-    },
-    {
-        "date": "2026-05-14",
-        "artist": "Dumbo Gets Mad w/ Charlie Chimi",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$29.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Dumbo+Gets+Mad+w/+Charlie+Chimi+Live"
-    },
-    {
-        "date": "2026-05-14",
-        "artist": "MEGHAN DOWLEN + ABSOLUTE TREAT",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$25.03 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=MEGHAN+DOWLEN+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=HT_xFY-cRg"
     },
     {
         "date": "2026-05-14",
         "artist": "Hatsune Miku ~ Digital Stars",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
+        "url": "https://thephoenixconcerttheatre.com/events/event/hatsune-miku-digital-stars/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Hatsune+Miku+~+Digital+Stars+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=jhl5afLEKdo"
     },
     {
         "date": "2026-05-15",
         "artist": "Herb Alpert & The Tijuana Brass",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/herb-alpert/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$32.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Herb+Alpert+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=zPrK9k3M-z0"
     },
     {
         "date": "2026-05-15",
         "artist": "Grupo Niche",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/grupo-niche",
         "venue": "History",
-        "price": "$116.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Grupo+Niche+Live"
-    },
-    {
-        "date": "2026-05-15",
-        "artist": "Bloodywood: System Of A Brown Tour 2026",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bloodywood+Live"
-    },
-    {
-        "date": "2026-05-15",
-        "artist": "Buzzcocks",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "TBD",
+        "price": "$175.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Buzzcocks+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=mD_WzD1F3e4"
+    },
+    {
+        "date": "2026-05-15",
+        "artist": "Bloodywood",
+        "url": "https://www.ticketmaster.ca/event/1000615BB2G78I9J",
+        "venue": "The Danforth Music Hall",
+        "price": "From $35.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Gsy5sJy5_GE"
     },
     {
         "date": "2026-05-15",
         "artist": "Lakeview",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/lakeview",
         "venue": "Horseshoe Tavern",
         "price": "$23.50 - $56.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Lakeview+Live"
-    },
-    {
-        "date": "2026-05-15",
-        "artist": "The Anti-Queens w/ Make War & Iron Roses",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Anti-Queens+w/+Make+War+%26+Iron+Roses+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=E3acxC4CLwZ"
     },
     {
         "date": "2026-05-15",
         "artist": "The Weeknd Night",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-weeknd-night",
         "venue": "Lee's Palace",
         "price": "$9.99",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Weeknd+Night+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=zY8iX8j5z0"
     },
     {
         "date": "2026-05-16",
         "artist": "Said The Sky",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/said-the-sky",
         "venue": "History",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Said+The+Sky+Live"
-    },
-    {
-        "date": "2026-05-16",
-        "artist": "Robby Hoffman",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Robby+Hoffman+Live"
-    },
-    {
-        "date": "2026-05-16",
-        "artist": "Robby Hoffman (Evening Show)",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Robby+Hoffman+Live"
+        "price": "$53.75",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=O-Z-5P0X_G4"
     },
     {
         "date": "2026-05-16",
         "artist": "Parrotfish x Lemon Pistols",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/parrotfish-x-lemon-pistols",
         "venue": "Horseshoe Tavern",
         "price": "$15.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Parrotfish+x+Lemon+Pistols+Live"
-    },
-    {
-        "date": "2026-05-16",
-        "artist": "Children Of Metal w/ Full Throttle & Ovary Axe",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$20.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Children+Of+Metal+w/+Full+Throttle+%26+Ovary+Axe+Live"
-    },
-    {
-        "date": "2026-05-16",
-        "artist": "Lipphead (Blockhead & Eliot Lipp)",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$22.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Lipphead+(Blockhead+%26+Eliot+Lipp)+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-16",
         "artist": "The Yacht Rock Show",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/the-yacht-rock-show/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Yacht+Rock+Show+Live"
+        "price": "$53",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Vl89g2SwMh4"
     },
     {
         "date": "2026-05-16",
         "artist": "Agents of Time (After life/Time machine)",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
+        "url": "https://thephoenixconcerttheatre.com/events/event/agents-of-time-after-life-time-machine/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Agents+of+Time+(After+life/Time+machine)+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=kYI_7LzD4X0"
     },
     {
         "date": "2026-05-17",
         "artist": "Nailah Blackman",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/nailah-blackman",
         "venue": "History",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Nailah+Blackman+Live"
-    },
-    {
-        "date": "2026-05-17",
-        "artist": "Thaiboy Digital",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$48",
+        "price": "Check Site",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Thaiboy+Digital+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVjV-7P1qD4"
     },
     {
         "date": "2026-05-17",
         "artist": "Billy Liar and the Haunted Hearts",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/billy-liar-and-the-haunted-hearts",
         "venue": "Horseshoe Tavern",
         "price": "$15.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Billy+Liar+and+the+Haunted+Hearts+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=GiV1dqc0GZ"
     },
     {
         "date": "2026-05-17",
-        "artist": "(HED) P.E.",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "(Hed) P.E.",
+        "url": "https://www.ticketmaster.ca/hed-pe-toronto-ontario-05-17-2026/event/100060D2C34A1B2E",
         "venue": "The Garrison",
         "price": "$38.63 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=(HED)+P.E.+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=Bartender"
     },
     {
         "date": "2026-05-18",
         "artist": "The Eagle Rock Gospel Singers",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/the-eagle-rock-gospel-singers",
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Eagle+Rock+Gospel+Singers+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-19",
         "artist": "Ashnikko",
-        "url": "https://www.historytoronto.com/events",
+        "url": "https://www.historytoronto.com/events/detail/ashnikko-smoochies-tour",
         "venue": "History",
-        "price": "$87.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ashnikko+Live"
+        "price": "$178.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=Wz_f9B4pPtg"
     },
     {
         "date": "2026-05-19",
         "artist": "Brigitte Calls Me Baby",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Brigitte+Calls+Me+Baby+Live"
+        "url": "https://thegreathall.ca/event/brigitte-calls-me-baby/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$30.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=O8BshzVd-tY"
     },
     {
         "date": "2026-05-20",
         "artist": "Ari Lennox",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/ari-lennox/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$58.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ari+Lennox+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=9_iM8_S6u0M"
     },
     {
         "date": "2026-05-20",
         "artist": "In Your Walls",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/in-your-walls",
         "venue": "Horseshoe Tavern",
         "price": "$14.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=In+Your+Walls+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-20",
-        "artist": "CITY OF THE SUN",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "City of the Sun",
+        "url": "https://www.ticketmaster.ca/city-of-the-sun-toronto-ontario-05-20-2026/event/100060E1D2B34F1A",
         "venue": "The Garrison",
         "price": "$35.14 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=CITY+OF+THE+SUN+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=Spaghetti"
     },
     {
         "date": "2026-05-20",
         "artist": "The Untold Collection",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/the-untold-collection/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Untold+Collection+Live"
+        "price": "Fundraiser/Auction",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=uKofz-Vly88"
     },
     {
         "date": "2026-05-21",
         "artist": "Good Kid - Can We Hang Out? Tour",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/1000615CC3H89J0K",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Good+Kid+Live"
+        "price": "From $38.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=s0uS8zI-z5w"
     },
     {
         "date": "2026-05-21",
         "artist": "LEITH - Sad in the Sun EP Release",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/leith-sad-in-the-sun-ep-release",
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=LEITH+-+Sad+in+the+Sun+EP+Release+Live"
-    },
-    {
-        "date": "2026-05-21",
-        "artist": "JESSE SOLOMAN",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$TBD advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=JESSE+SOLOMAN+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-21",
         "artist": "The Hidden Cameras",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Hidden+Cameras+Live"
+        "url": "https://thegreathall.ca/event/the-hidden-cameras/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$32.23",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=3W3kIe5zH9Q"
     },
     {
         "date": "2026-05-22",
         "artist": "Bobby Lee",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/bobby-lee/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$56.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bobby+Lee+Live"
-    },
-    {
-        "date": "2026-05-22",
-        "artist": "Courtney Barnett",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$60.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Courtney+Barnett+Live"
-    },
-    {
-        "date": "2026-05-22",
-        "artist": "Good Kid - Can We Hang Out? Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Good+Kid+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=M5K3lYm_6k0"
     },
     {
         "date": "2026-05-22",
         "artist": "ICHI BONS | The Deltas",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/ichi-bons-the-deltas",
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=ICHI+BONS+|+The+Deltas+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-22",
-        "artist": "Leah Jane w Nyre, Gaeln & Amy Pinkus",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$22.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Leah+Jane+w+Nyre,+Gaeln+%26+Amy+Pinkus+Live"
-    },
-    {
-        "date": "2026-05-22",
-        "artist": "SACRIFICE (JAPAN)",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Sacrifice (Japan)",
+        "url": "https://www.ticketweb.ca/event/sacrifice-japan-the-garrison-tickets/14152839",
         "venue": "The Garrison",
         "price": "$41.75 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SACRIFICE+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=SacrificeJapan"
     },
     {
         "date": "2026-05-22",
         "artist": "Chet Faker",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/chet-faker/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$35-$50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Chet+Faker+Live"
-    },
-    {
-        "date": "2026-05-23",
-        "artist": "Highly Suspect",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$57.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Highly+Suspect+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=hi4pzK47nOM"
     },
     {
         "date": "2026-05-23",
         "artist": "Yebba: Jean Tour",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/1000615DD4I90K1L",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Yebba+Live"
+        "price": "From $55.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=P_X0vS6J_2w"
     },
     {
         "date": "2026-05-23",
         "artist": "Born In The GTA",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/born-in-the-gta",
         "venue": "Horseshoe Tavern",
         "price": "$15.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Born+In+The+GTA+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-23",
-        "artist": "Ceol Kids Fundraiser",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$17.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ceol+Kids+Fundraiser+Live"
-    },
-    {
-        "date": "2026-05-23",
-        "artist": "RACHEL BOBBITT & LIA PAPPAS-KEMPS",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Rachel Bobbitt",
+        "url": "https://www.ticketweb.ca/event/rachel-bobbitt-lia-pappas-kemps-the-garrison-tickets/14163921",
         "venue": "The Garrison",
         "price": "$20 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=RACHEL+BOBBITT+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=SwimmingTowardsTheSand"
     },
     {
         "date": "2026-05-23",
         "artist": "Just Mustard",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Just+Mustard+Live"
-    },
-    {
-        "date": "2026-05-24",
-        "artist": "Dance Gavin Dance",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$55.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Dance+Gavin+Dance+Live"
-    },
-    {
-        "date": "2026-05-24",
-        "artist": "Arm's Length: There's A Whole World North American Tour 2026",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Arm%27s+Length+Live"
+        "url": "https://thegreathall.ca/event/just-mustard/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$32.23",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=V7K30M6W_vM"
     },
     {
         "date": "2026-05-24",
         "artist": "The Grievous Angels",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/the-grievous-angels",
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Grievous+Angels+Live"
-    },
-    {
-        "date": "2026-05-24",
-        "artist": "Nick Fest 2026",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$20.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Nick+Fest+2026+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-25",
         "artist": "Belle and Sebastian",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/belle-and-sebastian/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$83.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Belle+and+Sebastian+Live"
-    },
-    {
-        "date": "2026-05-25",
-        "artist": "Black Veil Brides",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$57.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Black+Veil+Brides+Live"
-    },
-    {
-        "date": "2026-05-25",
-        "artist": "Comedy Bang! Bang! Ground Beefing Tour 2026",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Comedy+Bang+Bang+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=779A-oX8ZgU"
     },
     {
         "date": "2026-05-25",
         "artist": "UNCOVERED: DANI | Kasey Nugent | Kendall Lily | Brodie Bell",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/uncovered-dani-kasey-nugent-kendall-lily-brodie-bell",
         "venue": "Horseshoe Tavern",
-        "price": "$0.00",
+        "price": "FREE",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=UNCOVERED:+DANI+|+Kasey+Nugent+|+Kendall+Lily+|+Brodie+Bell+Live"
-    },
-    {
-        "date": "2026-05-26",
-        "artist": "Belle and Sebastian",
-        "url": "https://masseyhall.mhrth.com/tickets/",
-        "venue": "Massey Hall",
-        "price": "TBD",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Belle+and+Sebastian+Live"
-    },
-    {
-        "date": "2026-05-26",
-        "artist": "YVES",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=YVES+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-26",
         "artist": "68 Farewell Tour w/Nate Bergman",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/68-farewell-tour-w-nate-bergman",
         "venue": "Horseshoe Tavern",
         "price": "$26.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=68+Farewell+Tour+w/Nate+Bergman+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-05-26",
         "artist": "Punk Rock Factory w/ Rat Grenade",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/punk-rock-factory-w-rat-grenade",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Punk+Rock+Factory+w/+Rat+Grenade+Live"
-    },
-    {
-        "date": "2026-05-27",
-        "artist": "Decibel w/ Cryptopsy, Necrot, Fulci, Blood Monolith",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$37.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Decibel+w/+Cryptopsy,+Necrot,+Fulci,+Blood+Monolith+Live"
-    },
-    {
-        "date": "2026-05-27",
-        "artist": "THE PETE ROTH TRIO",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "SOLD OUT",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=THE+PETE+ROTH+TRIO+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=aZ8iX8j6a0"
     },
     {
         "date": "2026-05-28",
-        "artist": "Naomi Watanabe: From Tokyo",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Naomi+Watanabe+Live"
-    },
-    {
-        "date": "2026-05-28",
-        "artist": "The Black Queen w/ Club Drugs and Trace Amount",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$40.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Black+Queen+w/+Club+Drugs+and+Trace+Amount+Live"
-    },
-    {
-        "date": "2026-05-28",
-        "artist": "LIP CRITIC",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Lip Critic",
+        "url": "https://www.ticketweb.ca/event/lip-critic-bejalvin-flatwounds-the-garrison-tickets/14182943",
         "venue": "The Garrison",
         "price": "$33.05 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=LIP+CRITIC+Live"
-    },
-    {
-        "date": "2026-05-29",
-        "artist": "Whitehorse - All Of It Tour featuring Chlo\u00eb Doucet",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Whitehorse+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=LegsInASnare"
     },
     {
         "date": "2026-05-29",
         "artist": "Samantha Martin & Delta Sugar",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/samantha-martin-delta-sugar",
         "venue": "Horseshoe Tavern",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Samantha+Martin+&+Delta+Sugar+Live"
-    },
-    {
-        "date": "2026-05-29",
-        "artist": "Prepare The Ground 2026",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$89.62",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Prepare+The+Ground+2026+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=FATvC6t5ps"
     },
     {
         "date": "2026-05-29",
         "artist": "Haute & Freddy",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Haute+Freddy+Live"
+        "url": "https://thegreathall.ca/event/haute-freddy/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=9oZ_fOQy3A8"
     },
     {
         "date": "2026-05-30",
-        "artist": "Ann Wilson",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$39",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ann+Wilson+Live"
+        "artist": "Audrey Hobert",
+        "url": "https://masseyhall.mhrth.com/tickets/audrey-hobert/",
+        "venue": "Massey Hall",
+        "price": "$83.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=uK48_lU_S9A"
     },
     {
         "date": "2026-05-30",
         "artist": "Cat Clyde",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/cat-clyde",
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Cat+Clyde+Live"
-    },
-    {
-        "date": "2026-05-30",
-        "artist": "Prepare The Ground 2026",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$89.62",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Prepare+The+Ground+2026+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=ET2Z_WRT4bC"
     },
     {
         "date": "2026-05-30",
         "artist": "Forbidden Nights",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/forbidden-nights/",
         "venue": "El Mocambo",
-        "price": "TBD",
+        "price": "$15 - $69",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Forbidden+Nights+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=5V_9O79G948"
     },
     {
         "date": "2026-05-30",
         "artist": "Q107 HIgh School Reunion \u2013 Prom Edition",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/q107-high-school-reunion-prom-edition/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Q107+HIgh+School+Reunion+%E2%80%93+Prom+Edition+Live"
-    },
-    {
-        "date": "2026-05-31",
-        "artist": "TK from Ling tosite sigure - TOUR 2026 NORTH AMERICA",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=TK+from+Ling+tosite+sigure+Live"
-    },
-    {
-        "date": "2026-05-31",
-        "artist": "Sir El Tom",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$30",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Sir+El+Tom+Live"
-    },
-    {
-        "date": "2026-05-31",
-        "artist": "Prepare The Ground 2026",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$89.62",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Prepare+The+Ground+2026+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=8V79-I-V5wA"
     },
     {
         "date": "2026-06-01",
         "artist": "Old Mervs",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/old-mervs",
         "venue": "Horseshoe Tavern",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Old+Mervs+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-06-01",
         "artist": "Leo Middea",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$41.62",
+        "url": "https://thegreathall.ca/event/leo-middea/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Leo+Middea+Live"
-    },
-    {
-        "date": "2026-06-01",
-        "artist": "Leo Middea",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Leo+Middea+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVj4Zl0Fv10"
     },
     {
         "date": "2026-06-02",
         "artist": "UNCOVERED: Paige O | Jeanne Truax | Carrie Matisse | Flo Olavarria",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/uncovered-paige-o-jeanne-truax-carrie-matisse-flo-olavarria",
         "venue": "Horseshoe Tavern",
-        "price": "$0.00",
+        "price": "FREE",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=UNCOVERED:+Paige+O+|+Jeanne+Truax+|+Carrie+Matisse+|+Flo+Olavarria+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-06-02",
         "artist": "Napalm Death w/ Primitive Man",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/napalm-death-w-primitive-man",
         "venue": "Lee's Palace",
         "price": "$36.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Napalm+Death+w/+Primitive+Man+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=bZ8iX8j6b0"
     },
     {
         "date": "2026-06-02",
-        "artist": "TSUSHIMAMIRE",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "TsuShiMaMiRe",
+        "url": "https://www.livenation.com/event/vvG10Z9n8N4B-Z/tsushimamire",
         "venue": "The Garrison",
         "price": "$29.66 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=TSUSHIMAMIRE+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=TsushimamireLive"
     },
     {
         "date": "2026-06-03",
         "artist": "Driftwood",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/driftwood",
         "venue": "Horseshoe Tavern",
         "price": "$15.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Driftwood+Live"
-    },
-    {
-        "date": "2026-06-04",
-        "artist": "Alyssa Edwards - Thanks For Everything Tour 2026",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Alyssa+Edwards+Live"
-    },
-    {
-        "date": "2026-06-04",
-        "artist": "Lansdowne w/ Avalon Stone",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Lansdowne+w/+Avalon+Stone+Live"
-    },
-    {
-        "date": "2026-06-05",
-        "artist": "Alex Isley - When The City Sleeps",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Alex+Isley+Live"
-    },
-    {
-        "date": "2026-06-05",
-        "artist": "Johnny Orlando",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$52",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Johnny+Orlando+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-06-05",
         "artist": "Zuffalo \"Flock of the Town\" Album Release Party w/ Animal",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/zuffalo-flock-of-the-town-album-release-party-w-animal",
         "venue": "Horseshoe Tavern",
         "price": "$35.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Zuffalo+\"Flock+of+the+Town\"+Album+Release+Party+w/+Animal+Live"
-    },
-    {
-        "date": "2026-06-05",
-        "artist": "The Listros",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$22.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Listros+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-06-05",
         "artist": "Jaguar Sun \u2013 Daisy Tour",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Jaguar+Sun+Live"
+        "url": "https://thegreathall.ca/event/jaguar-sun-daisy-tour/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$28.75",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=B6Z3-H_Y9Cg"
     },
     {
         "date": "2026-06-06",
-        "artist": "Classic Albums Live: Van Halen - 1984",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "artist": "Van Halen - 1984 (Classic Albums Live)",
+        "url": "https://masseyhall.mhrth.com/tickets/classic-albums-live-van-halen/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$45.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+Live"
-    },
-    {
-        "date": "2026-06-06",
-        "artist": "James Blake",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$59.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=James+Blake+Live"
-    },
-    {
-        "date": "2026-06-06",
-        "artist": "Like a Star: Celebrating 20 Years of Corinne Bailey Rae",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Corinne+Bailey+Rae+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=8V7Z2yY3kRE"
     },
     {
         "date": "2026-06-06",
         "artist": "Teenage Head",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/teenage-head",
         "venue": "Horseshoe Tavern",
         "price": "$37.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Teenage+Head+Live"
-    },
-    {
-        "date": "2026-06-06",
-        "artist": "VHOOR w/ Chinelo, Ana Luisa & Justin La Rose",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=VHOOR+w/+Chinelo,+Ana+Luisa+%26+Justin+La+Rose+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=GMmQFiZDN"
     },
     {
         "date": "2026-06-06",
         "artist": "Joe Pernice",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Joe+Pernice+Live"
-    },
-    {
-        "date": "2026-06-07",
-        "artist": "JINJER Duel North America 2026",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=JINJER+Live"
-    },
-    {
-        "date": "2026-06-07",
-        "artist": "Seedhe Maut",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "TBD",
+        "url": "https://thegreathall.ca/event/joe-pernice/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Seedhe+Maut+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=W9o6F_9HnLk"
     },
     {
-        "date": "2026-06-08",
-        "artist": "INJI: this tour is superlame.",
-        "url": "https://www.thedanforth.com/",
+        "date": "2026-06-07",
+        "artist": "JINJER",
+        "url": "https://www.ticketmaster.ca/event/1000616AA1F67H8I",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=INJI+Live"
-    },
-    {
-        "date": "2026-06-09",
-        "artist": "Jane Remover - Live Exhibit",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Jane+Remover+Live"
+        "price": "From $45.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Kj_8vS6J_2w"
     },
     {
         "date": "2026-06-09",
         "artist": "Arts Fishing Club",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/arts-fishing-club",
         "venue": "Horseshoe Tavern",
         "price": "$17.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Arts+Fishing+Club+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-06-09",
-        "artist": "VILLANELLE",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Villanelle",
+        "url": "https://www.ticketmaster.ca/villanelle-toronto-ontario-06-09-2026/event/100060F1D3C45B2C",
         "venue": "The Garrison",
         "price": "$35.14 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=VILLANELLE+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=VillanelleBand"
     },
     {
         "date": "2026-06-09",
         "artist": "SPITE",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/spite/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$73.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SPITE+Live"
-    },
-    {
-        "date": "2026-06-10",
-        "artist": "Jane Remover - Live Exhibit",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Jane+Remover+Live"
-    },
-    {
-        "date": "2026-06-10",
-        "artist": "FUJIIIIIIIIIIIITA + EVICSHEN",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$30.14 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=FUJIIIIIIIIIIIITA+Live"
-    },
-    {
-        "date": "2026-06-11",
-        "artist": "Chris Ramsay Presents: It's Probably Nothing...",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Chris+Ramsay+Live"
-    },
-    {
-        "date": "2026-06-11",
-        "artist": "SOPHIE POWERS",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$22.54 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SOPHIE+POWERS+Live"
-    },
-    {
-        "date": "2026-06-12",
-        "artist": "Tim Hicks",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$52",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Tim+Hicks+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=5UeFmYvF0Z4"
     },
     {
         "date": "2026-06-12",
         "artist": "Covet w/ Lite & Hikes",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/covet-w-lite-hikes",
         "venue": "Lee's Palace",
         "price": "$40.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Covet+w/+Lite+%26+Hikes+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=cZ8iX8j6c0"
     },
     {
         "date": "2026-06-12",
-        "artist": "Puma June",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$20.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Puma+June+Live"
-    },
-    {
-        "date": "2026-06-12",
-        "artist": "NIGHT OF THE DRAGONS \ud83d\udd25 \ud83c\udde7\ud83c\udde6 The opening game AFTERPARTY",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
+        "artist": "NIGHT OF THE DRAGONS \u2013 The Opening Game Afterparty",
+        "url": "https://thephoenixconcerttheatre.com/events/event/night-of-the-dragons/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=NIGHT+OF+THE+DRAGONS+%F0%9F%94%A5+%F0%9F%87%A7%F0%9F%87%A6+The+opening+game+AFTERPARTY+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=AnimeRave_sample"
     },
     {
         "date": "2026-06-13",
-        "artist": "Echo and the Bunnymen",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$117.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Echo+and+the+Bunnymen+Live"
-    },
-    {
-        "date": "2026-06-13",
-        "artist": "HONNE - 10 YEAR ANNIVERSARY TOUR",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=HONNE+Live"
-    },
-    {
-        "date": "2026-06-13",
-        "artist": "The Flashing Lights with Absolute Losers",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$39.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Flashing+Lights+with+Absolute+Losers+Live"
-    },
-    {
-        "date": "2026-06-13",
-        "artist": "Adam Rodway",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$20.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Adam+Rodway+Live"
-    },
-    {
-        "date": "2026-06-13",
-        "artist": "DYLAN LEBLANC",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Dylan LeBlanc",
+        "url": "https://www.ticketweb.ca/event/dylan-leblanc-celebrating-10-years-the-garrison-tickets/14203194",
         "venue": "The Garrison",
         "price": "$25 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DYLAN+LEBLANC+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=CautionaryTale"
     },
     {
         "date": "2026-06-13",
         "artist": "Illscarlett",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
+        "url": "https://thephoenixconcerttheatre.com/events/event/illscarlett-2/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$37-$42",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Illscarlett+Live"
-    },
-    {
-        "date": "2026-06-14",
-        "artist": "Ahmed Saad",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$110.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ahmed+Saad+Live"
-    },
-    {
-        "date": "2026-06-14",
-        "artist": "Josiah and The Bonnevilles: The Redline North America Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Josiah+and+The+Bonnevilles+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=Uq6Eis8Y668"
     },
     {
         "date": "2026-06-14",
         "artist": "Noah Gundersen",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/noah-gundersen",
         "venue": "Horseshoe Tavern",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Noah+Gundersen+Live"
-    },
-    {
-        "date": "2026-06-15",
-        "artist": "Rostam",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$47",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Rostam+Live"
-    },
-    {
-        "date": "2026-06-15",
-        "artist": "Derya Y\u0131ld\u0131r\u0131m & Grup \u015eim\u015fek",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$26.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Derya+Y\u0131ld\u0131r\u0131m+%26+Grup+\u015eim\u015fek+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=FIOC0m6vSI9"
     },
     {
         "date": "2026-06-16",
-        "artist": "Kurt Vile and The Violators",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$59.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Kurt+Vile+and+The+Violators+Live"
-    },
-    {
-        "date": "2026-06-16",
-        "artist": "GIRLI",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Girli",
+        "url": "https://www.ticketmaster.ca/girli-toronto-ontario-06-16-2026/event/100061A1D4B56C3D",
         "venue": "The Garrison",
         "price": "$35.14 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=GIRLI+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=Matriarchy"
     },
     {
         "date": "2026-06-17",
         "artist": "Marcus King Band",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/marcus-king/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$53.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Marcus+King+Band+Live"
-    },
-    {
-        "date": "2026-06-17",
-        "artist": "Black Country, New Road",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Black+Country+New+Road+Live"
-    },
-    {
-        "date": "2026-06-17",
-        "artist": "Joshua Slone - Thinking Too Much Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Joshua+Slone+Live"
-    },
-    {
-        "date": "2026-06-17",
-        "artist": "Underscores",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$30",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Underscores+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=37v8Y_T_6D8"
     },
     {
         "date": "2026-06-17",
         "artist": "Arkells",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/arkells",
         "venue": "Lee's Palace",
         "price": "$50.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Arkells+Live"
-    },
-    {
-        "date": "2026-06-17",
-        "artist": "SNOR",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$35.14 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SNOR+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=dZ8iX8j6d0"
     },
     {
         "date": "2026-06-17",
         "artist": "Son Little",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Son+Little+Live"
-    },
-    {
-        "date": "2026-06-18",
-        "artist": "THE BUG CLUB / THE BOOJUMS",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$28.52 advance",
+        "url": "https://thegreathall.ca/event/son-little/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$38.41",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=THE+BUG+CLUB+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=S8L0u_8W-Y8"
     },
     {
         "date": "2026-06-18",
         "artist": "Billy Newton Davis",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/billy-newton-davis-presents-starlight-jazz/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Billy+Newton+Davis+Live"
+        "price": "$59.32",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=v_n-tFpG18s"
     },
     {
         "date": "2026-06-19",
-        "artist": "Double Triangle",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$20.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Double+Triangle+Live"
-    },
-    {
-        "date": "2026-06-19",
-        "artist": "Kitty's Rave",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$15.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Kitty's+Rave+Live"
-    },
-    {
-        "date": "2026-06-19",
-        "artist": "SYD TAYLOR",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$35.54 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SYD+TAYLOR+Live"
+        "artist": "Trey Anastasio",
+        "url": "https://masseyhall.mhrth.com/tickets/trey-anastasio/",
+        "venue": "Massey Hall",
+        "price": "$61.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=68tX8Y7w3_w"
     },
     {
         "date": "2026-06-19",
         "artist": "Ava Val (Early Show)",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/comedy-legends-with-headliner-ava-val-early-show/",
         "venue": "El Mocambo",
-        "price": "TBD",
+        "price": "$25",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ava+Val+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=D9o3V_E0YpU"
     },
     {
         "date": "2026-06-19",
         "artist": "Ava Val (Late Show)",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/comedy-legends-with-headliner-ava-val-late-show/",
         "venue": "El Mocambo",
-        "price": "TBD",
+        "price": "$25",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ava+Val+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=D9o3V_E0YpU"
     },
     {
         "date": "2026-06-19",
         "artist": "SuperSonic \u2013 North America's Tribute To Oasis",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
+        "url": "https://thephoenixconcerttheatre.com/events/event/supersonic-north-americas-tribute-to-oasis/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SuperSonic+%E2%80%93+North+America%27s+Tribute+To+Oasis+Live"
-    },
-    {
-        "date": "2026-06-20",
-        "artist": "Rubber Tire Peep Show and Orbital Ensemble",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$33.90",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Rubber+Tire+Peep+Show+and+Orbital+Ensemble+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=p29MG7ByMT8"
     },
     {
         "date": "2026-06-20",
         "artist": "Moontricks",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Moontricks+Live"
-    },
-    {
-        "date": "2026-06-21",
-        "artist": "Deer Tick",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$44",
+        "url": "https://thegreathall.ca/event/moontricks/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$46.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Deer+Tick+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=oVj4Zl0Fv10"
     },
     {
         "date": "2026-06-21",
         "artist": "Paul Anthony's CASH - The Life and Music of Johnny Cash",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/paul-anthonys-cash-the-life-and-music-of-johnny-cash",
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Paul+Anthony's+CASH+-+The+Life+and+Music+of+Johnny+Cash+Live"
-    },
-    {
-        "date": "2026-06-21",
-        "artist": "Dead Calm",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$29.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Dead+Calm+Live"
-    },
-    {
-        "date": "2026-06-22",
-        "artist": "Toronto Jazz Fest presents DOMi & JD Beck",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DOMi+%26+JD+Beck+Live"
-    },
-    {
-        "date": "2026-06-23",
-        "artist": "Steve Earle - 51 Years of Songs & Stories",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Steve+Earle+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-06-23",
         "artist": "Ryan Davis & The Roadhouse Band",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/ryan-davis-the-roadhouse-band",
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ryan+Davis+&+The+Roadhouse+Band+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-06-23",
-        "artist": "Thee Marloes",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Thee+Marloes+Live"
-    },
-    {
-        "date": "2026-06-23",
-        "artist": "FLAWED MANGOES",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Flawed Mangoes",
+        "url": "https://www.ticketweb.ca/event/flawed-mangoes-the-garrison-tickets/14243190",
         "venue": "The Garrison",
         "price": "$41.14 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=FLAWED+MANGOES+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=FlawedMangoes"
     },
     {
         "date": "2026-06-23",
         "artist": "Fulton Lee",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Fulton+Lee+Live"
+        "url": "https://thegreathall.ca/event/fulton-lee/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Z7n4Xn_7M8Q"
     },
     {
         "date": "2026-06-23",
         "artist": "Enter Shikari",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
+        "url": "https://thephoenixconcerttheatre.com/events/event/enter-shikari/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Enter+Shikari+Live"
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=P4MiC67seUY"
     },
     {
         "date": "2026-06-24",
-        "artist": "The Dip",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Dip+Live"
-    },
-    {
-        "date": "2026-06-24",
-        "artist": "Reverend Horton Heat - SOLD OUT Tickets available at the door",
-        "url": "https://horseshoetavern.com/",
+        "artist": "Reverend Horton Heat - SOLD OUT",
+        "url": "https://horseshoetavern.com/events/reverend-horton-heat",
         "venue": "Horseshoe Tavern",
         "price": "$10.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Reverend+Horton+Heat+-+SOLD+OUT+Tickets+available+at+the+door+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=FN1LibJMWB"
     },
     {
         "date": "2026-06-24",
-        "artist": "VACATIONS",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Vacations",
+        "url": "https://www.ticketmaster.ca/vacations-toronto-ontario-06-24-2026/event/100061B2D5C67D4E",
         "venue": "The Garrison",
         "price": "$36.00 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=VACATIONS+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=YoungVacations"
     },
     {
         "date": "2026-06-25",
-        "artist": "The Frank White Experience",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$270",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Frank+White+Experience+Live"
+        "artist": "America",
+        "url": "https://masseyhall.mhrth.com/tickets/america/",
+        "venue": "Massey Hall",
+        "price": "$95.75",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=oc_XN7I-m1g"
     },
     {
         "date": "2026-06-25",
-        "artist": "Reverend Horton Heat - SOLD OUT Tickets available at the door",
-        "url": "https://horseshoetavern.com/",
-        "venue": "Horseshoe Tavern",
-        "price": "$10.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Reverend+Horton+Heat+-+SOLD+OUT+Tickets+available+at+the+door+Live"
-    },
-    {
-        "date": "2026-06-25",
-        "artist": "Leenalchi",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$27.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Leenalchi+Live"
-    },
-    {
-        "date": "2026-06-26",
-        "artist": "Kittie with special guests Kingdom of Giants and Gore",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
+        "artist": "Kokoroko",
+        "url": "https://thephoenixconcerttheatre.com/events/event/kokoroko/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Kittie+Live"
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=tIpxI6vS5XU"
     },
     {
         "date": "2026-06-26",
         "artist": "\u00c1sgeir",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Asgeir+Live"
-    },
-    {
-        "date": "2026-06-27",
-        "artist": "Ibrahim Maalouf - Trumpets of Michel Ange",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ibrahim+Maalouf+Live"
-    },
-    {
-        "date": "2026-06-28",
-        "artist": "John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=John+Cameron+Mitchell+Live"
+        "url": "https://thegreathall.ca/event/asgeir/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$35.19",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=gh0_Z-k505E"
     },
     {
         "date": "2026-07-01",
         "artist": "Bombargo",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/bombargo",
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bombargo+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=HkF8PkL90J"
     },
     {
         "date": "2026-07-04",
         "artist": "The Strike: No Time To Waste Tour",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/the-strike-no-time-to-waste-tour",
         "venue": "Horseshoe Tavern",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Strike:+No+Time+To+Waste+Tour+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
-        "date": "2026-07-08",
-        "artist": "The Longest Johns",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$35.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Longest+Johns+Live"
+        "date": "2026-07-04",
+        "artist": "idobi Radio Summer School",
+        "url": "https://thephoenixconcerttheatre.com/events/event/idobi-radio-summer-school/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "TBD",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=idobi_sample"
     },
     {
         "date": "2026-07-08",
         "artist": "Cola w/ Special Guests",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Cola+Live"
+        "url": "https://thegreathall.ca/event/cola-w-special-guests/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=W9o6F_9HnLk"
     },
     {
-        "date": "2026-07-09",
-        "artist": "Six Feet Under w/ Kataklysm",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$38.75",
+        "date": "2026-07-10",
+        "artist": "Digable Planets",
+        "url": "https://thephoenixconcerttheatre.com/events/event/digable-planets/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$98.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Six+Feet+Under+w/+Kataklysm+Live"
-    },
-    {
-        "date": "2026-07-09",
-        "artist": "YOO II AVEC NOLAN POTTER",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$32.31 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=YOO+II+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=XpWv0W7O7Yg"
     },
     {
         "date": "2026-07-13",
         "artist": "Buck Meek with Support: Kisser",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Buck+Meek+Live"
-    },
-    {
-        "date": "2026-07-14",
-        "artist": "Jazz Is Dead + Marcos Valle",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$47.50",
+        "url": "https://thegreathall.ca/event/buck-meek/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$35.19",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Jazz+Is+Dead+%2B+Marcos+Valle+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=LqUv9C6G_Xw"
     },
     {
         "date": "2026-07-15",
-        "artist": "Poppy",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Poppy+Live"
+        "artist": "Buddy Guy",
+        "url": "https://masseyhall.mhrth.com/tickets/buddy-guy/",
+        "venue": "Massey Hall",
+        "price": "$105.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=k_rdW8KN_Pw"
     },
     {
         "date": "2026-07-16",
         "artist": "Petunia & The Vipers with Miranda Ceara & The Odd Fellows Orchestra",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/petunia-the-vipers-with-miranda-ceara-the-odd-fellows-orchestra",
         "venue": "Horseshoe Tavern",
         "price": "$24.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Petunia+&+The+Vipers+with+Miranda+Ceara+&+The+Odd+Fellows+Orchestra+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
+    },
+    {
+        "date": "2026-07-17",
+        "artist": "Josh Johnson",
+        "url": "https://masseyhall.mhrth.com/tickets/josh-johnson/",
+        "venue": "Massey Hall",
+        "price": "$101.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=k-D8eP_O1lI"
     },
     {
         "date": "2026-07-18",
         "artist": "Arlo",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Arlo+Live"
+        "url": "https://thegreathall.ca/event/arlo/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$30.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=vVj4Zl0Fv10"
     },
     {
-        "date": "2026-07-20",
-        "artist": "Balthvs w/ Pearl & The Oyster",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$32.50",
+        "date": "2026-07-18",
+        "artist": "SOULS OF MISCHIEF",
+        "url": "https://thephoenixconcerttheatre.com/events/event/souls-of-mischief/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Balthvs+w/+Pearl+%26+The+Oyster+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=0VwfipS240w"
     },
     {
         "date": "2026-07-21",
         "artist": "Ford. w/ Gilligan Moss (DJ set)",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/ford-w-gilligan-moss-dj-set",
         "venue": "Dance Cave",
         "price": "$28.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ford.+w/+Gilligan+Moss+(DJ+set)+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=eZ8iX8j6e0"
     },
     {
-        "date": "2026-07-24",
-        "artist": "Shrek Rave",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$25.00",
+        "date": "2026-07-23",
+        "artist": "Hatebreed \u2013 Summer Slaughter Tour 2026",
+        "url": "https://thephoenixconcerttheatre.com/events/event/hatebreed-summer-slaughter-tour-2026/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Shrek+Rave+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=2vH0mY_A5wQ"
     },
     {
         "date": "2026-07-25",
         "artist": "Mon Laferte",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/mon-laferte/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$106.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Mon+Laferte+Live"
-    },
-    {
-        "date": "2026-07-29",
-        "artist": "DAY WE RAN",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$25 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DAY+WE+RAN+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=6mXo1C7W0_w"
     },
     {
         "date": "2026-07-30",
-        "artist": "Test Dept",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$27.50",
+        "artist": "Wunderhorse",
+        "url": "https://thephoenixconcerttheatre.com/events/event/wunderhorse/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$89.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Test+Dept+Live"
-    },
-    {
-        "date": "2026-07-31",
-        "artist": "CRUZ BECKHAM AND THE BREAKERS",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$25 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=CRUZ+BECKHAM+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=Wunderhorse_sample"
     },
     {
         "date": "2026-08-02",
         "artist": "EJEAN",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=EJEAN+Live"
+        "url": "https://thegreathall.ca/event/ejean/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=W9o6F_9HnLk"
     },
     {
         "date": "2026-08-07",
         "artist": "Yung Bae",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/yung-bae",
         "venue": "Lee's Palace",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Yung+Bae+Live"
-    },
-    {
-        "date": "2026-08-08",
-        "artist": "The Word Alive w/ Not Enough Space, Downswing & Code:Word",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Word+Alive+w/+Not+Enough+Space,+Downswing+%26+Code:Word+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=fZ8iX8j6f0"
     },
     {
         "date": "2026-08-08",
         "artist": "RushCon",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/rushcon-the-convention-for-rush-fans/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=RushCon+Live"
-    },
-    {
-        "date": "2026-08-10",
-        "artist": "Dimmu Borgir",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$79.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Dimmu+Borgir+Live"
-    },
-    {
-        "date": "2026-08-18",
-        "artist": "Jack Harlow",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Jack+Harlow+Live"
-    },
-    {
-        "date": "2026-08-18",
-        "artist": "Eagles Of Death Metal - Death By Sexy 20th Anniversary Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Eagles+Of+Death+Metal+Live"
-    },
-    {
-        "date": "2026-08-19",
-        "artist": "Faouzia - The Film Noir Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Faouzia+Live"
-    },
-    {
-        "date": "2026-08-19",
-        "artist": "PLAYLUNCH.",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$32.97 advance",
+        "price": "$342 (3-Day Pass)",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=PLAYLUNCH.+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vHsh604C74I"
+    },
+    {
+        "date": "2026-08-15",
+        "artist": "Bonnie Raitt",
+        "url": "https://masseyhall.mhrth.com/tickets/bonnie-raitt/",
+        "venue": "Massey Hall",
+        "price": "$138.15",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=mJ58TVYNF68"
     },
     {
         "date": "2026-08-20",
-        "artist": "JUTES - Smile You're on Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
+        "artist": "boom 97.3 Boombox Live! w/ China Crisis & More",
+        "url": "https://thephoenixconcerttheatre.com/events/event/boom-97-3-boombox-live-w-china-crisis-big-country-the-icicle-works-the-vapors/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=JUTES+Live"
-    },
-    {
-        "date": "2026-08-21",
-        "artist": "The Wallflowers",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Wallflowers+Live"
-    },
-    {
-        "date": "2026-08-22",
-        "artist": "TWRP",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=TWRP+Live"
-    },
-    {
-        "date": "2026-08-22",
-        "artist": "Slow Magic",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$22.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Slow+Magic+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=BigCountry_sample"
     },
     {
         "date": "2026-08-27",
-        "artist": "FAETOOTH",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Faetooth",
+        "url": "https://www.ticketweb.ca/event/faetooth-latter-bosses-the-garrison-tickets/14353192",
         "venue": "The Garrison",
         "price": "$TBD advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=FAETOOTH+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=FaetoothBand"
     },
     {
         "date": "2026-08-28",
         "artist": "BIIRD",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=BIIRD+Live"
+        "url": "https://thegreathall.ca/event/biird/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Z7n4Xn_7M8Q"
     },
     {
         "date": "2026-08-29",
-        "artist": "Gurkha Events Presents: SWAR - Badal Sari Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
+        "artist": "ANIME RAVE \u2013 Toronto",
+        "url": "https://thephoenixconcerttheatre.com/events/event/anime-rave-toronto/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SWAR+Live"
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=AnimeRave_sample"
+    },
+    {
+        "date": "2026-08-30",
+        "artist": "The Red Jumpsuit Apparatus",
+        "url": "https://thephoenixconcerttheatre.com/events/event/the-red-jumpsuit-apparatus/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$201.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=6UX0p7uYX6c"
     },
     {
         "date": "2026-09-05",
         "artist": "Cinema Face",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/cinema-face/",
         "venue": "El Mocambo",
+        "price": "$41.92",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=E-9X06L8f9w"
+    },
+    {
+        "date": "2026-09-09",
+        "artist": "Melanie C",
+        "url": "https://thephoenixconcerttheatre.com/events/event/melanie-c/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Cinema+Face+Live"
-    },
-    {
-        "date": "2026-09-08",
-        "artist": "Sun Kil Moon",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$32.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Sun+Kil+Moon+Live"
-    },
-    {
-        "date": "2026-09-10",
-        "artist": "Cor64 - GoldenEye 007 N64 Soundtrack Live",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Cor64+-+GoldenEye+007+N64+Soundtrack+Live+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=2T8X7A0XGk8"
     },
     {
         "date": "2026-09-11",
-        "artist": "Classic Albums Live: Pink Floyd - Dark Side of the Moon",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "artist": "Pink Floyd - Dark Side of the Moon (Classic Albums Live)",
+        "url": "https://masseyhall.mhrth.com/tickets/classic-albums-live-pink-floyd/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$45.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+Live"
-    },
-    {
-        "date": "2026-09-11",
-        "artist": "PRESIDENT: North American Campaign 2026",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=PRESIDENT+Live"
-    },
-    {
-        "date": "2026-09-12",
-        "artist": "OTHA",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$39 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=OTHA+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=HW-lV_LAn00"
     },
     {
         "date": "2026-09-12",
         "artist": "Soda Blonde",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Soda+Blonde+Live"
+        "url": "https://thegreathall.ca/event/soda-blonde/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=vVj4Zl0Fv10"
     },
     {
         "date": "2026-09-14",
         "artist": "DeVotchKa",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DeVotchKa+Live"
+        "url": "https://thegreathall.ca/event/devotchka/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$35.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=W9o6F_9HnLk"
     },
     {
         "date": "2026-09-14",
         "artist": "Marlon Magn\u00e9e (of La Femme)",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Marlon+Magnee+Live"
+        "url": "https://thegreathall.ca/event/marlon-magnee/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$30.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Z7n4Xn_7M8Q"
     },
     {
-        "date": "2026-09-15",
-        "artist": "The Australian Pink Floyd Show: The Happiest Days Of Our Lives",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Australian+Pink+Floyd+Show+Live"
-    },
-    {
-        "date": "2026-09-15",
-        "artist": "Sam Greenfield",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Sam+Greenfield+Live"
-    },
-    {
-        "date": "2026-09-16",
-        "artist": "Aldous Harding",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Aldous+Harding+Live"
+        "date": "2026-09-17",
+        "artist": "Hulvey",
+        "url": "https://thephoenixconcerttheatre.com/events/event/hulvey/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$56.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=Hulvey_sample"
     },
     {
         "date": "2026-09-18",
         "artist": "Altin G\u00fcn - AMERICA TOUR 2026",
-        "url": "https://www.thedanforth.com/",
+        "url": "https://www.ticketmaster.ca/event/1000617BB2G78I9J",
         "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Altin+Gun+Live"
-    },
-    {
-        "date": "2026-09-19",
-        "artist": "Ultra Sunn",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$25.00",
+        "price": "From $40.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ultra+Sunn+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=8vS6J_2wAKj"
+    },
+    {
+        "date": "2026-09-18",
+        "artist": "CABARET VOLTAIRE",
+        "url": "https://thephoenixconcerttheatre.com/events/event/cabaret-voltaire/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "TBD",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=CabVol_sample"
     },
     {
         "date": "2026-09-19",
-        "artist": "Kamelot",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Kamelot+Live"
+        "artist": "Juanes",
+        "url": "https://masseyhall.mhrth.com/tickets/juanes/",
+        "venue": "Massey Hall",
+        "price": "$108.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=k9pS05-8-0U"
     },
     {
-        "date": "2026-09-20",
-        "artist": "The Charlatans UK North American Tour 2026",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Charlatans+UK+Live"
+        "date": "2026-09-19",
+        "artist": "KAMELOT",
+        "url": "https://thephoenixconcerttheatre.com/events/event/kamelot/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$77.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Vf8z1u5q0i8"
     },
     {
         "date": "2026-09-20",
         "artist": "Liu Shuang \u2013 \u201cXuzhang (\u5e8f\u7ae0)\u201d",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/liu-shuang-xuzhang",
         "venue": "Lee's Palace",
-        "price": "TBD",
+        "price": "Check Site",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Liu+Shuang+\u2013+\u201cXuzhang+(\u5e8f\u7ae0)\u201d+Live"
-    },
-    {
-        "date": "2026-09-20",
-        "artist": "EMMA HARNER",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$TBD advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=EMMA+HARNER+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=hZ8iX8j6h0"
     },
     {
         "date": "2026-09-22",
         "artist": "Hammerfall",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
+        "url": "https://thephoenixconcerttheatre.com/events/event/hammerfall/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Hammerfall+Live"
-    },
-    {
-        "date": "2026-09-24",
-        "artist": "Nation of Language",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Nation+of+Language+Live"
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Hammerfall_sample"
     },
     {
         "date": "2026-09-25",
-        "artist": "When Chai Met Toast",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$52",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=When+Chai+Met+Toast+Live"
-    },
-    {
-        "date": "2026-09-26",
-        "artist": "Public Image Ltd: This Is Not The Last Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Public+Image+Ltd+Live"
-    },
-    {
-        "date": "2026-09-27",
-        "artist": "The White Buffalo",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$35.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+White+Buffalo+Live"
+        "artist": "Ludovico Einaudi",
+        "url": "https://masseyhall.mhrth.com/tickets/ludovico-einaudi/",
+        "venue": "Massey Hall",
+        "price": "$120.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=k-D8eP_O1lI"
     },
     {
         "date": "2026-09-29",
-        "artist": "UNSANE",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Unsane",
+        "url": "https://www.ticketweb.ca/event/unsane-the-garrison-tickets/14453120",
         "venue": "The Garrison",
         "price": "$29.50 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=UNSANE+Live"
-    },
-    {
-        "date": "2026-09-30",
-        "artist": "SUB URBAN",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$35.14 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=SUB+URBAN+Live"
-    },
-    {
-        "date": "2026-10-01",
-        "artist": "Slayyyter - WOR$T GIRL IN THE WORLD TOUR",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Slayyyter+Live"
-    },
-    {
-        "date": "2026-10-01",
-        "artist": "The Zolas",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$34.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Zolas+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=UnsaneScrape"
     },
     {
         "date": "2026-10-01",
         "artist": "Ghostly Kisses",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ghostly+Kisses+Live"
+        "url": "https://thegreathall.ca/event/ghostly-kisses/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$35.75",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Vl0Xv9i2R6M"
     },
     {
         "date": "2026-10-03",
-        "artist": "Two Door Cinema Club",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Two+Door+Cinema+Club+Live"
+        "artist": "Raffi",
+        "url": "https://masseyhall.mhrth.com/tickets/raffi/",
+        "venue": "Massey Hall",
+        "price": "$50.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=OnyO0Fp99Z8"
     },
     {
         "date": "2026-10-03",
         "artist": "Toronto Blues Fest Founders Night",
-        "url": "https://elmocambo.com/events-new/",
+        "url": "https://elmocambo.com/event/toronto-blues-fest-founders-night/",
         "venue": "El Mocambo",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Toronto+Blues+Fest+Founders+Night+Live"
+        "price": "$56 - $84",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=fW7yS_uS7n0"
     },
     {
         "date": "2026-10-04",
         "artist": "The Highstool Prophets",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/the-highstool-prophets",
         "venue": "Horseshoe Tavern",
         "price": "$55.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Highstool+Prophets+Live"
-    },
-    {
-        "date": "2026-10-04",
-        "artist": "Nervy",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Nervy+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
         "date": "2026-10-05",
         "artist": "Jessie Ware",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/jessie-ware/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$255.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Jessie+Ware+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=W-L_pYhN0M0"
     },
     {
-        "date": "2026-10-06",
-        "artist": "Jessie Ware",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$62.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Jessie+Ware+Live"
+        "date": "2026-10-08",
+        "artist": "Bahamas",
+        "url": "https://masseyhall.mhrth.com/tickets/bahamas/",
+        "venue": "Massey Hall",
+        "price": "$60.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=779A-oX8ZgU"
     },
     {
-        "date": "2026-10-06",
-        "artist": "Hayden Pedigo",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Hayden+Pedigo+Live"
-    },
-    {
-        "date": "2026-10-07",
-        "artist": "Armand Hammer",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$29.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Armand+Hammer+Live"
-    },
-    {
-        "date": "2026-10-09",
-        "artist": "Wesley Jospeh",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$20.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Wesley+Jospeh+Live"
-    },
-    {
-        "date": "2026-10-10",
-        "artist": "Slift",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$30.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Slift+Live"
-    },
-    {
-        "date": "2026-10-16",
-        "artist": "Shitkid",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Shitkid+Live"
+        "date": "2026-10-14",
+        "artist": "Beck",
+        "url": "https://masseyhall.mhrth.com/tickets/beck/",
+        "venue": "Massey Hall",
+        "price": "$105.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=0h6vXp_QfLw"
     },
     {
         "date": "2026-10-17",
-        "artist": "Buena Vista Orchestra",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Buena+Vista+Orchestra+Live"
+        "artist": "Bruce Cockburn",
+        "url": "https://masseyhall.mhrth.com/tickets/bruce-cockburn/",
+        "venue": "Massey Hall",
+        "price": "$80.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=WhS1Cun-Bcw"
     },
     {
-        "date": "2026-10-19",
-        "artist": "Friko",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
+        "date": "2026-10-24",
+        "artist": "Parabolus \u2013 Complete Tool Experience",
+        "url": "https://thephoenixconcerttheatre.com/events/event/parabolus-complete-tool-experience/",
+        "venue": "Phoenix Concert Theatre",
         "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Friko+Live"
-    },
-    {
-        "date": "2026-10-25",
-        "artist": "Here's John Bishop",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=John+Bishop+Live"
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Parabolus_sample"
     },
     {
         "date": "2026-10-27",
         "artist": "The Limi\u00f1anas",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/the-liminanas",
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Limi\u00f1anas+Live"
-    },
-    {
-        "date": "2026-10-28",
-        "artist": "The Story So Far",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$82.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Story+So+Far+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=FOZbp365qgi"
     },
     {
         "date": "2026-10-31",
         "artist": "Loreena McKennitt",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/loreena-mckennitt/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$90.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Loreena+McKennitt+Live"
-    },
-    {
-        "date": "2026-10-31",
-        "artist": "Blue October: Foiled 20th Anniversary World Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Blue+October+Live"
-    },
-    {
-        "date": "2026-10-31",
-        "artist": "Grateful Shred",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$59",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Grateful+Shred+Live"
-    },
-    {
-        "date": "2026-11-01",
-        "artist": "Loreena McKennitt",
-        "url": "https://masseyhall.mhrth.com/tickets/",
-        "venue": "Massey Hall",
-        "price": "TBD",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Loreena+McKennitt+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=L9X_msAs2vE"
     },
     {
         "date": "2026-11-03",
-        "artist": "TEEN JESUS AND THE JEAN TEASERS",
-        "url": "http://www.garrisontoronto.com/",
+        "artist": "Teen Jesus and the Jean Teasers",
+        "url": "https://www.ticketweb.ca/event/teen-jesus-and-the-jean-the-garrison-tickets/14603125",
         "venue": "The Garrison",
         "price": "$35.03 advance",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=TEEN+JESUS+AND+THE+JEAN+TEASERS+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=GirlSports"
     },
     {
         "date": "2026-11-04",
-        "artist": "THE EAST POINTERS",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=THE+EAST+POINTERS+Live"
-    },
-    {
-        "date": "2026-11-05",
-        "artist": "Geoff Tate's Operation: Mindcrime - The Final Chapter",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Geoff+Tate+Live"
+        "artist": "The East Pointers",
+        "url": "https://thegreathall.ca/event/the-east-pointers/",
+        "venue": "The Great Hall (Main Hall)",
+        "price": "$45.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=W9o6F_9HnLk"
     },
     {
         "date": "2026-11-06",
-        "artist": "MODO-LIVE, I am the Eggplant, Programme present... Red Leather - TAHOE TOUR",
-        "url": "https://horseshoetavern.com/",
+        "artist": "Red Leather - TAHOE TOUR",
+        "url": "https://horseshoetavern.com/events/red-leather",
         "venue": "Horseshoe Tavern",
         "price": "$32.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=MODO-LIVE,+I+am+the+Eggplant,+Programme+present...+Red+Leather+-+TAHOE+TOUR+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
-        "date": "2026-11-06",
-        "artist": "Diles Que No Me Maten",
-        "url": "https://www.leespalace.com/",
-        "venue": "Dance Cave",
-        "price": "$20.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Diles+Que+No+Me+Maten+Live"
-    },
-    {
-        "date": "2026-11-09",
-        "artist": "Die Spitz",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Die+Spitz+Live"
-    },
-    {
-        "date": "2026-11-09",
-        "artist": "Weatherday",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Weatherday+Live"
-    },
-    {
-        "date": "2026-11-10",
-        "artist": "Donny Ben\u00e9t",
-        "url": "https://theoperahousetoronto.com/events/",
-        "venue": "The Opera House",
-        "price": "$41",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Donny+Ben%C3%A9t+Live"
+        "date": "2026-11-07",
+        "artist": "Olafur Arnalds",
+        "url": "https://masseyhall.mhrth.com/tickets/olafur-arnalds/",
+        "venue": "Massey Hall",
+        "price": "$85.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=rl92Y_YAsT8"
     },
     {
         "date": "2026-11-11",
         "artist": "WEST 22nd",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/west-22nd",
         "venue": "Horseshoe Tavern",
         "price": "$27.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=WEST+22nd+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=vVvVvVvVvVv"
     },
     {
-        "date": "2026-11-11",
-        "artist": "THE BENDS",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$24.00 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=THE+BENDS+Live"
-    },
-    {
-        "date": "2026-11-12",
-        "artist": "Classic Albums Live: Led Zeppelin II",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "date": "2026-11-13",
+        "artist": "Stuff You Should Know",
+        "url": "https://masseyhall.mhrth.com/tickets/stuff-you-should-know/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$45.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+Live"
-    },
-    {
-        "date": "2026-11-12",
-        "artist": "Godfrey",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Godfrey+Live"
-    },
-    {
-        "date": "2026-11-13",
-        "artist": "Bassem Youssef",
-        "url": "https://masseyhall.mhrth.com/tickets/",
-        "venue": "Massey Hall",
-        "price": "TBD",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bassem+Youssef+Live"
-    },
-    {
-        "date": "2026-11-13",
-        "artist": "Laura Ramoso: The Calm Down Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Laura+Ramoso+Live"
-    },
-    {
-        "date": "2026-11-13",
-        "artist": "Godfrey",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Godfrey+Live"
-    },
-    {
-        "date": "2026-11-14",
-        "artist": "Aries Spears With Special Guests",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Aries+Spears+Live"
-    },
-    {
-        "date": "2026-11-19",
-        "artist": "MAMA'S GUN",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$25.00 advance",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=MAMA'S+GUN+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=HW-lV_LAn00"
     },
     {
         "date": "2026-11-20",
         "artist": "Daniel Sloss",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "url": "https://masseyhall.mhrth.com/tickets/daniel-sloss/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$65.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Daniel+Sloss+Live"
-    },
-    {
-        "date": "2026-11-21",
-        "artist": "The Lightfoot Band",
-        "url": "https://masseyhall.mhrth.com/tickets/",
-        "venue": "Massey Hall",
-        "price": "TBD",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Lightfoot+Band+Live"
-    },
-    {
-        "date": "2026-11-27",
-        "artist": "Womens Blues Revue",
-        "url": "https://masseyhall.mhrth.com/tickets/",
-        "venue": "Massey Hall",
-        "price": "TBD",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Womens+Blues+Revue+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=HW-lV_LAn00"
     },
     {
         "date": "2026-11-27",
         "artist": "Temples",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/temples",
         "venue": "Lee's Palace",
         "price": "$32.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Temples+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=iZ8iX8j6i0"
     },
     {
         "date": "2026-11-28",
         "artist": "Tommy Youngsteen- Bruce Springsteen's \"Born to Run\"",
-        "url": "https://horseshoetavern.com/",
+        "url": "https://horseshoetavern.com/events/tommy-youngsteen-bruce-springsteens-born-to-run",
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Tommy+Youngsteen-+Bruce+Springsteen's+\"Born+to+Run\"+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=EzCFQVeXN"
     },
     {
         "date": "2026-12-06",
         "artist": "Bedouine",
-        "url": "https://thegreathall.ca/calendar/",
-        "venue": "The Great Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bedouine+Live"
+        "url": "https://thegreathall.ca/event/bedouine/",
+        "venue": "The Great Hall (Longboat Hall)",
+        "price": "$35.19",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=W-L0u_8W-Y8"
     },
     {
-        "date": "2026-12-12",
-        "artist": "Wolf Parade",
-        "url": "https://www.historytoronto.com/events",
-        "venue": "History",
-        "price": "$50.00+",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Wolf+Parade+Live"
-    },
-    {
-        "date": "2027-01-22",
-        "artist": "Classic Albums Live: Steely Dan - Greatest Hits",
-        "url": "https://masseyhall.mhrth.com/tickets/",
+        "date": "2026-12-18",
+        "artist": "The Barra MacNeils",
+        "url": "https://masseyhall.mhrth.com/tickets/the-barra-macneils/",
         "venue": "Massey Hall",
-        "price": "TBD",
+        "price": "$54.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+Live"
-    },
-    {
-        "date": "2027-01-29",
-        "artist": "The Musical Box: \"...and then there was...PHIL\"",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Musical+Box+Live"
-    },
-    {
-        "date": "2027-02-03",
-        "artist": "FRENCH 79: CLOSE TO THE GIANTS TOUR",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=French+79+Live"
-    },
-    {
-        "date": "2027-02-20",
-        "artist": "Classic Albums Live: Saturday Night Fever OST",
-        "url": "https://masseyhall.mhrth.com/tickets/",
-        "venue": "Massey Hall",
-        "price": "TBD",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+Live"
-    },
-    {
-        "date": "2027-03-11",
-        "artist": "Classic Albums Live: U2 - Achtung Baby",
-        "url": "https://masseyhall.mhrth.com/tickets/",
-        "venue": "Massey Hall",
-        "price": "TBD",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+Live"
-    },
-    {
-        "date": "2027-03-23",
-        "artist": "Dynalectric Orchestra",
-        "url": "https://thephoenixconcerttheatre.com/events/",
-        "venue": "The Phoenix Concert Theatre",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Dynalectric+Orchestra+Live"
-    },
-    {
-        "date": "2027-04-21",
-        "artist": "Foy Vance - The Wake World Tour",
-        "url": "https://www.thedanforth.com/",
-        "venue": "The Danforth Music Hall",
-        "price": "TBD",
-        "age": "TBD",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Foy+Vance+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=L9X_msAs2vE"
     }
 ]
