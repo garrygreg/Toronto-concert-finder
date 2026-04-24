@@ -13,6 +13,9 @@ client = genai.Client(api_key=api_key)
 today = datetime.date.today()
 next_year = today + datetime.timedelta(days=364)
 
+# List of banned domains to ensure we never point to ticketing sites
+BANNED_DOMAINS = ["ticketmaster", "livenation", "eventbrite", "dice.fm", "showpass", "universe.com", "ticketweb"]
+
 listing_pages = [
     "https://masseyhall.mhrth.com/tickets/",
     "https://www.historytoronto.com/events",
@@ -27,41 +30,42 @@ listing_pages = [
 ]
 
 def scrape_single_venue(url):
-    """Deep-link extraction for a single venue using Gemini 3."""
-    # We add a specific 'Context' instruction to stop it from using the main URL
+    """Link-Auditor extraction for a single venue using Gemini 3."""
+    # We define the 'Official Domain' for the specific venue to help the model stay on-track
+    domain_match = re.search(r'https?://(?:www\.)?([^/]+)', url)
+    official_domain = domain_match.group(1) if domain_match else ""
+
     prompt = f"""
-    Visit this specific Toronto venue page: {url}
+    Visit this Toronto venue page: {url}
     
-    TASK: 
-    1. Identify every individual concert listing on this page.
-    2. For EACH listing, you MUST find the unique URL that leads to that specific artist's event detail page. 
-    3. This is usually the link attached to the 'Tickets', 'More Info', 'Buy', or the Artist's Name itself.
+    TASK: Extract all upcoming concerts from {today} to {next_year}.
     
-    STRICT URL EXTRACTION RULES:
-    - NEVER use the main listing URL ({url}) as the 'url' for an artist.
-    - If the page uses a pop-up or doesn't have a deep link, use Google Search to find the official event page on the venue's domain.
-    - Example of a GOOD link: 'https://masseyhall.mhrth.com/tickets/waxahatchee-mj-lenderman/'
-    - Example of a BAD link: '{url}'
+    LINK AUDIT RULES (CRITICAL):
+    1. EVERY 'url' MUST BE ON THE DOMAIN: {official_domain}
+    2. LOOK DEEPER: Do not just take the 'Buy Tickets' link. Look for the link attached to the Artist's Name or a 'More Info' / 'About' button.
+    3. FORBIDDEN LINKS: If a link contains 'ticketmaster', 'livenation', 'eventbrite', 'dice.fm', or 'showpass', it is DISCARDED.
+    4. FALLBACK LOGIC: If a deep link on {official_domain} is not found, use the main listing URL: {url}
     
-    Return a raw JSON array of objects with: 
-    "date" (YYYY-MM-DD), "artist", "url" (the deep link), "venue", "price", "age", "youtube_sample".
+    Required Fields:
+    - "date" (YYYY-MM-DD)
+    - "artist" (Full name)
+    - "url" (The deep link on {official_domain} ONLY)
+    - "venue", "price", "age", "youtube_sample"
+    
+    Return a raw JSON array.
     """
     
     response = client.models.generate_content(
         model="gemini-3-flash-preview", 
         contents=prompt,
         config=types.GenerateContentConfig(
-            tools=[
-                types.Tool(url_context=types.UrlContext()),
-                types.Tool(google_search=types.GoogleSearch())
-            ],
-            # We add thinking_config back in for ONE venue at a time to ensure deep-link precision
+            tools=[types.Tool(url_context=types.UrlContext()), types.Tool(google_search=types.GoogleSearch())],
             thinking_config={'include_thoughts': True}
         )
     )
     return response.text
 
-# 2. Main Execution Loop (Unchanged from previous successful logic)
+# 2. Main Execution Loop
 all_concerts = []
 
 for url in listing_pages:
@@ -71,28 +75,31 @@ for url in listing_pages:
     
     while not success and attempt < max_retries:
         try:
-            print(f"Deep-Scanning: {url}...")
+            print(f"Auditing Links for: {url}...")
             raw_output = scrape_single_venue(url)
             
             json_match = re.search(r'\[.*\]', raw_output, re.DOTALL)
             if json_match:
                 venue_data = json.loads(json_match.group(0))
-                # Final check: filter out any entries that accidentally used the main URL
+                
+                # --- POST-EXTRACTION DOMAIN LOCKDOWN ---
+                # This ensures we catch any hallucinations or leaks before they hit the site
                 for entry in venue_data:
-                    if entry['url'].strip('/') == url.strip('/'):
-                        # If it failed to find a deep link, we don't want it.
-                        entry['url'] = "SEARCHING..." 
+                    is_banned = any(banned in entry['url'].lower() for banned in BANNED_DOMAINS)
+                    if is_banned:
+                        # Replace the Ticketmaster link with the venue listing page
+                        entry['url'] = url 
                 
                 all_concerts.extend(venue_data)
                 success = True
-                print(f"   Success! Extracted {len(venue_data)} deep links.")
+                print(f"   Done. Found {len(venue_data)} events.")
             else:
                 attempt += 1
-                time.sleep(5)
+                time.sleep(10)
 
         except Exception as e:
             if "503" in str(e):
-                time.sleep(20)
+                time.sleep(30)
                 attempt += 1
             else:
                 print(f"   Skipping {url}: {e}")
@@ -100,7 +107,7 @@ for url in listing_pages:
 
 # 3. Save Final Results
 if all_concerts:
-    # Sort and Clean
+    # Sort and Deduplicate
     unique_concerts = []
     seen = set()
     for c in all_concerts:
@@ -113,6 +120,6 @@ if all_concerts:
 
     with open("concerts.json", "w") as f:
         json.dump(unique_concerts, f, indent=4)
-    print(f"\n--- DEEP SCRAPE COMPLETE: {len(unique_concerts)} Events ---")
+    print(f"\n--- SCRAPE COMPLETE ---")
 else:
     exit(1)
