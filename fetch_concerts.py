@@ -13,7 +13,6 @@ client = genai.Client(api_key=api_key)
 today = datetime.date.today()
 next_year = today + datetime.timedelta(days=364)
 
-# THE SOURCE OF TRUTH: listing one per line makes it easy to add more later
 listing_pages = [
     "https://masseyhall.mhrth.com/tickets/",
     "https://www.historytoronto.com/events",
@@ -28,25 +27,24 @@ listing_pages = [
 ]
 
 def scrape_single_venue(url):
-    """Surgical extraction for a single venue using Gemini 3."""
+    """Deep-link extraction for a single venue using Gemini 3."""
+    # We add a specific 'Context' instruction to stop it from using the main URL
     prompt = f"""
     Visit this specific Toronto venue page: {url}
     
-    EXTRACT all upcoming concert data from {today} to {next_year}.
+    TASK: 
+    1. Identify every individual concert listing on this page.
+    2. For EACH listing, you MUST find the unique URL that leads to that specific artist's event detail page. 
+    3. This is usually the link attached to the 'Tickets', 'More Info', 'Buy', or the Artist's Name itself.
     
-    Required Fields:
-    - "date" (YYYY-MM-DD)
-    - "artist" (Full name)
-    - "url" (The EXACT 'More Info' or 'Ticket' link found on the page. NO guessing.)
-    - "venue" (The name of the venue)
-    - "price" (The price listed, or 'TBD')
-    - "age" (e.g., '19+', 'All Ages')
-    - "youtube_sample" (Search link: https://www.youtube.com/results?search_query=[Artist]+Live)
-
-    STRICT RULES:
-    1. EXTRACT REAL LINKS: Only provide URLs that actually exist as links on the page.
-    2. NO PATTERN GUESSING: If you cannot find a deep link to an individual event, use the main URL: {url}
-    3. Return ONLY a raw JSON array.
+    STRICT URL EXTRACTION RULES:
+    - NEVER use the main listing URL ({url}) as the 'url' for an artist.
+    - If the page uses a pop-up or doesn't have a deep link, use Google Search to find the official event page on the venue's domain.
+    - Example of a GOOD link: 'https://masseyhall.mhrth.com/tickets/waxahatchee-mj-lenderman/'
+    - Example of a BAD link: '{url}'
+    
+    Return a raw JSON array of objects with: 
+    "date" (YYYY-MM-DD), "artist", "url" (the deep link), "venue", "price", "age", "youtube_sample".
     """
     
     response = client.models.generate_content(
@@ -56,12 +54,14 @@ def scrape_single_venue(url):
             tools=[
                 types.Tool(url_context=types.UrlContext()),
                 types.Tool(google_search=types.GoogleSearch())
-            ]
+            ],
+            # We add thinking_config back in for ONE venue at a time to ensure deep-link precision
+            thinking_config={'include_thoughts': True}
         )
     )
     return response.text
 
-# 2. Main Execution Loop
+# 2. Main Execution Loop (Unchanged from previous successful logic)
 all_concerts = []
 
 for url in listing_pages:
@@ -71,51 +71,48 @@ for url in listing_pages:
     
     while not success and attempt < max_retries:
         try:
-            print(f"Processing: {url}...")
+            print(f"Deep-Scanning: {url}...")
             raw_output = scrape_single_venue(url)
             
-            # Extract JSON array
             json_match = re.search(r'\[.*\]', raw_output, re.DOTALL)
             if json_match:
                 venue_data = json.loads(json_match.group(0))
+                # Final check: filter out any entries that accidentally used the main URL
+                for entry in venue_data:
+                    if entry['url'].strip('/') == url.strip('/'):
+                        # If it failed to find a deep link, we don't want it.
+                        entry['url'] = "SEARCHING..." 
+                
                 all_concerts.extend(venue_data)
                 success = True
-                print(f"   Success! Found {len(venue_data)} events.")
+                print(f"   Success! Extracted {len(venue_data)} deep links.")
             else:
-                print(f"   Error: No JSON found for this venue. (Attempt {attempt+1})")
                 attempt += 1
                 time.sleep(5)
 
         except Exception as e:
-            if "503" in str(e) or "high demand" in str(e).lower():
-                wait_time = (attempt + 1) * 20
-                print(f"   Server Busy (503). Waiting {wait_time}s... (Attempt {attempt+1}/{max_retries})")
-                time.sleep(wait_time)
+            if "503" in str(e):
+                time.sleep(20)
                 attempt += 1
             else:
-                print(f"   Skipping {url} due to error: {e}")
+                print(f"   Skipping {url}: {e}")
                 break
 
-# 3. Final Data Cleanup & Save
+# 3. Save Final Results
 if all_concerts:
-    # Deduplicate entries (just in case)
-    seen = set()
+    # Sort and Clean
     unique_concerts = []
+    seen = set()
     for c in all_concerts:
-        # Create a unique key based on date, artist, and venue
-        key = f"{c.get('date')}-{c.get('artist')}-{c.get('venue')}"
+        key = f"{c.get('date')}-{c.get('artist')}"
         if key not in seen:
             unique_concerts.append(c)
             seen.add(key)
-
-    # Sort by date for the website
+    
     unique_concerts.sort(key=lambda x: x.get('date', '9999-99-99'))
 
     with open("concerts.json", "w") as f:
         json.dump(unique_concerts, f, indent=4)
-    
-    print(f"\n--- SUCCESS ---")
-    print(f"Total Unique Events Saved: {len(unique_concerts)}")
+    print(f"\n--- DEEP SCRAPE COMPLETE: {len(unique_concerts)} Events ---")
 else:
-    print("No data collected. Check Action logs for errors.")
     exit(1)
