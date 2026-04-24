@@ -18,35 +18,32 @@ venues = [
     "El Mocambo", "The Garrison", "The Great Hall"
 ]
 
-# The mapping MUST stay to provide the "Source of Truth" domains
+# Updated Venue Mapping with specific 2026 "Deep Link" paths
 venue_map = """
-- Massey Hall: https://masseyhall.mhrth.com/performances/
+- Massey Hall: https://masseyhall.mhrth.com/tickets/
 - Horseshoe Tavern: https://horseshoetavern.com/event/
-- Lee's Palace: https://www.leespalace.com/events/detail/
-- History Toronto: https://www.historytoronto.com/events/detail/
-- Phoenix Concert Theatre: https://thephoenixconcerttheatre.com/events/
-- The Danforth Music Hall: https://www.thedanforth.com/events/detail/
-- The Opera House: https://www.theoperahousetoronto.com/events/detail/
+- Lee's Palace: https://www.leespalace.com/event/
+- History Toronto: https://www.ticketmaster.ca/ (History uses Ticketmaster for deep links)
+- Phoenix Concert Theatre: https://thephoenixconcerttheatre.com/events/event/
+- The Danforth Music Hall: https://www.ticketmaster.ca/ (Danforth uses Ticketmaster for deep links)
+- The Opera House: https://www.ticketmaster.ca/ (Opera House uses Ticketmaster for deep links)
 - El Mocambo: https://elmocambo.com/
 - The Garrison: http://www.garrisontoronto.com/event/
 - The Great Hall: https://thegreathall.ca/event/
 """
 
 prompt = f"""
-Using Google Search, find unique event details for upcoming concerts at these Toronto venues using the provided Base URLs as your source:
+Using Google Search, find the specific "Deep Link" for every individual concert at these venues:
 {venue_map}
 
-Return a JSON array of objects with these keys: 
-"date" (YYYY-MM-DD), "artist", "url", "venue", "price", "age", "youtube_sample".
+Return a JSON array with: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
 
-STRICT RULES FOR APRIL 2026:
-1. DEEP LINKS: The "url" field MUST be the direct link to the individual show page using the paths provided in the map (e.g., /events/detail/[slug] or /event/[slug]). 
-2. DO NOT link to the general calendar if a specific show page exists.
-3. YOUTUBE SAMPLES: Every entry must have a search link. 
-   Format: https://www.youtube.com/results?search_query=Artist+Name+Live
-   (Replace all spaces with '+' signs).
-4. FALLBACK: If a deep link is absolutely not found, use the venue's Base URL from the map above. Never leave it blank.
-5. NO HALLUCINATIONS: Use only the domains provided in the venue_map.
+STRICT URL RULES FOR 2026:
+1. MASSEY HALL: Links MUST follow the pattern https://masseyhall.mhrth.com/tickets/[artist-slug]
+2. PHOENIX: Links MUST follow the pattern https://thephoenixconcerttheatre.com/events/event/[artist-slug]
+3. HORSESHOE/LEE'S/GARRISON: Use the singular /event/ path (e.g., /event/artist-name).
+4. THE "BIG THREE" (History, Danforth, Opera House): These venues use Ticketmaster for individual show pages. For these three venues ONLY, you MUST provide the direct Ticketmaster.ca event link.
+5. NO REDIRECTS: Avoid linking to /events or /calendar. Search specifically for the "Ticket" or "Show" page for the artist.
 """
 
 try:
