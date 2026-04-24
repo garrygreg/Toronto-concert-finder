@@ -2,11 +2,11 @@
   {
     "date": "2026-04-24",
     "time": "7:00 PM",
-    "artist": "Allie X",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
+    "artist": "Daya",
+    "price": "$8",
+    "venue": "The Garrison",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Allie+X+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Daya+playing+live+after%3A2024"
   },
   {
     "date": "2026-04-24",
@@ -19,48 +19,21 @@
   },
   {
     "date": "2026-04-24",
-    "time": "7:00 PM",
-    "artist": "UADA / MORTIIS",
-    "price": "$30.00",
-    "venue": "Lee's Palace",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=UADA+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-04-24",
-    "time": "8:30 PM",
-    "artist": "Tommy Youngsteen - The Band",
-    "price": "$25.00",
-    "venue": "Horseshoe Tavern",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Tommy+Youngsteen+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-04-24",
-    "time": "7:00 PM",
-    "artist": "Daya",
-    "price": "TBD",
-    "venue": "The Garrison",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Daya+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-04-24",
-    "time": "6:00 PM",
-    "artist": "Joyce Manor / Militarie Gun / Teen Mortgage / Combat",
+    "time": "TBD",
+    "artist": "Joyce Manor / Militarie Gun",
     "price": "TBD",
     "venue": "The Danforth Music Hall",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Joyce+Manor+playing+live+after%3A2024"
   },
   {
-    "date": "2026-04-25",
-    "time": "8:00 PM",
-    "artist": "Waxahatchee / MJ Lenderman",
-    "price": "$94.45",
-    "venue": "Massey Hall",
+    "date": "2026-04-24",
+    "time": "TBD",
+    "artist": "UADA / MORTIIS",
+    "price": "TBD",
+    "venue": "Lee's Palace",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Waxahatchee+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=UADA+playing+live+after%3A2024"
   },
   {
     "date": "2026-04-25",
@@ -73,39 +46,30 @@
   },
   {
     "date": "2026-04-25",
-    "time": "7:30 PM",
-    "artist": "Sina Bathaie",
+    "time": "TBD",
+    "artist": "Totally 2000's Video Dance Party",
     "price": "TBD",
-    "venue": "The Danforth Music Hall",
+    "venue": "Phoenix Concert Theatre",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Sina+Bathaie+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Totally+2000's+Video+Dance+Party+playing+live+after%3A2024"
   },
   {
     "date": "2026-04-25",
-    "time": "9:00 PM",
-    "artist": "Rockabilly Spring Social - Bad Fortunes / The Howlin' Hound Dogs / The Calrizian's",
-    "price": "$15.00",
-    "venue": "Horseshoe Tavern",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Bad+Fortunes+playing+live+after%3A2024"
+    "time": "TBD",
+    "artist": "Wing Night (The Band)",
+    "price": "TBD",
+    "venue": "The Opera House",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Wing+Night+The+Band+playing+live+after%3A2024"
   },
   {
     "date": "2026-04-25",
-    "time": "7:30 PM",
-    "artist": "Bo Steezy",
+    "time": "TBD",
+    "artist": "Bo Steezy / Morgan Wallen Tribute UK",
     "price": "TBD",
     "venue": "El Mocambo",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Bo+Steezy+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-04-25",
-    "time": "8:00 PM",
-    "artist": "Morgan Wallen Tribute UK",
-    "price": "TBD",
-    "venue": "El Mocambo",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Morgan+Wallen+Tribute+UK+playing+live+after%3A2024"
   },
   {
     "date": "2026-04-26",
@@ -118,12 +82,21 @@
   },
   {
     "date": "2026-04-26",
-    "time": "7:00 PM",
+    "time": "TBD",
     "artist": "Master Boot Record",
-    "price": "$26.50",
+    "price": "TBD",
     "venue": "Lee's Palace",
-    "age": "19+",
+    "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Master+Boot+Record+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-04-26",
+    "time": "7:00 PM",
+    "artist": "MGNA Crrrta",
+    "price": "$44",
+    "venue": "The Great Hall",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=MGNA+Crrrta+playing+live+after%3A2024"
   },
   {
     "date": "2026-04-27",
@@ -138,7 +111,7 @@
     "date": "2026-04-27",
     "time": "7:00 PM",
     "artist": "Gelli Haha",
-    "price": "TBD",
+    "price": "$38",
     "venue": "The Garrison",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Gelli+Haha+playing+live+after%3A2024"
@@ -155,11 +128,20 @@
   {
     "date": "2026-04-28",
     "time": "7:00 PM",
-    "artist": "St. Paul & the Broken Bones",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
+    "artist": "Slomosa",
+    "price": "$68",
+    "venue": "The Garrison",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=St.+Paul+and+the+Broken+Bones+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Slomosa+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-04-28",
+    "time": "TBD",
+    "artist": "Clan of Xymox / Cold Cave",
+    "price": "TBD",
+    "venue": "Phoenix Concert Theatre",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Clan+of+Xymox+playing+live+after%3A2024"
   },
   {
     "date": "2026-04-28",
@@ -171,17 +153,8 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Drug+Church+playing+live+after%3A2024"
   },
   {
-    "date": "2026-04-28",
-    "time": "7:00 PM",
-    "artist": "Slomosa",
-    "price": "TBD",
-    "venue": "The Garrison",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Slomosa+playing+live+after%3A2024"
-  },
-  {
     "date": "2026-04-29",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Calum Scott",
     "price": "TBD",
     "venue": "Massey Hall",
@@ -190,43 +163,25 @@
   },
   {
     "date": "2026-04-29",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Steve Poltz",
-    "price": "$28.00",
+    "price": "$83",
     "venue": "Horseshoe Tavern",
-    "age": "19+",
+    "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Steve+Poltz+playing+live+after%3A2024"
   },
   {
     "date": "2026-04-29",
     "time": "8:00 PM",
-    "artist": "The Casualties",
+    "artist": "The Casualties / The Drowns",
     "price": "TBD",
     "venue": "The Garrison",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=The+Casualties+playing+live+after%3A2024"
   },
   {
-    "date": "2026-04-29",
-    "time": "8:00 PM",
-    "artist": "Front Line Assembly",
-    "price": "$32.50",
-    "venue": "Lee's Palace",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Front+Line+Assembly+playing+live+after%3A2024"
-  },
-  {
     "date": "2026-04-30",
-    "time": "8:00 PM",
-    "artist": "Mo Lowda & The Humble",
-    "price": "$56.00",
-    "venue": "Lee's Palace",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Mo+Lowda+and+The+Humble+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-04-30",
-    "time": "6:00 PM",
+    "time": "TBD",
     "artist": "Archspire",
     "price": "TBD",
     "venue": "Phoenix Concert Theatre",
@@ -235,7 +190,7 @@
   },
   {
     "date": "2026-04-30",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Unprocessed",
     "price": "TBD",
     "venue": "The Opera House",
@@ -244,52 +199,34 @@
   },
   {
     "date": "2026-04-30",
-    "time": "7:00 PM",
+    "time": "TBD",
     "artist": "Everything 80's Party",
-    "price": "$35.00",
+    "price": "$35",
     "venue": "El Mocambo",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Everything+80s+Party+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Everything+80's+Party+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-01",
-    "time": "8:00 PM",
-    "artist": "COBRAH",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=COBRAH+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-01",
-    "time": "7:00 PM",
-    "artist": "Outer Space 2026",
-    "price": "$30.00",
-    "venue": "Lee's Palace",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Outer+Space+2026+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-01",
-    "time": "8:00 PM",
-    "artist": "DEAD BOB",
-    "price": "$20.50",
-    "venue": "Horseshoe Tavern",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=DEAD+BOB+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-01",
-    "time": "7:30 PM",
+    "time": "TBD",
     "artist": "KEiiNO",
-    "price": "$60.00",
+    "price": "$60",
     "venue": "El Mocambo",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=KEiiNO+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-02",
-    "time": "8:00 PM",
+    "time": "TBD",
+    "artist": "Biffy Clyro / Raue",
+    "price": "TBD",
+    "venue": "The Danforth Music Hall",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Biffy+Clyro+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-05-02",
+    "time": "TBD",
     "artist": "The Free Label",
     "price": "TBD",
     "venue": "The Opera House",
@@ -298,7 +235,7 @@
   },
   {
     "date": "2026-05-03",
-    "time": "7:00 PM",
+    "time": "TBD",
     "artist": "Elmiene",
     "price": "TBD",
     "venue": "The Opera House",
@@ -306,28 +243,10 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Elmiene+playing+live+after%3A2024"
   },
   {
-    "date": "2026-05-03",
-    "time": "7:00 PM",
-    "artist": "YT",
-    "price": "$37.09",
-    "venue": "Lee's Palace",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=YT+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-04",
-    "time": "7:00 PM",
-    "artist": "NewDad",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=NewDad+playing+live+after%3A2024"
-  },
-  {
     "date": "2026-05-05",
-    "time": "6:30 PM",
+    "time": "TBD",
     "artist": "Corrosion of Conformity / Whores",
-    "price": "$48.47",
+    "price": "TBD",
     "venue": "Phoenix Concert Theatre",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Corrosion+of+Conformity+playing+live+after%3A2024"
@@ -335,20 +254,11 @@
   {
     "date": "2026-05-05",
     "time": "7:00 PM",
-    "artist": "We Walk With Warren",
+    "artist": "WE WALK WITH WARREN / DEPARTURE SHOWCASE",
     "price": "TBD",
     "venue": "El Mocambo",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=We+Walk+With+Warren+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-06",
-    "time": "8:00 PM",
-    "artist": "Choir! Choir! Choir! / Sarah McLachlan",
-    "price": "TBD",
-    "venue": "Massey Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Choir+Choir+Choir+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=WE+WALK+WITH+WARREN+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-06",
@@ -361,30 +271,39 @@
   },
   {
     "date": "2026-05-06",
-    "time": "7:00 PM",
-    "artist": "Yumi Zouma",
-    "price": "$57.00",
-    "venue": "Lee's Palace",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Yumi+Zouma+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-06",
     "time": "8:00 PM",
     "artist": "Logan Staats / Sara Kae",
-    "price": "$25.00",
+    "price": "TBD",
     "venue": "Horseshoe Tavern",
-    "age": "19+",
+    "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Logan+Staats+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-06",
-    "time": "8:00 PM",
-    "artist": "Tommy Genesis",
+    "time": "7:00 PM",
+    "artist": "GLOBAL WARMING (K-Pop)",
     "price": "TBD",
-    "venue": "The Great Hall",
+    "venue": "El Mocambo",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Tommy+Genesis+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=GLOBAL+WARMING+K-Pop+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-05-07",
+    "time": "7:00 PM",
+    "artist": "The Cribs",
+    "price": "$30",
+    "venue": "Lee's Palace",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=The+Cribs+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-05-07",
+    "time": "7:00 PM",
+    "artist": "RJ Pasin",
+    "price": "TBD",
+    "venue": "Horseshoe Tavern",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=RJ+Pasin+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-07",
@@ -396,26 +315,8 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=fakemink+playing+live+after%3A2024"
   },
   {
-    "date": "2026-05-07",
-    "time": "7:00 PM",
-    "artist": "Rj Pasin",
-    "price": "$22.00",
-    "venue": "Horseshoe Tavern",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Rj+Pasin+playing+live+after%3A2024"
-  },
-  {
     "date": "2026-05-08",
-    "time": "7:00 PM",
-    "artist": "Fortune Feimster",
-    "price": "TBD",
-    "venue": "Massey Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Fortune+Feimster+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-08",
-    "time": "7:00 PM",
+    "time": "TBD",
     "artist": "Strung Out",
     "price": "TBD",
     "venue": "The Opera House",
@@ -426,23 +327,23 @@
     "date": "2026-05-08",
     "time": "7:00 PM",
     "artist": "Carol Ades",
-    "price": "$25.00",
+    "price": "$35",
     "venue": "Horseshoe Tavern",
-    "age": "19+",
+    "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Carol+Ades+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-08",
     "time": "7:00 PM",
     "artist": "Katelyn Tarver",
-    "price": "TBD",
+    "price": "$34",
     "venue": "The Garrison",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Katelyn+Tarver+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-09",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Wild Rivers",
     "price": "TBD",
     "venue": "Massey Hall",
@@ -451,7 +352,7 @@
   },
   {
     "date": "2026-05-09",
-    "time": "7:00 PM",
+    "time": "8:00 PM",
     "artist": "HASAN RAHEEM",
     "price": "TBD",
     "venue": "History Toronto",
@@ -460,16 +361,16 @@
   },
   {
     "date": "2026-05-09",
-    "time": "8:30 PM",
-    "artist": "Black Flag",
-    "price": "$39.50",
-    "venue": "Horseshoe Tavern",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Black+Flag+playing+live+after%3A2024"
+    "time": "10:00 PM",
+    "artist": "MGNA Crrrta",
+    "price": "TBD",
+    "venue": "The Great Hall",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=MGNA+Crrrta+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-10",
-    "time": "5:30 PM",
+    "time": "6:30 PM",
     "artist": "The Amity Affliction / August Burns Red",
     "price": "TBD",
     "venue": "History Toronto",
@@ -478,25 +379,16 @@
   },
   {
     "date": "2026-05-11",
-    "time": "5:30 PM",
-    "artist": "Behemoth",
+    "time": "6:25 PM",
+    "artist": "Behemoth / Deicide / Rotting Christ / Immolation",
     "price": "TBD",
     "venue": "History Toronto",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Behemoth+playing+live+after%3A2024"
   },
   {
-    "date": "2026-05-11",
-    "time": "7:00 PM",
-    "artist": "Purity Ring",
-    "price": "TBD",
-    "venue": "The Opera House",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Purity+Ring+playing+live+after%3A2024"
-  },
-  {
     "date": "2026-05-12",
-    "time": "7:00 PM",
+    "time": "8:00 PM",
     "artist": "The Paper Kites / Donovan Woods",
     "price": "TBD",
     "venue": "History Toronto",
@@ -504,27 +396,27 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=The+Paper+Kites+playing+live+after%3A2024"
   },
   {
-    "date": "2026-05-12",
+    "date": "2026-05-13",
     "time": "8:00 PM",
-    "artist": "Autumn!",
+    "artist": "Grupo Niche",
     "price": "TBD",
-    "venue": "Lee's Palace",
+    "venue": "History Toronto",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Autumn!+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Grupo+Niche+playing+live+after%3A2024"
   },
   {
-    "date": "2026-05-14",
-    "time": "8:00 PM",
-    "artist": "Radhika Das",
+    "date": "2026-05-13",
+    "time": "8:30 PM",
+    "artist": "Annabelle Dinda",
     "price": "TBD",
-    "venue": "Massey Hall",
+    "venue": "The Great Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Radhika+Das+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Annabelle+Dinda+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-15",
-    "time": "8:00 PM",
-    "artist": "Herb Alpert & The Tijuana Brass",
+    "time": "TBD",
+    "artist": "Herb Alpert / The Tijuana Brass",
     "price": "TBD",
     "venue": "Massey Hall",
     "age": "TBD",
@@ -532,12 +424,12 @@
   },
   {
     "date": "2026-05-15",
-    "time": "6:00 PM",
-    "artist": "Grupo Niche",
+    "time": "TBD",
+    "artist": "Bloodywood",
     "price": "TBD",
-    "venue": "History Toronto",
+    "venue": "The Danforth Music Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Grupo+Niche+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Bloodywood+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-16",
@@ -576,8 +468,17 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Ashnikko+playing+live+after%3A2024"
   },
   {
-    "date": "2026-05-20",
+    "date": "2026-05-19",
     "time": "8:00 PM",
+    "artist": "Brigitte Calls Me Baby",
+    "price": "TBD",
+    "venue": "The Great Hall",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Brigitte+Calls+Me+Baby+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-05-20",
+    "time": "TBD",
     "artist": "Ari Lennox",
     "price": "TBD",
     "venue": "Massey Hall",
@@ -588,19 +489,37 @@
     "date": "2026-05-20",
     "time": "7:00 PM",
     "artist": "City of the Sun",
-    "price": "TBD",
+    "price": "$36",
     "venue": "The Garrison",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=City+of+the+Sun+playing+live+after%3A2024"
   },
   {
-    "date": "2026-05-22",
+    "date": "2026-05-21",
     "time": "7:00 PM",
+    "artist": "Jesse Solomon",
+    "price": "TBD",
+    "venue": "The Garrison",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Jesse+Solomon+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "TBD",
     "artist": "Bobby Lee",
     "price": "TBD",
     "venue": "Massey Hall",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Bobby+Lee+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "TBD",
+    "artist": "Chet Faker",
+    "price": "TBD",
+    "venue": "Phoenix Concert Theatre",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Chet+Faker+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-22",
@@ -612,26 +531,8 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Courtney+Barnett+playing+live+after%3A2024"
   },
   {
-    "date": "2026-05-22",
-    "time": "8:00 PM",
-    "artist": "Chet Faker",
-    "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Chet+Faker+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-23",
-    "time": "8:00 PM",
-    "artist": "Highly Suspect",
-    "price": "TBD",
-    "venue": "History Toronto",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Highly+Suspect+playing+live+after%3A2024"
-  },
-  {
     "date": "2026-05-25",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Belle and Sebastian",
     "price": "TBD",
     "venue": "Massey Hall",
@@ -640,12 +541,12 @@
   },
   {
     "date": "2026-05-26",
-    "time": "8:00 PM",
-    "artist": "Belle and Sebastian",
-    "price": "TBD",
-    "venue": "Massey Hall",
+    "time": "TBD",
+    "artist": "Punk Rock Factory",
+    "price": "$33",
+    "venue": "Lee's Palace",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Belle+and+Sebastian+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Punk+Rock+Factory+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-26",
@@ -653,98 +554,71 @@
     "artist": "'68",
     "price": "TBD",
     "venue": "Horseshoe Tavern",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=%2768+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-29",
-    "time": "8:00 PM",
-    "artist": "Whitehorse",
-    "price": "TBD",
-    "venue": "Massey Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Whitehorse+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-29",
-    "time": "7:00 PM",
-    "artist": "Haute & Freddy",
-    "price": "TBD",
-    "venue": "The Great Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Haute+and+Freddy+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-29",
-    "time": "5:00 PM",
-    "artist": "Prepare The Ground 2026",
-    "price": "$89.62",
-    "venue": "Lee's Palace",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Prepare+The+Ground+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-05-30",
-    "time": "8:00 PM",
-    "artist": "Audrey Hobert",
-    "price": "TBD",
-    "venue": "Massey Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Audrey+Hobert+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query='68+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-30",
     "time": "8:30 PM",
     "artist": "Cat Clyde",
-    "price": "TBD",
+    "price": "$38",
     "venue": "Horseshoe Tavern",
-    "age": "19+",
+    "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Cat+Clyde+playing+live+after%3A2024"
   },
   {
     "date": "2026-05-30",
-    "time": "8:00 PM",
-    "artist": "Neon Nostalgic",
+    "time": "TBD",
+    "artist": "Forbidden Nights",
     "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
+    "venue": "El Mocambo",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Neon+Nostalgic+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Forbidden+Nights+playing+live+after%3A2024"
   },
   {
     "date": "2026-06-02",
     "time": "TBD",
-    "artist": "Napalm Death",
+    "artist": "Napalm Death / Primitive Man",
     "price": "TBD",
     "venue": "Lee's Palace",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Napalm+Death+playing+live+after%3A2024"
   },
   {
-    "date": "2026-06-07",
-    "time": "6:00 PM",
-    "artist": "JINJER",
+    "date": "2026-06-05",
+    "time": "7:00 PM",
+    "artist": "Jaguar Sun",
     "price": "TBD",
-    "venue": "The Danforth Music Hall",
+    "venue": "The Great Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=JINJER+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Jaguar+Sun+playing+live+after%3A2024"
   },
   {
     "date": "2026-06-09",
-    "time": "6:00 PM",
-    "artist": "Spite / Emmure / PSYCHO-FRAME / Rev3rent",
+    "time": "TBD",
+    "artist": "Spite / Emmure",
     "price": "TBD",
     "venue": "Phoenix Concert Theatre",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Spite+playing+live+after%3A2024"
   },
   {
-    "date": "2026-06-13",
+    "date": "2026-06-09",
     "time": "7:00 PM",
-    "artist": "Illscarlett",
+    "artist": "Villanelle",
+    "price": "TBD",
+    "venue": "The Garrison",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Villanelle+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-13",
+    "time": "TBD",
+    "artist": "illscarlett",
     "price": "TBD",
     "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Illscarlett+playing+live+after%3A2024"
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=illscarlett+playing+live+after%3A2024"
   },
   {
     "date": "2026-06-14",
@@ -756,39 +630,111 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Noah+Gundersen+playing+live+after%3A2024"
   },
   {
-    "date": "2026-06-17",
-    "time": "TBD",
-    "artist": "Arkells",
+    "date": "2026-06-16",
+    "time": "7:00 PM",
+    "artist": "Kurt Vile & The Violators",
     "price": "TBD",
-    "venue": "Lee's Palace",
+    "venue": "History Toronto",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Arkells+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Kurt+Vile+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-16",
+    "time": "7:00 PM",
+    "artist": "Girli",
+    "price": "TBD",
+    "venue": "The Garrison",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Girli+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-17",
+    "time": "7:00 PM",
+    "artist": "Black Country, New Road",
+    "price": "TBD",
+    "venue": "History Toronto",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Black+Country+New+Road+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-17",
+    "time": "7:00 PM",
+    "artist": "Son Little",
+    "price": "TBD",
+    "venue": "The Great Hall",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Son+Little+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-17",
+    "time": "7:00 PM",
+    "artist": "Snor",
+    "price": "TBD",
+    "venue": "The Garrison",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Snor+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-18",
+    "time": "TBD",
+    "artist": "Billy Newton Davis",
+    "price": "TBD",
+    "venue": "El Mocambo",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Billy+Newton+Davis+playing+live+after%3A2024"
   },
   {
     "date": "2026-06-19",
     "time": "TBD",
-    "artist": "SuperSonic - Tribute To Oasis",
+    "artist": "Supersonic - Tribute To Oasis",
     "price": "TBD",
     "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=SuperSonic+Tribute+to+Oasis+playing+live+after%3A2024"
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Supersonic+Oasis+Tribute+playing+live+after%3A2024"
   },
   {
     "date": "2026-06-19",
     "time": "9:00 PM",
     "artist": "Syd Taylor",
-    "price": "TBD",
+    "price": "$47",
     "venue": "The Garrison",
-    "age": "TBD",
+    "age": "19+",
     "youtube_sample": "https://www.youtube.com/results?search_query=Syd+Taylor+playing+live+after%3A2024"
   },
   {
-    "date": "2026-06-23",
+    "date": "2026-06-19",
+    "time": "7:30 PM",
+    "artist": "Ava Val (Comedy)",
+    "price": "TBD",
+    "venue": "El Mocambo",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Ava+Val+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-20",
     "time": "7:00 PM",
-    "artist": "Enter Shikari / Boston Manor / Initiate",
+    "artist": "Moontricks",
+    "price": "TBD",
+    "venue": "The Great Hall",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Moontricks+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-21",
+    "time": "TBD",
+    "artist": "Dead Calm",
+    "price": "$30",
+    "venue": "Lee's Palace",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Dead+Calm+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-23",
+    "time": "TBD",
+    "artist": "Enter Shikari / Boston Manor",
     "price": "TBD",
     "venue": "Phoenix Concert Theatre",
-    "age": "All Ages",
+    "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Enter+Shikari+playing+live+after%3A2024"
   },
   {
@@ -803,51 +749,60 @@
   {
     "date": "2026-06-23",
     "time": "7:00 PM",
-    "artist": "Fulton Lee",
-    "price": "TBD",
-    "venue": "The Great Hall",
+    "artist": "Flawed Mangoes",
+    "price": "$47",
+    "venue": "The Garrison",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Fulton+Lee+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Flawed+Mangoes+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-24",
+    "time": "7:00 PM",
+    "artist": "Vacations",
+    "price": "$48",
+    "venue": "The Garrison",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Vacations+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-24",
+    "time": "TBD",
+    "artist": "Reverend Horton Heat / The Surfrajettes",
+    "price": "TBD",
+    "venue": "Horseshoe Tavern",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Reverend+Horton+Heat+playing+live+after%3A2024"
   },
   {
     "date": "2026-06-26",
-    "time": "8:00 PM",
-    "artist": "Ásgeir",
+    "time": "TBD",
+    "artist": "Kittie",
     "price": "TBD",
-    "venue": "The Great Hall",
+    "venue": "The Danforth Music Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Asgeir+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Kittie+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-06-30",
+    "time": "7:00 PM",
+    "artist": "Edgehill",
+    "price": "$40",
+    "venue": "The Garrison",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Edgehill+playing+live+after%3A2024"
   },
   {
     "date": "2026-07-04",
-    "time": "6:00 PM",
-    "artist": "idobi Radio Summer School",
-    "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "All Ages",
-    "youtube_sample": "https://www.youtube.com/results?search_query=idobi+Radio+Summer+School+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-07-05",
-    "time": "7:00 PM",
-    "artist": "aja monet",
-    "price": "TBD",
-    "venue": "The Great Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=aja+monet+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-07-10",
-    "time": "7:00 PM",
-    "artist": "Digable Planets",
-    "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
+    "time": "8:00 PM",
+    "artist": "The Strike",
+    "price": "$42",
+    "venue": "Horseshoe Tavern",
     "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Digable+Planets+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=The+Strike+playing+live+after%3A2024"
   },
   {
     "date": "2026-07-13",
-    "time": "7:00 PM",
+    "time": "TBD",
     "artist": "Buck Meek",
     "price": "TBD",
     "venue": "The Great Hall",
@@ -856,39 +811,30 @@
   },
   {
     "date": "2026-07-18",
-    "time": "8:00 PM",
-    "artist": "SOULS OF MISCHIEF",
+    "time": "10:00 PM",
+    "artist": "Arlo",
     "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=SOULS+OF+MISCHIEF+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-07-23",
-    "time": "4:00 PM",
-    "artist": "Hatebreed - Summer Slaughter Tour 2026",
-    "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Hatebreed+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-07-30",
-    "time": "7:00 PM",
-    "artist": "Wunderhorse",
-    "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Wunderhorse+playing+live+after%3A2024"
+    "venue": "The Great Hall",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Arlo+playing+live+after%3A2024"
   },
   {
     "date": "2026-08-08",
-    "time": "11:00 AM",
-    "artist": "RushCon - Rush Fan Convention",
+    "time": "TBD",
+    "artist": "RushCon",
     "price": "TBD",
     "venue": "El Mocambo",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=RushCon+playing+live+after%3A2024"
+  },
+  {
+    "date": "2026-08-18",
+    "time": "7:00 PM",
+    "artist": "Kittie",
+    "price": "$26",
+    "venue": "The Danforth Music Hall",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Kittie+playing+live+after%3A2024"
   },
   {
     "date": "2026-08-19",
@@ -900,71 +846,17 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Playlunch+playing+live+after%3A2024"
   },
   {
-    "date": "2026-08-20",
-    "time": "7:00 PM",
-    "artist": "Boombox Live! w/ China Crisis / Big Country / The Icicle Works / The Vapors",
+    "date": "2026-09-05",
+    "time": "TBD",
+    "artist": "Cinema Face",
     "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=China+Crisis+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-08-21",
-    "time": "7:00 PM",
-    "artist": "The Wallflowers",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
+    "venue": "El Mocambo",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=The+Wallflowers+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-08-22",
-    "time": "7:00 PM",
-    "artist": "TWRP",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=TWRP+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-08-28",
-    "time": "7:00 PM",
-    "artist": "BIIRD",
-    "price": "TBD",
-    "venue": "The Great Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=BIIRD+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-08-30",
-    "time": "7:00 PM",
-    "artist": "The Red Jumpsuit Apparatus",
-    "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=The+Red+Jumpsuit+Apparatus+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-09-08",
-    "time": "7:00 PM",
-    "artist": "Sun Kil Moon",
-    "price": "TBD",
-    "venue": "Lee's Palace",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Sun+Kil+Moon+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-09-09",
-    "time": "7:00 PM",
-    "artist": "Melanie C",
-    "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Melanie+C+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Cinema+Face+playing+live+after%3A2024"
   },
   {
     "date": "2026-09-11",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Classic Albums Live: Pink Floyd",
     "price": "TBD",
     "venue": "Massey Hall",
@@ -972,67 +864,40 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+playing+live+after%3A2024"
   },
   {
-    "date": "2026-09-14",
-    "time": "7:00 PM",
-    "artist": "Marlon Magnée (of La Femme)",
+    "date": "2026-09-12",
+    "time": "8:00 PM",
+    "artist": "Soda Blonde",
     "price": "TBD",
     "venue": "The Great Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Marlon+Magnee+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Soda+Blonde+playing+live+after%3A2024"
   },
   {
-    "date": "2026-09-16",
+    "date": "2026-09-14",
     "time": "7:00 PM",
-    "artist": "Aldous Harding",
+    "artist": "Devotchka",
     "price": "TBD",
-    "venue": "The Danforth Music Hall",
+    "venue": "The Great Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Aldous+Harding+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Devotchka+playing+live+after%3A2024"
   },
   {
     "date": "2026-09-17",
-    "time": "6:00 PM",
-    "artist": "Hulvey",
+    "time": "TBD",
+    "artist": "Kamelot / Frozen Crown",
     "price": "TBD",
     "venue": "Phoenix Concert Theatre",
-    "age": "All Ages",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Hulvey+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-09-18",
-    "time": "7:00 PM",
-    "artist": "CABARET VOLTAIRE",
-    "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Cabaret+Voltaire+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-09-19",
-    "time": "6:00 PM",
-    "artist": "KAMELOT / Frozen Crown / Visions of Atlantis",
-    "price": "TBD",
-    "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=KAMELOT+playing+live+after%3A2024"
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Kamelot+playing+live+after%3A2024"
   },
   {
     "date": "2026-09-22",
-    "time": "6:30 PM",
-    "artist": "Hammerfall",
+    "time": "TBD",
+    "artist": "Hammerfall / Elvenking / Evergrey",
     "price": "TBD",
     "venue": "Phoenix Concert Theatre",
-    "age": "19+",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Hammerfall+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-10-01",
-    "time": "7:00 PM",
-    "artist": "Ghostly Kisses",
-    "price": "TBD",
-    "venue": "The Great Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Ghostly+Kisses+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Hammerfall+playing+live+after%3A2024"
   },
   {
     "date": "2026-10-05",
@@ -1044,54 +909,18 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Jessie+Ware+playing+live+after%3A2024"
   },
   {
-    "date": "2026-10-07",
-    "time": "8:00 PM",
-    "artist": "Armand Hammer",
-    "price": "$85.00",
-    "venue": "Lee's Palace",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Armand+Hammer+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-10-10",
-    "time": "9:00 PM",
-    "artist": "Slift",
-    "price": "TBD",
-    "venue": "Lee's Palace",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Slift+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-10-13",
-    "time": "TBD",
-    "artist": "Joep Beving",
-    "price": "TBD",
-    "venue": "The Great Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Joep+Beving+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-10-19",
+    "date": "2026-10-08",
     "time": "7:00 PM",
-    "artist": "Friko",
+    "artist": "Jenny Berggren",
     "price": "TBD",
-    "venue": "The Great Hall",
+    "venue": "History Toronto",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Friko+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-10-25",
-    "time": "6:30 PM",
-    "artist": "John Bishop",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=John+Bishop+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Jenny+Berggren+playing+live+after%3A2024"
   },
   {
     "date": "2026-10-27",
-    "time": "7:00 PM",
-    "artist": "The Limiñanas",
+    "time": "TBD",
+    "artist": "The Liminanas",
     "price": "TBD",
     "venue": "Horseshoe Tavern",
     "age": "TBD",
@@ -1107,62 +936,44 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Loreena+McKennitt+playing+live+after%3A2024"
   },
   {
+    "date": "2026-11-01",
+    "time": "TBD",
+    "artist": "Loreena McKennitt",
+    "price": "TBD",
+    "venue": "Massey Hall",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Loreena+McKennitt+playing+live+after%3A2024"
+  },
+  {
     "date": "2026-11-03",
     "time": "8:00 PM",
-    "artist": "TEEN JESUS AND THE JEAN TEASERS",
+    "artist": "Teen Jesus and the Jean Teasers",
     "price": "TBD",
     "venue": "The Garrison",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Teen+Jesus+and+the+Jean+Teasers+playing+live+after%3A2024"
   },
   {
-    "date": "2026-11-04",
-    "time": "7:00 PM",
-    "artist": "The East Pointers",
-    "price": "TBD",
-    "venue": "The Great Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=The+East+Pointers+playing+live+after%3A2024"
-  },
-  {
     "date": "2026-11-06",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Red Leather",
     "price": "TBD",
     "venue": "Horseshoe Tavern",
-    "age": "19+",
+    "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Red+Leather+playing+live+after%3A2024"
   },
   {
-    "date": "2026-11-09",
-    "time": "7:00 PM",
-    "artist": "Die Spitz",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Die+Spitz+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-11-09",
-    "time": "7:00 PM",
-    "artist": "Weatherday",
-    "price": "TBD",
-    "venue": "The Great Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Weatherday+playing+live+after%3A2024"
-  },
-  {
     "date": "2026-11-11",
-    "time": "TBD",
+    "time": "7:00 PM",
     "artist": "West 22nd",
-    "price": "TBD",
+    "price": "$40",
     "venue": "Horseshoe Tavern",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=West+22nd+playing+live+after%3A2024"
   },
   {
     "date": "2026-11-12",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Classic Albums Live: Led Zeppelin II",
     "price": "TBD",
     "venue": "Massey Hall",
@@ -1170,53 +981,26 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+playing+live+after%3A2024"
   },
   {
-    "date": "2026-11-12",
+    "date": "2026-11-26",
     "time": "TBD",
-    "artist": "Godfrey",
+    "artist": "Jens Kuross / Hayden Pedigo",
     "price": "TBD",
     "venue": "The Great Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Godfrey+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Jens+Kuross+playing+live+after%3A2024"
   },
   {
-    "date": "2026-11-13",
-    "time": "5:45 PM",
-    "artist": "Laura Ramoso",
+    "date": "2026-12-06",
+    "time": "8:00 PM",
+    "artist": "Bedouine",
     "price": "TBD",
-    "venue": "The Danforth Music Hall",
+    "venue": "The Great Hall",
     "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Laura+Ramoso+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-11-21",
-    "time": "7:00 PM",
-    "artist": "The Watchmen",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=The+Watchmen+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-11-25",
-    "time": "7:00 PM",
-    "artist": "The Pineapple Thief",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=The+Pineapple+Thief+playing+live+after%3A2024"
-  },
-  {
-    "date": "2026-11-27",
-    "time": "9:00 PM",
-    "artist": "Temples",
-    "price": "$86.00",
-    "venue": "Lee's Palace",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=Temples+playing+live+after%3A2024"
+    "youtube_sample": "https://www.youtube.com/results?search_query=Bedouine+playing+live+after%3A2024"
   },
   {
     "date": "2027-01-22",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Classic Albums Live: Steely Dan",
     "price": "TBD",
     "venue": "Massey Hall",
@@ -1224,17 +1008,8 @@
     "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+playing+live+after%3A2024"
   },
   {
-    "date": "2027-01-29",
-    "time": "7:00 PM",
-    "artist": "The Musical Box",
-    "price": "TBD",
-    "venue": "The Danforth Music Hall",
-    "age": "TBD",
-    "youtube_sample": "https://www.youtube.com/results?search_query=The+Musical+Box+playing+live+after%3A2024"
-  },
-  {
     "date": "2027-02-20",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Classic Albums Live: Saturday Night Fever",
     "price": "TBD",
     "venue": "Massey Hall",
@@ -1243,11 +1018,20 @@
   },
   {
     "date": "2027-03-11",
-    "time": "8:00 PM",
+    "time": "TBD",
     "artist": "Classic Albums Live: U2 Achtung Baby",
     "price": "TBD",
     "venue": "Massey Hall",
     "age": "TBD",
     "youtube_sample": "https://www.youtube.com/results?search_query=Classic+Albums+Live+playing+live+after%3A2024"
+  },
+  {
+    "date": "2027-03-23",
+    "time": "8:30 PM",
+    "artist": "Dynalectric Orchestra",
+    "price": "TBD",
+    "venue": "Phoenix Concert Theatre",
+    "age": "TBD",
+    "youtube_sample": "https://www.youtube.com/results?search_query=Dynalectric+Orchestra+playing+live+after%3A2024"
   }
 ]
