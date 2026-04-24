@@ -77,7 +77,7 @@
                 pageLength: 50,
                 initComplete: function(settings, json) {
                     var venues = [...new Set(json.map(item => item.venue))].sort();
-                    var ages = [...new Set(json.map(item => item.age))].sort();
+                    var ages = [...new Set(json.flatMap(item => item.age.split(' ')))].sort();
                     venues.forEach(v => $('#venue-filter').append(new Option(v, v)));
                     ages.forEach(a => $('#age-filter').append(new Option(a, a)));
                     $('#venue-filter, #age-filter').select2({ placeholder: "All selected" });
