@@ -18,7 +18,7 @@ venues = [
     "El Mocambo", "The Garrison", "The Great Hall"
 ]
 
-# Updated Venue Mapping - Forcing Official Venue Domains
+# Updated Venue Mapping - Strict Official Domains Only
 venue_map = """
 - Massey Hall: https://masseyhall.mhrth.com/tickets/
 - History Toronto: https://www.historytoronto.com/events/detail/
@@ -38,14 +38,15 @@ Find upcoming concerts for these Toronto venues from {today} to {next_year}:
 
 Return a JSON array of objects with: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
 
-STRICT URL RULES (APRIL 2026):
-1. NO TICKETING SITES: You are STRICTLY FORBIDDEN from using URLs from ticketmaster.ca, livenation.com, dice.fm, or eventbrite.ca. 
-2. DOMAIN MATCHING: Every "url" MUST exist on the venue's own domain provided in the map (e.g., historytoronto.com, thedanforth.com, etc.).
-3. DEEP LINKS: You must find the specific detail page for each show. 
-   - Pattern for History/Danforth/Opera House: [domain]/events/detail/[artist-slug]
-   - Pattern for Horseshoe/Lee's/Garrison/Great Hall: [domain]/event/[artist-slug]/
-4. EL MOCAMBO: Be extremely precise with the slug. Search for the exact event title on elmocambo.com to ensure the link works.
-5. FALLBACK: If a deep link is not found, use the venue's main listings page on their OWN domain (e.g., https://www.historytoronto.com/events). NEVER use a third-party site.
+STRICT URL & DOMAIN RULES:
+1. FORBIDDEN DOMAINS: Never use ticketmaster.ca, livenation.com, eventbrite.ca, or dice.fm.
+2. MANDATORY DOMAINS: The "url" MUST use the official domain from the map (e.g., historytoronto.com, leespalace.com).
+3. DEEP LINK PATTERNS:
+   - History / Danforth / Opera House: Use [domain]/events/detail/[artist-slug]
+   - Horseshoe / Lee's / Garrison / El Mocambo: Use [domain]/event/[artist-slug]
+4. SLUG PRECISION: For "Global Warming Tour" and other tours, search the venue's site specifically for the correct slug.
+5. FALLBACK: If a deep link is not found, use the venue's main listings page on their OWN domain (e.g., https://www.historytoronto.com/events).
+6. YOUTUBE: Use https://www.youtube.com/results?search_query=Artist+Name+Live (replace spaces with +).
 """
 
 try:
