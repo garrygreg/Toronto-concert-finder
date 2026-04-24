@@ -99,12 +99,11 @@
                     { 
                         data: 'artist',
                         render: function(data, type, row) {
-                            // ONLY create a link if the URL starts with http
+                            // Only make it a link if row.url starts with http
                             if (row.url && row.url.startsWith('http')) {
-                                return `<a href="${row.url}" target="_blank" title="View event details">${data}</a>`;
+                                return `<a href="${row.url}" target="_blank">${data}</a>`;
                             }
-                            // Otherwise, just show the plain text name
-                            return data;
+                            return data; // Show plain text if the URL is "TBD" or broken
                         }
                     },
                     { data: 'venue' },
