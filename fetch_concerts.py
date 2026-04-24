@@ -18,19 +18,32 @@ venues = [
     "El Mocambo", "The Garrison", "The Great Hall"
 ]
 
+# Create a mapping string to "ground" the model
+venue_map = """
+- Massey Hall: https://masseyhall.mhrth.com/
+- Horseshoe Tavern: https://horseshoetavern.com/events
+- Lee's Palace: https://www.leespalace.com/events
+- History Toronto: https://www.historytoronto.com/
+- Phoenix Concert Theatre: https://thephoenixconcerttheatre.com/events/
+- The Danforth Music Hall: https://www.thedanforth.com/shows
+- The Opera House: https://theoperahousetoronto.com/
+- El Mocambo: https://elmocambo.com/
+- The Garrison: http://www.garrisontoronto.com/
+- The Great Hall: https://thegreathall.ca/calendar/
+"""
+
 prompt = f"""
-Thoroughly scour the official websites for these Toronto venues: {', '.join(venues)}.
-List upcoming events from {today.isoformat()} through {next_year.isoformat()}.
+Thoroughly scour the official websites for these Toronto venues using the provided Base URLs as your source of truth:
+{venue_map}
 
-Return ONLY a raw JSON array of objects with these exact keys: 
-"date" (YYYY-MM-DD), "time", "artist", "url", "price", "venue", "age", "youtube_sample".
+List ALL upcoming concerts from {today.isoformat()} through {next_year.isoformat()}.
+Return ONLY a raw JSON array of objects with keys: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
 
-Rules:
-1. Each show is its own record. 
-2. The "url" must be the direct link to the event or ticket page.
-3. Replace pipes (|) with forward slashes (/).
-4. Use "TBD" for missing info.
-5. "youtube_sample" must be: https://www.youtube.com/results?search_query=[artist+name]+playing+live
+STRICT LINK RULES:
+1. Every "url" MUST start with the domain provided in the mapping above. 
+2. If you cannot find a direct link to the specific show, use the venue's Base URL from the map instead of guessing.
+3. NEVER use domains like 'ticketmaster.com' or 'livenation.com' for the "url" field; always link back to the venue's own site.
+4. "youtube_sample" remains a search query: https://www.youtube.com/results?search_query=[artist+name]+live
 """
 
 try:
