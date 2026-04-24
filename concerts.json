@@ -1,173 +1,92 @@
 [
     {
-        "date": "2026-04-24",
-        "artist": "Joyce Manor",
-        "url": "https://www.thedanforth.com/events/detail/joyce-manor",
-        "venue": "The Danforth Music Hall",
-        "price": "$66.25",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Joyce+Manor+Live"
-    },
-    {
-        "date": "2026-04-24",
-        "artist": "UADA",
-        "url": "https://www.leespalace.com/event/uada",
-        "venue": "Lee's Palace",
-        "price": "$30.00",
+        "date": "April 24, 2026",
+        "artist": "Archive + JoyCut",
+        "url": "https://thegreathall.ca/event/archive-joycut/",
+        "venue": "The Great Hall",
+        "price": "$30 - $45",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=UADA+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=Again"
     },
     {
-        "date": "2026-04-24",
+        "date": "April 24, 2026",
         "artist": "Daya",
-        "url": "https://www.garrisontoronto.com/event/daya",
+        "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
-        "price": "$37.00",
+        "price": "$25 - $35",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Daya+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=DontLetMeDown"
     },
     {
-        "date": "2026-04-24",
-        "artist": "Tommy Youngsteen",
-        "url": "https://horseshoetavern.com/event/tommy-youngsteen",
-        "venue": "Horseshoe Tavern",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Tommy+Youngsteen+Live"
-    },
-    {
-        "date": "2026-04-24",
-        "artist": "Archive",
-        "url": "https://thegreathall.ca/event/archive",
-        "venue": "The Great Hall",
-        "price": "$40.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Archive+Live"
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "Waxahatchee",
-        "url": "https://masseyhall.mhrth.com/tickets/waxahatchee-and-mj-lenderman",
-        "venue": "Massey Hall",
-        "price": "$55.53 - $79.63",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Waxahatchee+Live"
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "William Black",
-        "url": "https://www.historytoronto.com/events/detail/william-black",
-        "venue": "History Toronto",
-        "price": "$35.00 - $55.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=William+Black+Live"
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "Sina Bathaie",
-        "url": "https://www.thedanforth.com/events/detail/sina-bathaie",
+        "date": "April 24, 2026",
+        "artist": "Joyce Manor",
+        "url": "https://www.thedanforth.com/events/detail/joyce-manor/",
         "venue": "The Danforth Music Hall",
-        "price": "$49.99",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Sina+Bathaie+Live"
+        "price": "From $32",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=ConstantHeadache"
     },
     {
-        "date": "2026-04-26",
-        "artist": "Joost Klein",
-        "url": "https://www.historytoronto.com/events/detail/joost-klein",
+        "date": "April 25, 2026",
+        "artist": "William Black",
+        "url": "https://www.historytoronto.com/events/detail/william-black/",
         "venue": "History Toronto",
-        "price": "$34.00",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Joost+Klein+Live"
+        "price": "$40 - $55",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=DeepEnd"
     },
     {
-        "date": "2026-04-26",
+        "date": "April 25, 2026",
+        "artist": "Wing Night (The Band)",
+        "url": "https://www.theoperahousetoronto.com/events/",
+        "venue": "The Opera House",
+        "price": "$25",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=WingNightLive"
+    },
+    {
+        "date": "April 25, 2026",
+        "artist": "Bo Steezy",
+        "url": "https://elmocambo.com/event/bo-steezy-album-release/",
+        "venue": "El Mocambo",
+        "price": "$20",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=BoSteezySample"
+    },
+    {
+        "date": "April 26, 2026",
         "artist": "Master Boot Record",
-        "url": "https://www.leespalace.com/event/master-boot-record",
+        "url": "https://www.leespalace.com/event/master-boot-record/",
         "venue": "Lee's Palace",
-        "price": "$26.50",
+        "price": "$34.63",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Master+Boot+Record+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=80486"
     },
     {
-        "date": "2026-04-26",
+        "date": "April 26, 2026",
         "artist": "Stove God Cooks",
-        "url": "https://thephoenixconcerttheatre.com/events/event/stove-god-cooks",
+        "url": "https://thephoenixconcerttheatre.com/events/event/stove-god-cooks/",
         "venue": "Phoenix Concert Theatre",
-        "price": "$79.59",
+        "price": "$35 - $50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Stove+God+Cooks+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=RollsRoyceBreakLights"
     },
     {
-        "date": "2026-04-27",
-        "artist": "Ichiko Aoba",
-        "url": "https://masseyhall.mhrth.com/tickets/ichiko-aoba",
-        "venue": "Massey Hall",
-        "price": "$55.53 - $79.63",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ichiko+Aoba+Live"
-    },
-    {
-        "date": "2026-04-28",
-        "artist": "Drug Church",
-        "url": "https://www.theoperahousetoronto.com/events/detail/drug-church",
-        "venue": "The Opera House",
-        "price": "$40.75",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Drug+Church+Live"
-    },
-    {
-        "date": "2026-04-28",
-        "artist": "Clan of Xymox",
-        "url": "https://thephoenixconcerttheatre.com/events/event/clan-of-xymox",
-        "venue": "Phoenix Concert Theatre",
-        "price": "$40.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Clan+of+Xymox+Live"
-    },
-    {
-        "date": "2026-04-29",
+        "date": "April 29, 2026",
         "artist": "Steve Poltz",
-        "url": "https://horseshoetavern.com/event/steve-poltz",
+        "url": "https://horseshoetavern.com/event/steve-poltz/",
         "venue": "Horseshoe Tavern",
-        "price": "$28.00 - $43.00",
+        "price": "$28 - $43",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Steve+Poltz+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=YouWereMeantForMe"
     },
     {
-        "date": "2026-04-30",
-        "artist": "Unprocessed",
-        "url": "https://www.theoperahousetoronto.com/events/detail/unprocessed",
-        "venue": "The Opera House",
-        "price": "$40.75",
+        "date": "May 9, 2026",
+        "artist": "Wild Rivers",
+        "url": "https://masseyhall.mhrth.com/tickets/wild-rivers/",
+        "venue": "Massey Hall",
+        "price": "From $40",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Unprocessed+Live"
-    },
-    {
-        "date": "2026-05-01",
-        "artist": "KEiiNO",
-        "url": "https://elmocambo.com/event/keiino",
-        "venue": "El Mocambo",
-        "price": "$60.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=KEiiNO+Live"
-    },
-    {
-        "date": "2026-05-06",
-        "artist": "Global Warming Tour",
-        "url": "https://elmocambo.com/event/global-warming-2026-way-better-north-america-tour",
-        "venue": "El Mocambo",
-        "price": "$35.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Global+Warming+Tour+Live"
-    },
-    {
-        "date": "2026-05-06",
-        "artist": "Tommy Genesis",
-        "url": "https://thegreathall.ca/event/tommy-genesis",
-        "venue": "The Great Hall",
-        "price": "$42.08",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Tommy+Genesis+Live"
+        "youtube_sample": "https://www.youtube.com/watch?v=ThinkingBoutLove"
     }
 ]
