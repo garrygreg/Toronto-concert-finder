@@ -23,15 +23,16 @@ prompt = f"""
 Thoroughly scour the official websites for these Toronto venues: {', '.join(venues)}.
 Exhaustively list ALL upcoming events from {today.isoformat()} through {next_year.isoformat()}.
 
-Return a JSON array of objects with these keys: 
-"date" (YYYY-MM-DD), "time", "artist", "price", "venue", "age", "youtube_sample".
+Return the results ONLY as a raw JSON array of objects with these keys: 
+"date" (YYYY-MM-DD), "time", "artist", "url", "price", "venue", "age", "youtube_sample".
 
 Rules:
-1. Each set or show must be its own record. 
-2. Replace any internal pipes (|) with forward slashes (/).
-3. Use "TBD" for any missing details (time, price, age).
-4. The "youtube_sample" value MUST be: https://www.youtube.com/results?search_query=[artist+name]+playing+live+after%3A2024
-5. Only include venues with a capacity of 5,000 or less.
+1. Each show must be its own record. 
+2. The "url" key must be the direct link to the specific event page or ticket page on the venue's site.
+3. Replace any internal pipes (|) with forward slashes (/).
+4. Use "TBD" for any missing details.
+5. "youtube_sample" MUST be: https://www.youtube.com/results?search_query=[artist+name]+playing+live
+6. Only include venues with a capacity of 5,000 or less.
 """
 
 # 5. Call Gemini with Search Grounding
