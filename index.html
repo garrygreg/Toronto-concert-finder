@@ -96,7 +96,13 @@
                 ajax: { url: 'concerts.json', dataSrc: '' },
                 columns: [
                     { data: 'date' },
-                    { data: 'artist' },
+                    { 
+                        data: 'artist',
+                        render: function(data, type, row) {
+                            // This turns the Artist text into a clickable link using the 'url' from your JSON
+                            return `<a href="${row.url}" target="_blank">${data}</a>`;
+                        }
+                    },
                     { data: 'venue' },
                     { data: 'price' },
                     { data: 'age' },
