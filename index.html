@@ -45,7 +45,9 @@
 <body>
     <div class="container">
         <h1>Toronto Concert Finder</h1>
-
+        <p id="last-updated" style="text-align: center; color: #888; font-size: 0.8em; margin-top: -20px; margin-bottom: 20px;">
+            Syncing data...
+        </p>
         <div class="filter-panel">
             <div class="filter-group">
                 <label>Start Date</label>
@@ -172,6 +174,18 @@
             $('#min-date, #max-date, #venue-filter, #age-filter, #price-max').on('change keyup', function() {
                 table.draw();
             });
+        });
+
+        // Function to show when the data was last fetched
+        function updateTimestamp() {
+            const now = new Date();
+            const options = { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' };
+            document.getElementById('last-updated').innerText = "Last Updated: " + now.toLocaleDateString('en-CA', options);
+        }
+        
+        // Call this inside table.on('xhr', ...) or right after the table is initialized
+        table.on('xhr', function() {
+            updateTimestamp();
         });
     </script>
 </body>
