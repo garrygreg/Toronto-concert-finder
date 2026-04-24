@@ -18,31 +18,34 @@ venues = [
     "El Mocambo", "The Garrison", "The Great Hall"
 ]
 
-# Create a mapping string to "ground" the model
+# Updated Venue Mapping with specific sub-paths for April 2026
 venue_map = """
-- Massey Hall: https://masseyhall.mhrth.com/
-- Horseshoe Tavern: https://horseshoetavern.com/events
-- Lee's Palace: https://www.leespalace.com/events
-- History Toronto: https://www.historytoronto.com/
+- Massey Hall: https://masseyhall.mhrth.com/performances/
+- Horseshoe Tavern: https://horseshoetavern.com/event/
+- Lee's Palace: https://www.leespalace.com/events/detail/
+- History Toronto: https://www.historytoronto.com/events/detail/
 - Phoenix Concert Theatre: https://thephoenixconcerttheatre.com/events/
-- The Danforth Music Hall: https://www.thedanforth.com/shows
-- The Opera House: https://theoperahousetoronto.com/
+- The Danforth Music Hall: https://www.thedanforth.com/events/detail/
+- The Opera House: https://www.theoperahousetoronto.com/events/detail/
 - El Mocambo: https://elmocambo.com/
-- The Garrison: http://www.garrisontoronto.com/
-- The Great Hall: https://thegreathall.ca/calendar/
+- The Garrison: http://www.garrisontoronto.com/event/
+- The Great Hall: https://thegreathall.ca/event/
 """
 
 prompt = f"""
-Using Google Search, find the specific, unique event detail page for every upcoming concert at these Toronto venues from {today.isoformat()} to {next_year.isoformat()}:
+Using Google Search, find the unique event detail URLs for upcoming concerts at these venues:
 {venue_map}
 
-Return a JSON array of objects with keys: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
+Return a JSON array of objects with: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
 
-STRICT URL REQUIREMENTS:
-1. The "url" MUST be the direct 'deep link' to the individual event page (e.g., https://www.historytoronto.com/events/detail/william-black-1).
-2. DO NOT simply return the venue's general calendar or home page.
-3. If a direct event page cannot be found after searching, use the most specific listing page available (like the specific month's calendar), but prioritize the individual show link.
-4. If multiple ticket platforms exist (Ticketmaster, Dice, etc.), prioritize the link that lives on the official venue domain first.
+STRICT DEEP-LINKING RULES (April 2026):
+1. USE THESE EXACT PATHS:
+   - For History, Danforth, Opera House, and Lee's Palace: The URL MUST follow the pattern [domain]/events/detail/[slug]
+   - For Horseshoe, Garrison, and Great Hall: The URL MUST follow the pattern [domain]/event/[slug]/
+   - For Massey Hall: The URL MUST follow the pattern [domain]/performances/[slug]
+2. DO NOT return general listing pages (like /shows or /events). Every link must lead to a page about ONE specific artist.
+3. Validate each slug: Slugs usually look like 'artist-name-yyyy-mm-dd'. 
+4. If a deep link is absolutely not found, use the closest 'event/' path from the venue_map above, NEVER just the homepage.
 """
 
 try:
