@@ -143,8 +143,10 @@
                 var rowAge = data[4];
 
                 var maxP = parseFloat($('#price-max').val());
+                var priceText = data[3].replace(/[$,+]/g, '');
                 // Clean price: removes '$', '+', and commas for comparison
-                var rowPrice = parseFloat(data[3].replace(/[$,+]/g, '')) || 0;
+                var rowPrice = (priceText === 'TBD' || !priceText) ? 9999 : parseFloat(priceText); 
+                // Hide TBD if price is capped
 
                 // Date Filter
                 if (minD && rowDate < minD) return false;
