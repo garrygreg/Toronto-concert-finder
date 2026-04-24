@@ -1,92 +1,92 @@
 [
     {
-        "date": "April 29, 2026",
-        "artist": "Calum Scott",
-        "url": "https://masseyhall.mhrth.com/tickets/calum-scott-2026/",
-        "venue": "Massey Hall",
-        "price": "$45.00 - $85.00",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Calum+Scott+live"
+        "date": "2026-04-24",
+        "artist": "Archive + JoyCut",
+        "url": "https://thegreathall.ca/event/archive-joycut/",
+        "venue": "The Great Hall",
+        "price": "$40.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=V66Sg9JAb_o"
     },
     {
-        "date": "April 25, 2026",
+        "date": "2026-04-25",
         "artist": "William Black",
         "url": "https://www.historytoronto.com/events/detail/william-black",
         "venue": "History Toronto",
-        "price": "$35.00",
+        "price": "$45.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=William+Black+live"
+        "youtube_sample": "https://www.youtube.com/watch?v=FstTIn_3Y6A"
     },
     {
-        "date": "April 24, 2026",
-        "artist": "Allie X",
-        "url": "https://www.thedanforth.com/events/detail/allie-x",
+        "date": "2026-04-25",
+        "artist": "Sina Bathaie",
+        "url": "https://www.thedanforth.com/events/detail/sina-bathaie-white-lotus-world-tour",
         "venue": "The Danforth Music Hall",
-        "price": "$30.00",
+        "price": "$49.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Allie+X+live"
+        "youtube_sample": "https://www.youtube.com/watch?v=Zf0vJ8H2w8U"
     },
     {
-        "date": "April 28, 2026",
-        "artist": "Drug Church x White Reaper",
-        "url": "https://theoperahousetoronto.com/events/detail/drug-church-white-reaper",
+        "date": "2026-04-25",
+        "artist": "Bloodrave",
+        "url": "https://www.leespalace.com/event/bloodrave",
+        "venue": "Lee's Palace",
+        "price": "$22.50",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=D-wS8C5E7S4"
+    },
+    {
+        "date": "2026-04-25",
+        "artist": "Wing Night (The Band)",
+        "url": "https://theoperahousetoronto.com/events/detail/wing-night-the-band",
         "venue": "The Opera House",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Drug+Church+live"
+        "youtube_sample": "https://www.youtube.com/watch?v=L58aH176UvA"
     },
     {
-        "date": "May 1, 2026",
-        "artist": "DEAD BOB",
-        "url": "https://horseshoetavern.com/event/dead-bob",
-        "venue": "Horseshoe Tavern",
-        "price": "$20.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=DEAD+BOB+live"
-    },
-    {
-        "date": "April 24, 2026",
-        "artist": "UADA & MORTIIS",
-        "url": "https://www.leespalace.com/event/uada-mortiis",
-        "venue": "Lee's Palace",
-        "price": "$38.87",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=UADA+live"
-    },
-    {
-        "date": "April 24, 2026",
-        "artist": "Daya",
+        "date": "2026-04-27",
+        "artist": "Gelli Haha",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
-        "price": "$25.00",
+        "price": "$44.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Daya+live"
+        "youtube_sample": "https://www.youtube.com/watch?v=8mG5WlqL2e8"
     },
     {
-        "date": "May 1, 2026",
+        "date": "2026-04-29",
+        "artist": "Calum Scott",
+        "url": "https://masseyhall.mhrth.com/tickets/calum-scott/",
+        "venue": "Massey Hall",
+        "price": "$59.50+",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=q31tGyBJ_Yk"
+    },
+    {
+        "date": "2026-04-30",
+        "artist": "Archspire",
+        "url": "https://thephoenixconcerttheatre.com/events/event/archspire/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$35.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=W3f_8ZndK4g"
+    },
+    {
+        "date": "2026-05-01",
         "artist": "KEiiNO",
         "url": "https://elmocambo.com/event/keiino-chromium-heart-tour/",
         "venue": "El Mocambo",
         "price": "$60.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=KEiiNO+live"
+        "youtube_sample": "https://www.youtube.com/watch?v=kY7_h6v7-F0"
     },
     {
-        "date": "May 6, 2026",
-        "artist": "Tommy Genesis",
-        "url": "https://thegreathall.ca/event/departure-2026-tommy-genesis/",
-        "venue": "The Great Hall",
-        "price": "$30.00",
+        "date": "2026-05-26",
+        "artist": "'68 (Farewell Tour)",
+        "url": "https://horseshoetavern.com/event/68-farewell-tour-wnate-bergman/",
+        "venue": "Horseshoe Tavern",
+        "price": "$26.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Tommy+Genesis+live"
-    },
-    {
-        "date": "April 30, 2026",
-        "artist": "Archspire",
-        "url": "https://thephoenixconcerttheatre.com/events/event/archspire/",
-        "venue": "Phoenix Concert Theatre",
-        "price": "$48.47",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Archspire+live"
+        "youtube_sample": "https://www.youtube.com/watch?v=D-h5VvL5Z1E"
     }
 ]
