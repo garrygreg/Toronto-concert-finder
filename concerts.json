@@ -1,92 +1,92 @@
 [
     {
-        "date": "April 23, 2026",
-        "artist": "The Last Dinner Party",
-        "url": "https://masseyhall.mhrth.com/tickets/the-last-dinner-party/",
+        "date": "April 29, 2026",
+        "artist": "Calum Scott",
+        "url": "https://masseyhall.mhrth.com/tickets/calum-scott-2026/",
         "venue": "Massey Hall",
-        "price": "From $55.00",
+        "price": "$45.00 - $85.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/watch?v=rl92p_L50IE"
+        "youtube_sample": "https://www.youtube.com/results?search_query=Calum+Scott+live"
     },
     {
         "date": "April 25, 2026",
         "artist": "William Black",
-        "url": "https://www.historytoronto.com/events/detail/william-black/",
+        "url": "https://www.historytoronto.com/events/detail/william-black",
         "venue": "History Toronto",
-        "price": "From $42.50",
+        "price": "$35.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=F3_l-I1r36M"
+        "youtube_sample": "https://www.youtube.com/results?search_query=William+Black+live"
     },
     {
-        "date": "May 12, 2026",
-        "artist": "Biffy Clyro",
-        "url": "https://www.thedanforth.com/events/detail/biffy-clyro/",
+        "date": "April 24, 2026",
+        "artist": "Allie X",
+        "url": "https://www.thedanforth.com/events/detail/allie-x",
         "venue": "The Danforth Music Hall",
-        "price": "From $60.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=Yp9N_Zk6qXc"
+        "price": "$30.00",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/results?search_query=Allie+X+live"
     },
     {
-        "date": "May 19, 2026",
-        "artist": "Shadow Of Intent",
-        "url": "https://theoperahousetoronto.com/events/detail/shadow-of-intent/",
+        "date": "April 28, 2026",
+        "artist": "Drug Church x White Reaper",
+        "url": "https://theoperahousetoronto.com/events/detail/drug-church-white-reaper",
         "venue": "The Opera House",
-        "price": "From $35.00",
+        "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=UAsI68m8x7M"
+        "youtube_sample": "https://www.youtube.com/results?search_query=Drug+Church+live"
     },
     {
-        "date": "April 22, 2026",
-        "artist": "Floating Mansions",
-        "url": "https://horseshoetavern.com/events/",
+        "date": "May 1, 2026",
+        "artist": "DEAD BOB",
+        "url": "https://horseshoetavern.com/event/dead-bob",
         "venue": "Horseshoe Tavern",
-        "price": "$12.00",
+        "price": "$20.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=B7v-p83P-3s"
+        "youtube_sample": "https://www.youtube.com/results?search_query=DEAD+BOB+live"
     },
     {
         "date": "April 24, 2026",
         "artist": "UADA & MORTIIS",
-        "url": "https://www.leespalace.com/events/",
+        "url": "https://www.leespalace.com/event/uada-mortiis",
         "venue": "Lee's Palace",
-        "price": "$30.00",
+        "price": "$38.87",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=Zf5_CqRre0E"
-    },
-    {
-        "date": "April 29, 2026",
-        "artist": "The Casualties",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$40.48",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=B6mR8G3zX8I"
-    },
-    {
-        "date": "April 25, 2026",
-        "artist": "Bo Steezy",
-        "url": "https://elmocambo.com/event/bo-steezy/",
-        "venue": "El Mocambo",
-        "price": "From $25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=46T_A0_0uM0"
+        "youtube_sample": "https://www.youtube.com/results?search_query=UADA+live"
     },
     {
         "date": "April 24, 2026",
-        "artist": "Archive + JoyCut",
-        "url": "https://thegreathall.ca/event/archive-joycut/",
-        "venue": "The Great Hall",
-        "price": "From $38.00",
+        "artist": "Daya",
+        "url": "http://www.garrisontoronto.com/",
+        "venue": "The Garrison",
+        "price": "$25.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=38D56U-O-vE"
+        "youtube_sample": "https://www.youtube.com/results?search_query=Daya+live"
     },
     {
-        "date": "April 23, 2026",
-        "artist": "Dark Tranquillity + Soen",
-        "url": "https://thephoenixconcerttheatre.com/events/event/dark-tranquillity-soen/",
-        "venue": "Phoenix Concert Theatre",
-        "price": "From $48.00",
+        "date": "May 1, 2026",
+        "artist": "KEiiNO",
+        "url": "https://elmocambo.com/event/keiino-chromium-heart-tour/",
+        "venue": "El Mocambo",
+        "price": "$60.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=X2mH2Yp5xLk"
+        "youtube_sample": "https://www.youtube.com/results?search_query=KEiiNO+live"
+    },
+    {
+        "date": "May 6, 2026",
+        "artist": "Tommy Genesis",
+        "url": "https://thegreathall.ca/event/departure-2026-tommy-genesis/",
+        "venue": "The Great Hall",
+        "price": "$30.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/results?search_query=Tommy+Genesis+live"
+    },
+    {
+        "date": "April 30, 2026",
+        "artist": "Archspire",
+        "url": "https://thephoenixconcerttheatre.com/events/event/archspire/",
+        "venue": "Phoenix Concert Theatre",
+        "price": "$48.47",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/results?search_query=Archspire+live"
     }
 ]
