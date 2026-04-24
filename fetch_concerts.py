@@ -18,7 +18,7 @@ venues = [
     "El Mocambo", "The Garrison", "The Great Hall"
 ]
 
-# Updated Venue Mapping with specific sub-paths for April 2026
+# The mapping MUST stay to provide the "Source of Truth" domains
 venue_map = """
 - Massey Hall: https://masseyhall.mhrth.com/performances/
 - Horseshoe Tavern: https://horseshoetavern.com/event/
@@ -33,19 +33,20 @@ venue_map = """
 """
 
 prompt = f"""
-Using Google Search, find the unique event detail URLs for upcoming concerts at these venues:
+Using Google Search, find unique event details for upcoming concerts at these Toronto venues using the provided Base URLs as your source:
 {venue_map}
 
-Return a JSON array of objects with: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
+Return a JSON array of objects with these keys: 
+"date" (YYYY-MM-DD), "artist", "url", "venue", "price", "age", "youtube_sample".
 
-STRICT DEEP-LINKING RULES (April 2026):
-1. USE THESE EXACT PATHS:
-   - For History, Danforth, Opera House, and Lee's Palace: The URL MUST follow the pattern [domain]/events/detail/[slug]
-   - For Horseshoe, Garrison, and Great Hall: The URL MUST follow the pattern [domain]/event/[slug]/
-   - For Massey Hall: The URL MUST follow the pattern [domain]/performances/[slug]
-2. DO NOT return general listing pages (like /shows or /events). Every link must lead to a page about ONE specific artist.
-3. Validate each slug: Slugs usually look like 'artist-name-yyyy-mm-dd'. 
-4. If a deep link is absolutely not found, use the closest 'event/' path from the venue_map above, NEVER just the homepage.
+STRICT RULES FOR APRIL 2026:
+1. DEEP LINKS: The "url" field MUST be the direct link to the individual show page using the paths provided in the map (e.g., /events/detail/[slug] or /event/[slug]). 
+2. DO NOT link to the general calendar if a specific show page exists.
+3. YOUTUBE SAMPLES: Every entry must have a search link. 
+   Format: https://www.youtube.com/results?search_query=Artist+Name+Live
+   (Replace all spaces with '+' signs).
+4. FALLBACK: If a deep link is absolutely not found, use the venue's Base URL from the map above. Never leave it blank.
+5. NO HALLUCINATIONS: Use only the domains provided in the venue_map.
 """
 
 try:
