@@ -1,92 +1,92 @@
 [
     {
-        "date": "2026-05-09",
-        "artist": "Wild Rivers",
-        "url": "https://masseyhall.mhrth.com/performances/wild-rivers-2026-05-09",
+        "date": "2026-04-29",
+        "artist": "Calum Scott",
+        "url": "https://masseyhall.mhrth.com/performances/calum-scott/",
         "venue": "Massey Hall",
-        "price": "CA $72.80",
+        "price": "$59.50 - $149.50",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/watch?v=pSAnzTf763E"
+        "youtube_sample": "https://www.youtube.com/results?search_query=Calum+Scott+Live"
     },
     {
-        "date": "2026-05-06",
-        "artist": "Logan Staats",
-        "url": "https://horseshoetavern.com/event/logan-staats-2026-05-06/",
+        "date": "2026-04-29",
+        "artist": "Steve Poltz",
+        "url": "https://horseshoetavern.com/event/steve-poltz/",
         "venue": "Horseshoe Tavern",
-        "price": "CA $32.13",
+        "price": "$30.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=D-h5D9v4Z0k"
+        "youtube_sample": "https://www.youtube.com/results?search_query=Steve+Poltz+Live"
     },
     {
-        "date": "2026-05-07",
-        "artist": "The Cribs",
-        "url": "https://www.leespalace.com/events/detail/the-cribs-2026-05-07",
+        "date": "2026-04-29",
+        "artist": "Front Line Assembly",
+        "url": "https://www.leespalace.com/events/detail/front-line-assembly/",
         "venue": "Lee's Palace",
-        "price": "CA $44.06",
+        "price": "$40.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=ER97f_f-k8I"
+        "youtube_sample": "https://www.youtube.com/results?search_query=Front+Line+Assembly+Live"
     },
     {
-        "date": "2026-05-07",
-        "artist": "fakemink",
-        "url": "https://www.historytoronto.com/events/detail/fakemink-2026-05-07",
+        "date": "2026-04-28",
+        "artist": "The Midnight",
+        "url": "https://www.historytoronto.com/events/detail/the-midnight/",
         "venue": "History Toronto",
-        "price": "CA $33.00",
-        "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/watch?v=KB5TKob9PeA"
+        "price": "$55.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/results?search_query=The+Midnight+Live"
     },
     {
-        "date": "2026-05-05",
-        "artist": "Corrosion of Conformity",
-        "url": "https://thephoenixconcerttheatre.com/events/corrosion-of-conformity-2026-05-05",
+        "date": "2026-04-23",
+        "artist": "Dark Tranquillity, Soen & Persefone",
+        "url": "https://thephoenixconcerttheatre.com/events/dark-tranquillity-soen-persefone/",
         "venue": "Phoenix Concert Theatre",
-        "price": "CA $48.47",
+        "price": "$49.50",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=rKPicUnsPPg"
+        "youtube_sample": "https://www.youtube.com/results?search_query=Dark+Tranquillity+Live"
     },
     {
-        "date": "2026-05-09",
-        "artist": "Lowest of the Low",
-        "url": "https://www.thedanforth.com/events/detail/lowest-of-the-low-2026-05-09",
+        "date": "2026-04-06",
+        "artist": "Madison Cunningham",
+        "url": "https://www.thedanforth.com/events/detail/madison-cunningham/",
         "venue": "The Danforth Music Hall",
-        "price": "CA $32.13",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=H7Z8n5_C9o4"
-    },
-    {
-        "date": "2026-05-03",
-        "artist": "Elmiene",
-        "url": "https://www.theoperahousetoronto.com/events/detail/elmiene-2026-05-03",
-        "venue": "The Opera House",
-        "price": "CA $75.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=5V9H1u5Jk08"
-    },
-    {
-        "date": "2026-05-01",
-        "artist": "KEiiNO",
-        "url": "https://elmocambo.com/event/keiino-2026-05-01/",
-        "venue": "El Mocambo",
-        "price": "CA $77.75",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=Yp97Vsh_42c"
-    },
-    {
-        "date": "2026-05-06",
-        "artist": "slchld",
-        "url": "http://www.garrisontoronto.com/event/slchld-2026-05-06/",
-        "venue": "The Garrison",
-        "price": "CA $45.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=Nn1E20pC07o"
-    },
-    {
-        "date": "2026-05-06",
-        "artist": "Tommy Genesis",
-        "url": "https://thegreathall.ca/event/tommy-genesis-2026-05-06/",
-        "venue": "The Great Hall",
-        "price": "CA $42.08",
+        "price": "$35.00",
         "age": "All Ages",
-        "youtube_sample": "https://www.youtube.com/watch?v=Kz6lB8S6K3Y"
+        "youtube_sample": "https://www.youtube.com/results?search_query=Madison+Cunningham+Live"
+    },
+    {
+        "date": "2026-04-30",
+        "artist": "Unprocessed",
+        "url": "https://www.theoperahousetoronto.com/events/detail/unprocessed/",
+        "venue": "The Opera House",
+        "price": "$40.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/results?search_query=Unprocessed+Live"
+    },
+    {
+        "date": "2026-04-30",
+        "artist": "Everything 80s Party",
+        "url": "https://elmocambo.com/event/everything-80s-party/",
+        "venue": "El Mocambo",
+        "price": "$35.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/results?search_query=Everything+80s+Party+Live"
+    },
+    {
+        "date": "2026-04-29",
+        "artist": "The Casualties",
+        "url": "http://www.garrisontoronto.com/event/the-casualties/",
+        "venue": "The Garrison",
+        "price": "$25.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/results?search_query=The+Casualties+Live"
+    },
+    {
+        "date": "2026-04-19",
+        "artist": "Courtney Marie Andrews",
+        "url": "https://thegreathall.ca/event/courtney-marie-andrews/",
+        "venue": "The Great Hall",
+        "price": "$30.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/results?search_query=Courtney+Marie+Andrews+Live"
     }
 ]
