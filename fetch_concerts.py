@@ -2,20 +2,18 @@ import os
 import json
 import datetime
 import re
+import time
 from google import genai
 from google.genai import types
 
 # 1. Setup API Client
-# Ensure GEMINI_API_KEY is set in your GitHub Repository Secrets
 api_key = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key)
 
-# 2. Define Timeframe
 today = datetime.date.today()
 next_year = today + datetime.timedelta(days=364)
 
-# 3. Define "Source of Truth" Listing Pages
-# We point directly to the pages where the 'More Info' or 'Ticket' links live.
+# THE SOURCE OF TRUTH: listing one per line makes it easy to add more later
 listing_pages = [
     "https://masseyhall.mhrth.com/tickets/",
     "https://www.historytoronto.com/events",
@@ -29,59 +27,95 @@ listing_pages = [
     "https://thephoenixconcerttheatre.com/events/"
 ]
 
-# 4. Construct the Precision Extraction Prompt
-prompt = f"""
-Act as a professional data scraper. Visit the following Toronto venue listing pages:
-{', '.join(listing_pages)}
+def scrape_single_venue(url):
+    """Surgical extraction for a single venue using Gemini 3."""
+    prompt = f"""
+    Visit this specific Toronto venue page: {url}
+    
+    EXTRACT all upcoming concert data from {today} to {next_year}.
+    
+    Required Fields:
+    - "date" (YYYY-MM-DD)
+    - "artist" (Full name)
+    - "url" (The EXACT 'More Info' or 'Ticket' link found on the page. NO guessing.)
+    - "venue" (The name of the venue)
+    - "price" (The price listed, or 'TBD')
+    - "age" (e.g., '19+', 'All Ages')
+    - "youtube_sample" (Search link: https://www.youtube.com/results?search_query=[Artist]+Live)
 
-Your mission is to EXTRACT (not guess) all upcoming concert data from {today} to {next_year}.
-
-STRICT EXTRACTION PROTOCOL:
-1. REAL LINKS ONLY: For every concert, you MUST find the 'More Info', 'Tickets', or 'Event Detail' button in the HTML and extract the EXACT 'href' destination URL.
-2. NO HALLUCINATIONS: Do not construct or guess URLs. If a specific event page link is not found on the venue's own domain, use the venue's main listing URL as a fallback.
-3. DOMAIN RESTRICTION: The "url" field MUST stay on the official venue domains (e.g., thedanforth.com, historytoronto.com). NEVER provide links to ticketmaster.ca or livenation.com.
-4. YOUTUBE SAMPLES: Construct a search link for each artist: https://www.youtube.com/results?search_query=[Artist+Name]+Live (replace spaces with '+').
-5. DATA FIELDS: For each event, pull the "date" (YYYY-MM-DD), "artist", "url", "venue", "price", and "age" (e.g., '19+', 'All Ages', or 'TBD').
-
-Return the result as a raw JSON array of objects.
-"""
-
-# 5. Execute with Gemini 3 Flash & URL Context
-try:
-    print("Starting precision extraction...")
+    STRICT RULES:
+    1. EXTRACT REAL LINKS: Only provide URLs that actually exist as links on the page.
+    2. NO PATTERN GUESSING: If you cannot find a deep link to an individual event, use the main URL: {url}
+    3. Return ONLY a raw JSON array.
+    """
+    
     response = client.models.generate_content(
         model="gemini-3-flash-preview", 
         contents=prompt,
         config=types.GenerateContentConfig(
             tools=[
-                # This tool allows Gemini to 'read' the listing_pages URLs
                 types.Tool(url_context=types.UrlContext()),
                 types.Tool(google_search=types.GoogleSearch())
-            ],
-            # Enables the model to 'reason' through complex HTML structures
-            thinking_config={'include_thoughts': True}
+            ]
         )
     )
+    return response.text
 
-    # 6. Parse and Clean the Output
-    # We use Regex to ensure we grab only the JSON array even if Gemini adds text.
-    json_match = re.search(r'\[.*\]', response.text, re.DOTALL)
+# 2. Main Execution Loop
+all_concerts = []
+
+for url in listing_pages:
+    success = False
+    max_retries = 3
+    attempt = 0
     
-    if json_match:
-        concert_data = json.loads(json_match.group(0))
-        
-        # Save to concerts.json for the website to read
-        with open("concerts.json", "w") as f:
-            json.dump(concert_data, f, indent=4)
+    while not success and attempt < max_retries:
+        try:
+            print(f"Processing: {url}...")
+            raw_output = scrape_single_venue(url)
             
-        print(f"Successfully extracted {len(concert_data)} events.")
-        
-    else:
-        print("Error: The model did not return a valid JSON array.")
-        # Print the response text for debugging in GitHub Actions logs
-        print("Model Response:", response.text)
-        exit(1)
+            # Extract JSON array
+            json_match = re.search(r'\[.*\]', raw_output, re.DOTALL)
+            if json_match:
+                venue_data = json.loads(json_match.group(0))
+                all_concerts.extend(venue_data)
+                success = True
+                print(f"   Success! Found {len(venue_data)} events.")
+            else:
+                print(f"   Error: No JSON found for this venue. (Attempt {attempt+1})")
+                attempt += 1
+                time.sleep(5)
 
-except Exception as e:
-    print(f"Scraper encountered a fatal error: {e}")
+        except Exception as e:
+            if "503" in str(e) or "high demand" in str(e).lower():
+                wait_time = (attempt + 1) * 20
+                print(f"   Server Busy (503). Waiting {wait_time}s... (Attempt {attempt+1}/{max_retries})")
+                time.sleep(wait_time)
+                attempt += 1
+            else:
+                print(f"   Skipping {url} due to error: {e}")
+                break
+
+# 3. Final Data Cleanup & Save
+if all_concerts:
+    # Deduplicate entries (just in case)
+    seen = set()
+    unique_concerts = []
+    for c in all_concerts:
+        # Create a unique key based on date, artist, and venue
+        key = f"{c.get('date')}-{c.get('artist')}-{c.get('venue')}"
+        if key not in seen:
+            unique_concerts.append(c)
+            seen.add(key)
+
+    # Sort by date for the website
+    unique_concerts.sort(key=lambda x: x.get('date', '9999-99-99'))
+
+    with open("concerts.json", "w") as f:
+        json.dump(unique_concerts, f, indent=4)
+    
+    print(f"\n--- SUCCESS ---")
+    print(f"Total Unique Events Saved: {len(unique_concerts)}")
+else:
+    print("No data collected. Check Action logs for errors.")
     exit(1)
