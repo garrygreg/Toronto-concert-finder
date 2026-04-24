@@ -99,8 +99,11 @@
                     { 
                         data: 'artist',
                         render: function(data, type, row) {
-                            // This turns the Artist text into a clickable link using the 'url' from your JSON
-                            return `<a href="${row.url}" target="_blank">${data}</a>`;
+                            // If url is missing or 'TBD', just show the name. Otherwise, link it.
+                            if (!row.url || row.url === 'TBD' || row.url === '#') {
+                                return data;
+                            }
+                            return `<a href="${row.url}" target="_blank" title="View event details">${data}</a>`;
                         }
                     },
                     { data: 'venue' },
