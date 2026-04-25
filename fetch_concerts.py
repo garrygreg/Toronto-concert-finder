@@ -13,14 +13,14 @@ client = genai.Client(api_key=api_key)
 today = datetime.date.today()
 next_year = today + datetime.timedelta(days=364)
 
-# Banned domains to prevent redirects to ticketing sites
+# Banned domains to prevent redirects to third-party ticketing sites
 BANNED_DOMAINS = ["ticketmaster", "livenation", "eventbrite", "dice.fm", "showpass", "universe.com", "ticketweb", "admitone"]
 
-# UPDATED LISTING PAGES (Correcting The Opera House URL)
+# The "Sources of Truth"
 listing_pages = [
     "https://masseyhall.mhrth.com/tickets/",
     "https://www.historytoronto.com/events",
-    "https://www.thedanforth.com/",
+    "https://www.thedanforth.com/shows",
     "https://www.theoperahousetoronto.com/shows/",
     "https://horseshoetavern.com/",
     "https://www.leespalace.com/",
@@ -31,29 +31,35 @@ listing_pages = [
 ]
 
 def scrape_single_venue(url):
-    """Deep-link audit for a single venue using Gemini 3."""
+    """Literal extraction for a single venue using Gemini 3."""
     domain_match = re.search(r'https?://(?:www\.)?([^/]+)', url)
     official_domain = domain_match.group(1) if domain_match else ""
+
+    # Specific static overrides for venues that do not have detail pages
+    if "thedanforth.com" in url:
+        static_url = "https://www.thedanforth.com/shows"
+    elif "theoperahousetoronto.com" in url:
+        static_url = "https://www.theoperahousetoronto.com/shows/"
+    elif "garrisontoronto.com" in url:
+        static_url = "http://www.garrisontoronto.com/"
+    else:
+        static_url = url
 
     prompt = f"""
     Visit this Toronto venue page: {url}
     
     TASK: Extract all upcoming concerts from {today} to {next_year}.
     
-    DEEP LINK BLUEPRINT:
-    You MUST find the URL that leads to the specific artist page. Do not be lazy.
-    - FOR LEE'S PALACE & HORSESHOE: Look for links starting with '{url}event/'. They are usually hidden behind the artist title or the 'About' button.
-    - FOR EL MOCAMBO: Look for links starting with 'https://elmocambo.com/event/'.
-    - FOR THE GREAT HALL: Look for links starting with 'https://thegreathall.ca/event/'.
-    - FOR MASSEY HALL: Look for links starting with 'https://masseyhall.mhrth.com/tickets/'.
-    - FOR OPERA HOUSE & GARRISON: Since deep links are often unavailable, you may use their main listing URL as the 'url'.
+    LITERAL EXTRACTION RULES:
+    1. NO GUESSING: Do not construct URLs based on the artist name. 
+    2. THE "HREF" RULE: You must look at the HTML 'href' attribute for the "More Info" button or the Artist Name. Copy that link EXACTLY as it is written in the code.
+       - Example (Lee's): If the code says '/event/blackout-dance-cave', do NOT change it to '/event/blackout'.
+       - Example (Massey): If the code says '/tickets/cal-steely-dan-greatest-hits/', do NOT change it to '/tickets/classic-albums-live...'.
+    3. DOMAIN LOCKDOWN: Every 'url' MUST stay on the official domain: {official_domain}.
+    4. NO TICKETING: If a link goes to Ticketmaster or Eventbrite, ignore it. Find the link that stays on {official_domain}.
+    5. STATIC OVERRIDE: For this specific venue, if you cannot find a deep link that stays on {official_domain}, use: {static_url}
     
-    STRICT RULES:
-    1. DOMAIN LOCKDOWN: Every 'url' MUST be on the official domain: {official_domain}.
-    2. NO TICKETING LINKS: If a link contains 'ticketmaster', 'livenation', or 'eventbrite', it is FORBIDDEN. Skip it and look for the 'More Info' link instead.
-    3. If no artist-specific page exists on the official domain, use: {url}
-    
-    Required Fields: "date" (YYYY-MM-DD), "artist", "url", "venue", "price", "age", "youtube_sample".
+    Required Fields: "date" (YYYY-MM-DD), "artist", "url" (LITERAL HREF), "venue", "price", "age", "youtube_sample".
     Return a raw JSON array.
     """
     
@@ -67,7 +73,7 @@ def scrape_single_venue(url):
     )
     return response.text
 
-# 2. Main Execution Loop (One at a time)
+# 2. Main Execution Loop
 all_concerts = []
 
 for url in listing_pages:
@@ -77,15 +83,22 @@ for url in listing_pages:
     
     while not success and attempt < max_retries:
         try:
-            print(f"Auditing: {url}...")
+            print(f"Extracting: {url}...")
             raw_output = scrape_single_venue(url)
             
             json_match = re.search(r'\[.*\]', raw_output, re.DOTALL)
             if json_match:
                 venue_data = json.loads(json_match.group(0))
                 
-                # Manual Check: Ensure no Ticketmaster links snuck through
+                # Double-Check: Filter out banned domains and ensure static fallbacks
                 for entry in venue_data:
+                    # Fix for Danforth/Opera House based on user request
+                    if "Danforth" in entry['venue'] or "thedanforth.com" in entry['url']:
+                        entry['url'] = "https://www.thedanforth.com/shows"
+                    elif "Opera House" in entry['venue'] or "theoperahousetoronto.com" in entry['url']:
+                        entry['url'] = "https://www.theoperahousetoronto.com/shows/"
+                    
+                    # Prevent Ticketmaster leaks
                     if any(banned in entry['url'].lower() for banned in BANNED_DOMAINS):
                         entry['url'] = url 
                 
@@ -118,6 +131,6 @@ if all_concerts:
 
     with open("concerts.json", "w") as f:
         json.dump(unique_concerts, f, indent=4)
-    print(f"\n--- SCRAPE COMPLETE: {len(unique_concerts)} Events ---")
+    print(f"\n--- SCRAPE COMPLETE ---")
 else:
     exit(1)
