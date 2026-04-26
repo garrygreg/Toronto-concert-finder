@@ -1,120 +1,39 @@
 [
     {
-        "date": "2026-04-25",
-        "artist": "Sina Bathaie - White Lotus World Tour",
-        "url": "https://www.thedanforth.com/shows",
-        "venue": "The Danforth Music Hall",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "Wing Night (The Band)",
-        "url": "https://www.theoperahousetoronto.com/shows/",
-        "venue": "The Opera House",
-        "price": "",
-        "age": "",
-        "youtube_sample": ""
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "Rockabilly Spring Social - Bad Fortunes | The Howlin' Hound Dogs | The Calrizian's",
-        "url": "https://horseshoetavern.com/",
-        "venue": "Horseshoe Tavern",
-        "price": "$15.00",
-        "age": "19+",
-        "youtube_sample": null
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "A Wilhelm Scream w/ Brutal Youth & Dealbreaker *SOLD OUT*",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace (Dance Cave)",
-        "price": "$30.00",
-        "age": "19+",
-        "youtube_sample": null
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "Bloodrave w/ Nowhere2run, D. Blavatsky, Stella Maise, Repulsive Radio, Mukus, Tube, B2B. Bulldozer Babe, Viciouswishes",
-        "url": "https://www.leespalace.com/",
-        "venue": "Lee's Palace",
-        "price": "$22.50",
-        "age": "19+",
-        "youtube_sample": null
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "Dance Party 2000",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$21.95 - $32.63",
-        "age": "19+",
-        "youtube_sample": ""
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "DJ Prince Batrick (4am Last Call)",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "No cover",
-        "age": "19+",
-        "youtube_sample": ""
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "Bo Steezy presents: Bo With a Side of Steez \u2013 ALBUM RELEASE",
-        "url": "https://elmocambo.com/events-new/",
-        "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Bo+Steezy"
-    },
-    {
-        "date": "2026-04-25",
-        "artist": "MORGAN WALLEN Tribute UK",
-        "url": "https://elmocambo.com/events-new/",
-        "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Morgan+Wallen+Tribute+UK"
-    },
-    {
         "date": "2026-04-26",
         "artist": "Essenger w/ Echos",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/essenger-w-echos",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$22.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-04-26",
         "artist": "Master Boot Record",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/master-boot-record",
         "venue": "Lee's Palace",
         "price": "$26.50",
-        "age": "19+",
-        "youtube_sample": null
-    },
-    {
-        "date": "2026-04-26",
-        "artist": "DJ LArA (4am Last Call)",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "No cover",
         "age": "19+",
         "youtube_sample": ""
     },
     {
+        "date": "2026-04-26",
+        "artist": "4am LAST CALL: DJ LArA",
+        "url": "http://www.garrisontoronto.com/",
+        "venue": "The Garrison",
+        "price": "0",
+        "age": null,
+        "youtube_sample": null
+    },
+    {
         "date": "2026-04-27",
-        "artist": "Gelli Haha",
+        "artist": "GELLI HAHA",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$35.14",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=F0p7vW3DkG0"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-04-28",
@@ -131,8 +50,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=R32w62MHe30"
     },
     {
         "date": "2026-04-28",
@@ -145,12 +64,21 @@
     },
     {
         "date": "2026-04-28",
-        "artist": "Slomosa",
+        "artist": "SLOMOSA",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "SOLD OUT",
+        "age": null,
+        "youtube_sample": null
+    },
+    {
+        "date": "2026-04-28",
+        "artist": "CLAN OF XYMOX",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=5rT8yY4z5N0"
+        "youtube_sample": "https://www.youtube.com/watch?v=5rT1mX_IeLo"
     },
     {
         "date": "2026-04-29",
@@ -159,25 +87,25 @@
         "venue": "Horseshoe Tavern",
         "price": "$28.00 - $43.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=wX-y0M5Z9l8"
     },
     {
         "date": "2026-04-29",
         "artist": "Front Line Assembly w/ Shallow Waves",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/front-line-assembly-w-shallow-waves",
         "venue": "Lee's Palace",
         "price": "$32.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-04-29",
-        "artist": "The Casualties",
+        "artist": "THE CASUALTIES",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$40.48",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=8w_P65V9I4s"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-04-30",
@@ -185,8 +113,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=0W8o1I07W2w"
     },
     {
         "date": "2026-04-30",
@@ -200,20 +128,20 @@
     {
         "date": "2026-04-30",
         "artist": "Mo Lowda And The Humble w/ Ten Minute Detour",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/mo-lowda-and-the-humble-w-ten-minute-detour",
         "venue": "Lee's Palace",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-04-30",
         "artist": "Caroline Kingsbury w/ CJ Wiley",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/caroline-kingsbury-w-cj-wiley",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-04-30",
@@ -221,8 +149,17 @@
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
         "price": "$35",
+        "age": "",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-04-30",
+        "artist": "ARCHSPIRE",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=80s+party+music"
+        "youtube_sample": "https://www.youtube.com/watch?v=S-w779mKpx4"
     },
     {
         "date": "2026-05-01",
@@ -240,34 +177,34 @@
         "venue": "Horseshoe Tavern",
         "price": "$20.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=H7S86tXq8vU"
     },
     {
         "date": "2026-05-01",
         "artist": "Outer Space 2026",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/outer-space-2026-1",
         "venue": "Lee's Palace",
         "price": "$30.00",
-        "age": "19+",
-        "youtube_sample": null
-    },
-    {
-        "date": "2026-05-01",
-        "artist": "Prom Night with The Lonely Hearts!",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$27.36",
         "age": "19+",
         "youtube_sample": ""
     },
     {
         "date": "2026-05-01",
-        "artist": "KEiiNO Chromium Heart Tour",
+        "artist": "PROM NIGHT WITH THE LONELY HEARTS!",
+        "url": "http://www.garrisontoronto.com/",
+        "venue": "The Garrison",
+        "price": "$27.36",
+        "age": null,
+        "youtube_sample": null
+    },
+    {
+        "date": "2026-05-01",
+        "artist": "KEiiNO",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
         "price": "$60",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=KEiiNO"
+        "age": "",
+        "youtube_sample": "https://www.youtube.com/watch?v=D60v_y_Gv90"
     },
     {
         "date": "2026-05-02",
@@ -285,7 +222,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=f_pY8L7e_8c"
     },
     {
         "date": "2026-05-02",
@@ -294,16 +231,16 @@
         "venue": "Horseshoe Tavern",
         "price": "$18.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=e_t956K_8O8"
     },
     {
         "date": "2026-05-02",
         "artist": "Outer Space 2026",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/outer-space-2026-2",
         "venue": "Lee's Palace",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-03",
@@ -311,8 +248,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=6K_nZ6O_4Qo"
     },
     {
         "date": "2026-05-03",
@@ -321,16 +258,25 @@
         "venue": "Horseshoe Tavern",
         "price": "$15.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=R7DshnF0i0k"
     },
     {
         "date": "2026-05-03",
         "artist": "YT",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/yt",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "All Ages",
-        "youtube_sample": null
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-03",
+        "artist": "DJ LEX",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=W-uA38B6w_k"
     },
     {
         "date": "2026-05-04",
@@ -351,58 +297,67 @@
         "youtube_sample": null
     },
     {
-        "date": "2026-05-04",
-        "artist": "King Edward P.S. Rock Band Night",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$5",
-        "age": "All Ages",
-        "youtube_sample": ""
-    },
-    {
         "date": "2026-05-05",
         "artist": "Bobby Dove Album Release",
         "url": "https://horseshoetavern.com/",
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=tIeA9D_N-e4"
     },
     {
         "date": "2026-05-05",
         "artist": "Chuwi w/ Itz Nico P",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/chuwi-w-itz-nico-p",
         "venue": "Lee's Palace",
         "price": "$32.50",
         "age": "19+",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-05",
+        "artist": "KING EDWARD P.S. ROCK BAND NIGHT",
+        "url": "http://www.garrisontoronto.com/",
+        "venue": "The Garrison",
+        "price": "$5",
+        "age": null,
         "youtube_sample": null
     },
     {
         "date": "2026-05-05",
-        "artist": "Remember Sports",
+        "artist": "REMEMBER SPORTS",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$31.74",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=R9_u2wX8sE4"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-05",
         "artist": "WE WALK WITH WARREN",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
+        "price": "",
+        "age": "",
         "youtube_sample": ""
     },
     {
         "date": "2026-05-05",
-        "artist": "DEPARTURE SHOWCASE (YASSiN & Sean Terrio, Maya Malkin, Lockyer Boys, G\u00e4elle)",
+        "artist": "YASSiN & Sean Terrio, Maya Malkin, Lockyer Boys, and G\u00e4elle (DEPARTURE SHOWCASE)",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-05",
+        "artist": "Corrosion of Conformity",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=YASSiN+%26+Sean+Terrio"
+        "youtube_sample": "https://www.youtube.com/watch?v=vV0fAn7Z8_U"
     },
     {
         "date": "2026-05-06",
@@ -411,25 +366,25 @@
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=Z4v6v-Z0FNo"
     },
     {
         "date": "2026-05-06",
         "artist": "Yumi Zouma w/ Ducks LTD",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/yumi-zouma-w-ducks-ltd",
         "venue": "Lee's Palace",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-06",
         "artist": "Keli Holiday w/ Kirin J Callinan",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/keli-holiday-w-kirin-j-callinan",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$22.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-06",
@@ -437,17 +392,17 @@
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$41.72",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=W-Ywz2m_r00"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-06",
         "artist": "GLOBAL WARMING \u2013 2026 WAY BETTER NORTH AMERICA TOUR",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Way+Better+Tour+2026"
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-07",
@@ -461,20 +416,20 @@
     {
         "date": "2026-05-07",
         "artist": "The Cribs w/ Connie",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-cribs-w-connie",
         "venue": "Lee's Palace",
         "price": "$41.73",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-07",
-        "artist": "The Neverminds",
+        "artist": "DEPARTURE 2026 + RANGE MAGAZINE PRESENTS: THE NEVERMINDS / CONCRETE VEHICLES / CHERRY PICK / ROSEWATER PARK",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$25.64",
-        "age": "19+",
-        "youtube_sample": ""
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-08",
@@ -492,7 +447,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=mC1vO9-V5lQ"
     },
     {
         "date": "2026-05-08",
@@ -501,34 +456,34 @@
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=3-E7o-iS-h0"
     },
     {
         "date": "2026-05-08",
         "artist": "Lavender Town & Mafuba (feat. Karneef)",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/lavender-town-mafuba-feat-karneef",
         "venue": "Lee's Palace",
         "price": "$28.25",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-08",
         "artist": "Rave Cave",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/rave-cave",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$15.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-08",
-        "artist": "Katelyn Tarver",
+        "artist": "KATELYN TARVER",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$35.14",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=H7u79pA070g"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-09",
@@ -546,7 +501,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=Yp69G4lY8pI"
     },
     {
         "date": "2026-05-09",
@@ -555,34 +510,43 @@
         "venue": "Horseshoe Tavern",
         "price": "$39.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=8p_P7X0eK6k"
     },
     {
         "date": "2026-05-09",
         "artist": "Chastity, Cam Kahin, and Smug LLC with Special Guests!",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/chastity-cam-kahin-and-smug-llc-with-special-guests",
         "venue": "Lee's Palace",
         "price": "$25.88",
         "age": "All Ages",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-09",
         "artist": "EMF w/ Ecce Shnak",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/emf-w-ecce-shnak",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$32.50",
         "age": "19+",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-09",
+        "artist": "I'M IN LOVE WITH THAT SONG: Tribute to Dave Bookman (Big Star)",
+        "url": "http://www.garrisontoronto.com/",
+        "venue": "The Garrison",
+        "price": "0",
+        "age": null,
         "youtube_sample": null
     },
     {
         "date": "2026-05-09",
-        "artist": "I'm In Love With That Song (Big Star Tribute)",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "Free",
+        "artist": "Get On Up \u2013 90s R&b And Hip Hop w/ DJ Starting From Scratch",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=0hYVf-6U38k"
     },
     {
         "date": "2026-05-10",
@@ -591,25 +555,25 @@
         "venue": "Horseshoe Tavern",
         "price": "$16.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=a3YV8yvU6C0"
     },
     {
         "date": "2026-05-10",
         "artist": "Matte Blvck w/ Kill Instinct",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/matte-blvck-w-kill-instinct",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$22.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-10",
-        "artist": "Rickshaw Billie's Burger Patrol",
+        "artist": "RICKSHAW BILLIE'S BURGER PATROL",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$30.14",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=8K6S2rNToYw"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-11",
@@ -618,7 +582,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=YfcsJ19n7Zk"
     },
     {
         "date": "2026-05-11",
@@ -627,16 +591,16 @@
         "venue": "Horseshoe Tavern",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=2v-p983P-68"
     },
     {
         "date": "2026-05-11",
-        "artist": "Trampoline Hall",
+        "artist": "TRAMPOLINE HALL",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$20.34",
-        "age": "19+",
-        "youtube_sample": ""
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-12",
@@ -653,8 +617,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=XzWj2u7O9P8"
     },
     {
         "date": "2026-05-12",
@@ -668,11 +632,20 @@
     {
         "date": "2026-05-12",
         "artist": "Autumn!",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/autumn",
         "venue": "Lee's Palace",
         "price": "$42.50",
         "age": "All Ages",
-        "youtube_sample": null
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-12",
+        "artist": "Diana Arbenina / Night Snipers",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Vl0XvA9o9x8"
     },
     {
         "date": "2026-05-13",
@@ -686,19 +659,19 @@
     {
         "date": "2026-05-13",
         "artist": "The Scratch w/ Delyn Grey",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-scratch-w-delyn-grey",
         "venue": "Lee's Palace",
         "price": "$68.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-13",
         "artist": "RACHEAL McCAIG \u2013 IMAGES & WORDS",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
+        "price": "",
+        "age": "",
         "youtube_sample": ""
     },
     {
@@ -706,18 +679,18 @@
         "artist": "Flyte",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-13",
         "artist": "Annabelle Dinda",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-14",
@@ -734,8 +707,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=R9o6T2n9r0s"
     },
     {
         "date": "2026-05-14",
@@ -744,34 +717,43 @@
         "venue": "Horseshoe Tavern",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=9_5H5oY_P1M"
     },
     {
         "date": "2026-05-14",
         "artist": "Gully Boys w/ Altered By Mom",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/gully-boys-w-altered-by-mom",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-14",
         "artist": "Dumbo Gets Mad w/ Charlie Chimi",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/dumbo-gets-mad-w-charlie-chimi",
         "venue": "Lee's Palace",
         "price": "$29.50",
         "age": "19+",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-14",
+        "artist": "MEGHAN DOWLEN + ABSOLUTE TREAT",
+        "url": "http://www.garrisontoronto.com/",
+        "venue": "The Garrison",
+        "price": "$25.03",
+        "age": null,
         "youtube_sample": null
     },
     {
         "date": "2026-05-14",
-        "artist": "Meghan Dowlen + Absolute Treat",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$25.03",
-        "age": "19+",
-        "youtube_sample": ""
+        "artist": "Hatsune Miku ~ Digital Stars",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=jhl5afLEKdo"
     },
     {
         "date": "2026-05-15",
@@ -789,7 +771,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=terg_LpZ_0Q"
     },
     {
         "date": "2026-05-15",
@@ -798,25 +780,34 @@
         "venue": "Horseshoe Tavern",
         "price": "$23.50 - $56.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=0kF5-2A-3A0"
     },
     {
         "date": "2026-05-15",
         "artist": "The Anti-Queens w/ Make War & Iron Roses",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-anti-queens-w-make-war-iron-roses",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-15",
         "artist": "The Weeknd Night",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-weeknd-night",
         "venue": "Lee's Palace",
         "price": "$9.99",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-15",
+        "artist": "La Mosca",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=l_NnE599qsc"
     },
     {
         "date": "2026-05-16",
@@ -834,7 +825,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=o_v9MY_FMcw"
     },
     {
         "date": "2026-05-16",
@@ -843,34 +834,43 @@
         "venue": "Horseshoe Tavern",
         "price": "$15.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=9QW_W7i_3C8"
     },
     {
         "date": "2026-05-16",
         "artist": "Children Of Metal w/ Full Throttle & Ovary Axe",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/children-of-metal-w-full-throttle-ovary-axe",
         "venue": "Lee's Palace",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-16",
         "artist": "Lipphead (Blockhead & Eliot Lipp)",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/lipphead-blockhead-eliot-lipp",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$22.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-16",
         "artist": "The Yacht Rock Show",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-16",
+        "artist": "Agents of Time (After life/Time machine)",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Yacht+Rock+Show"
+        "youtube_sample": "https://www.youtube.com/watch?v=E6u-o6xZ1hA"
     },
     {
         "date": "2026-05-17",
@@ -878,8 +878,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=P7ZJ8v_R_xM"
     },
     {
         "date": "2026-05-17",
@@ -888,16 +888,16 @@
         "venue": "Horseshoe Tavern",
         "price": "$15.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=7M7o-M8T5s8"
     },
     {
         "date": "2026-05-17",
-        "artist": "(Hed) P.E.",
+        "artist": "(HED) P.E.",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$38.63",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=Z_ZkU07703s"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-18",
@@ -906,7 +906,7 @@
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=S0T09u1oY0I"
     },
     {
         "date": "2026-05-19",
@@ -914,17 +914,17 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=0Wp8_mB8G2A"
     },
     {
         "date": "2026-05-19",
         "artist": "Brigitte Calls Me Baby",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-20",
@@ -933,7 +933,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=W0MvY7Dq6S8"
     },
     {
         "date": "2026-05-20",
@@ -946,20 +946,20 @@
     },
     {
         "date": "2026-05-20",
-        "artist": "City of the Sun",
+        "artist": "CITY OF THE SUN",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$35.14",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=N_vInZ2S9-I"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-20",
         "artist": "THE UNTOLD COLLECTION",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
+        "price": "",
+        "age": "",
         "youtube_sample": ""
     },
     {
@@ -978,25 +978,25 @@
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=8V3-L1o-9X8"
     },
     {
         "date": "2026-05-21",
-        "artist": "Jesse Soloman",
+        "artist": "JESSE SOLOMAN",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "TBD",
-        "age": "19+",
-        "youtube_sample": ""
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-21",
         "artist": "The Hidden Cameras",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-22",
@@ -1013,8 +1013,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=m4Y_j_4_9Yc"
     },
     {
         "date": "2026-05-22",
@@ -1023,25 +1023,34 @@
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=5V_8f-P9O7w"
     },
     {
         "date": "2026-05-22",
         "artist": "Leah Jane w Nyre, Gaeln & Amy Pinkus",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/leah-jane-w-nyre-gaeln-amy-pinkus",
         "venue": "Lee's Palace",
         "price": "$22.00",
         "age": "19+",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-22",
+        "artist": "SACRIFICE (JAPAN)",
+        "url": "http://www.garrisontoronto.com/",
+        "venue": "The Garrison",
+        "price": "$41.75",
+        "age": null,
         "youtube_sample": null
     },
     {
         "date": "2026-05-22",
-        "artist": "Sacrifice (Japan)",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$41.75",
+        "artist": "Chet Faker",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "SOLD OUT",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=KzV_2Z4u-3A"
+        "youtube_sample": "https://www.youtube.com/watch?v=hi4pzKvuEQM"
     },
     {
         "date": "2026-05-23",
@@ -1064,29 +1073,29 @@
     {
         "date": "2026-05-23",
         "artist": "Ceol Kids Fundraiser",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/ceol-kids-fundraiser",
         "venue": "Lee's Palace",
         "price": "$17.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-23",
-        "artist": "Rachel Bobbitt & Lia Pappas-Kemps",
+        "artist": "RACHEL BOBBITT & LIA PAPPAS-KEMPS",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
-        "price": "$20.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=N4tPqP0M-Dk"
+        "price": "$20",
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-23",
         "artist": "Just Mustard",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-24",
@@ -1104,16 +1113,16 @@
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=uD-P_F-8z8s"
     },
     {
         "date": "2026-05-24",
         "artist": "Nick Fest 2026",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/nick-fest-2026",
         "venue": "Lee's Palace",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-25",
@@ -1131,7 +1140,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=0h6lA9G6O_A"
     },
     {
         "date": "2026-05-25",
@@ -1158,34 +1167,34 @@
         "venue": "Horseshoe Tavern",
         "price": "$26.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=7uV89iG_48I"
     },
     {
         "date": "2026-05-26",
         "artist": "Punk Rock Factory w/ Rat Grenade",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/punk-rock-factory-w-rat-grenade",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "All Ages",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-27",
         "artist": "Decibel w/ Cryptopsy, Necrot, Fulci, Blood Monolith",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/decibel-w-cryptopsy-necrot-fulci-blood-monolith",
         "venue": "Lee's Palace",
         "price": "$37.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-27",
-        "artist": "The Pete Roth Trio",
+        "artist": "THE PETE ROTH TRIO",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "SOLD OUT",
-        "age": "19+",
-        "youtube_sample": ""
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-28",
@@ -1199,20 +1208,20 @@
     {
         "date": "2026-05-28",
         "artist": "The Black Queen w/ Club Drugs and Trace Amount",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-black-queen-w-club-drugs-and-trace-amount",
         "venue": "Lee's Palace",
         "price": "$40.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-28",
-        "artist": "Lip Critic",
+        "artist": "LIP CRITIC",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$33.05",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=D9oK7Uu1_iQ"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-05-29",
@@ -1230,25 +1239,25 @@
         "venue": "Horseshoe Tavern",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=6V9W-O9f-9M"
     },
     {
         "date": "2026-05-29",
         "artist": "Prepare The Ground 2026",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/prepare-the-ground-2026-1",
         "venue": "Lee's Palace",
         "price": "$89.62",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-29",
         "artist": "Haute & Freddy",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-30",
@@ -1256,7 +1265,7 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
+        "age": "All Ages",
         "youtube_sample": ""
     },
     {
@@ -1265,8 +1274,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=1Cw1ng75KP0"
     },
     {
         "date": "2026-05-30",
@@ -1275,25 +1284,34 @@
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=XzW-p9T-1k8"
     },
     {
         "date": "2026-05-30",
         "artist": "Prepare The Ground 2026",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/prepare-the-ground-2026-2",
         "venue": "Lee's Palace",
         "price": "$89.62",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-05-30",
         "artist": "FORBIDDEN NIGHTS",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-05-30",
+        "artist": "Q107 HIgh School Reunion \u2013 Prom Edition",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Forbidden+Nights"
+        "youtube_sample": "https://www.youtube.com/watch?v=fWNaR-rxAic"
     },
     {
         "date": "2026-05-31",
@@ -1310,17 +1328,17 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
+        "age": "All Ages",
         "youtube_sample": ""
     },
     {
         "date": "2026-05-31",
         "artist": "Prepare The Ground 2026",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/prepare-the-ground-2026-3",
         "venue": "Lee's Palace",
         "price": "$89.62",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-01",
@@ -1329,16 +1347,16 @@
         "venue": "Horseshoe Tavern",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=7W-T-Z0O9mY"
     },
     {
         "date": "2026-06-01",
         "artist": "Leo Middea",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/leo-middea",
         "venue": "Lee's Palace",
         "price": "$41.62",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-02",
@@ -1352,20 +1370,20 @@
     {
         "date": "2026-06-02",
         "artist": "Napalm Death w/ Primitive Man",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/napalm-death-w-primitive-man",
         "venue": "Lee's Palace",
         "price": "$36.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-02",
-        "artist": "Tsushimamire",
+        "artist": "TSUSHIMAMIRE",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$29.66",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=F0OsyS6f368"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-06-03",
@@ -1374,7 +1392,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=L2G3Y_UvU8E"
     },
     {
         "date": "2026-06-03",
@@ -1383,7 +1401,7 @@
         "venue": "Horseshoe Tavern",
         "price": "$15.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=G6vP-W0O9X8"
     },
     {
         "date": "2026-06-04",
@@ -1397,11 +1415,11 @@
     {
         "date": "2026-06-04",
         "artist": "Lansdowne w/ Avalon Stone",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/lansdowne-w-avalon-stone",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-05",
@@ -1418,8 +1436,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=mZp_oYlXq_k"
     },
     {
         "date": "2026-06-05",
@@ -1428,25 +1446,25 @@
         "venue": "Horseshoe Tavern",
         "price": "$35.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=7uV-Y8O-9zI"
     },
     {
         "date": "2026-06-05",
         "artist": "The Listros",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-listros",
         "venue": "Lee's Palace",
         "price": "$22.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-05",
         "artist": "Jaguar Sun \u2013 Daisy Tour",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-06",
@@ -1464,7 +1482,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=m_x9nZ8U3P8"
     },
     {
         "date": "2026-06-06",
@@ -1473,25 +1491,25 @@
         "venue": "Horseshoe Tavern",
         "price": "$37.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=3-E7o-kS-vI"
     },
     {
         "date": "2026-06-06",
         "artist": "VHOOR w/ Chinelo, Ana Luisa & Justin La Rose",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/vhoor-w-chinelo-ana-luisa-justin-la-rose",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-06",
         "artist": "Joe Pernice",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-07",
@@ -1509,7 +1527,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=m_x9nZ8U3P8"
     },
     {
         "date": "2026-06-08",
@@ -1536,16 +1554,25 @@
         "venue": "Horseshoe Tavern",
         "price": "$17.50",
         "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=4V7W-O9f-9M"
+    },
+    {
+        "date": "2026-06-09",
+        "artist": "VILLANELLE",
+        "url": "http://www.garrisontoronto.com/",
+        "venue": "The Garrison",
+        "price": "$35.14",
+        "age": null,
         "youtube_sample": null
     },
     {
         "date": "2026-06-09",
-        "artist": "Villanelle",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$35.14",
+        "artist": "SPITE",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=mD0i0w3Y-Y4"
     },
     {
         "date": "2026-06-10",
@@ -1558,12 +1585,12 @@
     },
     {
         "date": "2026-06-10",
-        "artist": "Fujiiiiiiiiiiiita + Evicshen",
+        "artist": "FUJIIIIIIIIIIIITA + EVICSHEN",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$30.14",
-        "age": "19+",
-        "youtube_sample": ""
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-06-11",
@@ -1580,17 +1607,17 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
+        "age": "All Ages",
         "youtube_sample": ""
     },
     {
         "date": "2026-06-11",
-        "artist": "Sophie Powers",
+        "artist": "NXNE x Billboard Canada LIVE: SOPHIE POWERS",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$22.54",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=68E6lG1pZis"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-06-12",
@@ -1599,25 +1626,34 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=P_V5q8u6W_0"
     },
     {
         "date": "2026-06-12",
         "artist": "Covet w/ Lite & Hikes",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/covet-w-lite-hikes",
         "venue": "Lee's Palace",
         "price": "$40.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-12",
         "artist": "Puma June",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/puma-june",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-06-12",
+        "artist": "NIGHT OF THE DRAGONS \ud83d\udd25 \ud83c\udde7\ud83c\udde6 The opening game AFTERPARTY",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=pWjz79Z8y_0"
     },
     {
         "date": "2026-06-13",
@@ -1631,29 +1667,38 @@
     {
         "date": "2026-06-13",
         "artist": "The Flashing Lights with Absolute Losers",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-flashing-lights-with-absolute-losers",
         "venue": "Lee's Palace",
         "price": "$39.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-13",
         "artist": "Adam Rodway",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/adam-rodway",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$20.00",
         "age": "19+",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-06-13",
+        "artist": "DYLAN LEBLANC",
+        "url": "http://www.garrisontoronto.com/",
+        "venue": "The Garrison",
+        "price": "$25",
+        "age": null,
         "youtube_sample": null
     },
     {
         "date": "2026-06-13",
-        "artist": "Dylan LeBlanc",
-        "url": "http://www.garrisontoronto.com/",
-        "venue": "The Garrison",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=Y7Bv0G7_8-k"
+        "artist": "Illscarlett",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=6P9Yt-pS7h8"
     },
     {
         "date": "2026-06-14",
@@ -1671,7 +1716,7 @@
         "venue": "Horseshoe Tavern",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=Z4v6-Z0O9mI"
     },
     {
         "date": "2026-06-15",
@@ -1680,25 +1725,25 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=0h6lA9G6O_A"
     },
     {
         "date": "2026-06-15",
         "artist": "Derya Y\u0131ld\u0131r\u0131m & Grup \u015eim\u015fek",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/derya-yildirim-grup-simsek",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$26.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-16",
-        "artist": "Girli",
+        "artist": "GIRLI",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$35.14",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=7XvW7O7Yn-I"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-06-17",
@@ -1715,53 +1760,53 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=m6R_q7_9P0w"
     },
     {
         "date": "2026-06-17",
         "artist": "Arkells",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/arkells",
         "venue": "Lee's Palace",
         "price": "$50.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-17",
-        "artist": "Snor",
+        "artist": "SNOR",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$35.14",
-        "age": "19+",
-        "youtube_sample": ""
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-06-17",
         "artist": "Son Little",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-18",
-        "artist": "The Bug Club / The Boojums",
+        "artist": "THE BUG CLUB / THE BOOJUMS",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$28.52",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=8wT87u-Z9G4"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-06-18",
         "artist": "BILLY NEWTON DAVIS presents Starlight Jazz",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Billy+Newton+Davis"
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-19",
@@ -1769,53 +1814,62 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=0Wp8_mB8G2A"
     },
     {
         "date": "2026-06-19",
         "artist": "Double Triangle",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/double-triangle",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-19",
         "artist": "Kitty's Rave",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/kittys-rave",
         "venue": "Lee's Palace",
         "price": "$15.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-19",
-        "artist": "Syd Taylor",
+        "artist": "SYD TAYLOR",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$35.54",
-        "age": "19+",
-        "youtube_sample": ""
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-06-19",
         "artist": "COMEDY LEGENDS with Headliner AVA VAL \u2013 EARLY SHOW",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ava+Val+comedy"
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-19",
         "artist": "COMEDY LEGENDS with Headliner AVA VAL \u2013 LATE SHOW",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-06-19",
+        "artist": "SuperSonic \u2013 North America's Tribute To Oasis",
+        "url": "https://thephoenixconcerttheatre.com/events/",
+        "venue": "The Phoenix Concert Theatre",
+        "price": "TBD",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Ava+Val+comedy"
+        "youtube_sample": "https://www.youtube.com/watch?v=9Lp1V7yE0pE"
     },
     {
         "date": "2026-06-20",
@@ -1829,20 +1883,20 @@
     {
         "date": "2026-06-20",
         "artist": "Rubber Tire Peep Show and Orbital Ensemble",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/rubber-tire-peep-show-and-orbital-ensemble",
         "venue": "Lee's Palace",
         "price": "$33.90",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-20",
         "artist": "Moontricks",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-21",
@@ -1851,7 +1905,7 @@
         "venue": "The Opera House",
         "price": "",
         "age": "19+",
-        "youtube_sample": ""
+        "youtube_sample": "https://www.youtube.com/watch?v=L2G3Y_UvU8E"
     },
     {
         "date": "2026-06-21",
@@ -1860,20 +1914,29 @@
         "venue": "Horseshoe Tavern",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=7uV8-iG-9vI"
     },
     {
         "date": "2026-06-21",
         "artist": "Dead Calm",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/dead-calm",
         "venue": "Lee's Palace",
         "price": "$29.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-22",
         "artist": "Toronto Jazz Fest presents DOMi & JD Beck",
+        "url": "https://www.thedanforth.com/shows",
+        "venue": "The Danforth Music Hall",
+        "price": null,
+        "age": null,
+        "youtube_sample": null
+    },
+    {
+        "date": "2026-06-23",
+        "artist": "Steve Earle - 51 Years of Songs & Stories",
         "url": "https://www.thedanforth.com/shows",
         "venue": "The Danforth Music Hall",
         "price": null,
@@ -1892,26 +1955,35 @@
     {
         "date": "2026-06-23",
         "artist": "Thee Marloes",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/thee-marloes",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-23",
-        "artist": "Flawed Mangoes",
+        "artist": "FLAWED MANGOES",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$41.14",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=vV7wO6o0j7o"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-06-23",
         "artist": "Fulton Lee",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-06-24",
+        "artist": "The Dip",
+        "url": "https://www.thedanforth.com/shows",
+        "venue": "The Danforth Music Hall",
         "price": null,
         "age": null,
         "youtube_sample": null
@@ -1923,16 +1995,16 @@
         "venue": "Horseshoe Tavern",
         "price": "$10.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=3-E7o-kS-9M"
     },
     {
         "date": "2026-06-24",
-        "artist": "Vacations",
+        "artist": "VACATIONS",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$36.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=h_4wT9iI9G8"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-06-25",
@@ -1950,16 +2022,16 @@
         "venue": "Horseshoe Tavern",
         "price": "$10.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=3-E7o-kS-9M"
     },
     {
         "date": "2026-06-25",
         "artist": "Leenalchi",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/leenalchi",
         "venue": "Lee's Palace",
         "price": "$27.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-26",
@@ -1984,9 +2056,9 @@
         "artist": "\u00c1sgeir",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-06-27",
@@ -2031,7 +2103,7 @@
         "venue": "Horseshoe Tavern",
         "price": "$19.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=6V9W-O9f-vI"
     },
     {
         "date": "2026-07-04",
@@ -2039,8 +2111,8 @@
         "url": "https://www.theoperahousetoronto.com/shows/",
         "venue": "The Opera House",
         "price": "",
-        "age": "ALL AGES",
-        "youtube_sample": ""
+        "age": "All Ages",
+        "youtube_sample": "https://www.youtube.com/watch?v=mZp_oYlXq_k"
     },
     {
         "date": "2026-07-04",
@@ -2049,61 +2121,61 @@
         "venue": "Horseshoe Tavern",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=Z4v6-Z0F-vI"
     },
     {
         "date": "2026-07-08",
         "artist": "The Longest Johns",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-longest-johns",
         "venue": "Lee's Palace",
         "price": "$35.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-08",
         "artist": "Cola w/ Special Guests",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-09",
         "artist": "Six Feet Under w/ Kataklysm",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/six-feet-under-w-kataklysm",
         "venue": "Lee's Palace",
         "price": "$38.75",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-09",
-        "artist": "Yoo Doo Right",
+        "artist": "YOO II AVEC NOLAN POTTER",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$32.31",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=8H6W-9T0G_8"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-07-13",
         "artist": "Buck Meek with Support: Kisser",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-14",
         "artist": "Jazz Is Dead + Marcos Valle",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/jazz-is-dead-marcos-valle",
         "venue": "Lee's Palace",
         "price": "$47.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-16",
@@ -2112,106 +2184,115 @@
         "venue": "Horseshoe Tavern",
         "price": "$24.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=3-E7o-kS-vI"
     },
     {
         "date": "2026-07-18",
         "artist": "Arlo",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-20",
         "artist": "Balthvs w/ Pearl & The Oyster",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/balthvs-w-pearl-the-oyster",
         "venue": "Lee's Palace",
         "price": "$32.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-21",
         "artist": "Ford. w/ Gilligan Moss (DJ set)",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/ford-w-gilligan-moss-dj-set",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$28.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-24",
         "artist": "Shrek Rave",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/shrek-rave",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-29",
-        "artist": "Day We Ran",
+        "artist": "DAY WE RAN",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": ""
+        "price": "$25",
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-07-30",
         "artist": "Test Dept",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/test-dept",
         "venue": "Lee's Palace",
         "price": "$27.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-07-31",
-        "artist": "Cruz Beckham and The Breakers",
+        "artist": "CRUZ BECKHAM AND THE BREAKERS",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
-        "price": "$25.00",
-        "age": "19+",
-        "youtube_sample": ""
+        "price": "$25",
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-08-02",
         "artist": "EJEAN",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-08-07",
         "artist": "Yung Bae",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/yung-bae",
         "venue": "Lee's Palace",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-08-08",
         "artist": "The Word Alive w/ Not Enough Space, Downswing & Code:Word",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-word-alive-w-not-enough-space-downswing-codeword",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-08-08",
         "artist": "RUSHCON \u2013 The Convention for RUSH Fans",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
+    },
+    {
+        "date": "2026-08-13",
+        "artist": "The Eines Vinyl Release Party with Leonids & When We Was Young",
+        "url": "https://horseshoetavern.com/",
+        "venue": "Horseshoe Tavern",
+        "price": "$15.00",
         "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=RushCon"
+        "youtube_sample": null
     },
     {
         "date": "2026-08-18",
@@ -2233,12 +2314,12 @@
     },
     {
         "date": "2026-08-19",
-        "artist": "Playlunch.",
+        "artist": "PLAYLUNCH.",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$32.97",
-        "age": "19+",
-        "youtube_sample": ""
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-08-20",
@@ -2270,29 +2351,29 @@
     {
         "date": "2026-08-22",
         "artist": "Slow Magic",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/slow-magic",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$22.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-08-27",
-        "artist": "Faetooth",
+        "artist": "FAETOOTH",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "TBD",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=9_pY0E9B0_8"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-08-28",
         "artist": "BIIRD",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-08-29",
@@ -2304,31 +2385,40 @@
         "youtube_sample": null
     },
     {
+        "date": "2026-08-29",
+        "artist": "WOODEN WISDOM",
+        "url": "https://www.theoperahousetoronto.com/shows/",
+        "venue": "The Opera House",
+        "price": "",
+        "age": "19+",
+        "youtube_sample": ""
+    },
+    {
         "date": "2026-09-05",
         "artist": "CINEMA FACE",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=Cinema+Face+band"
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-08",
         "artist": "Sun Kil Moon",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/sun-kil-moon",
         "venue": "Lee's Palace",
         "price": "$32.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-10",
         "artist": "Cor64 - GoldenEye 007 N64 Soundtrack Live",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/cor64-goldeneye-007-n64-soundtrack-live",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-11",
@@ -2341,39 +2431,39 @@
     },
     {
         "date": "2026-09-12",
-        "artist": "Otha",
+        "artist": "OTHA",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
-        "price": "$39.00",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=2n6_8Zk0W68"
+        "price": "$39",
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-09-12",
         "artist": "Soda Blonde",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-14",
         "artist": "DeVotchKa",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-14",
         "artist": "Marlon Magn\u00e9e (of La Femme)",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-15",
@@ -2389,9 +2479,9 @@
         "artist": "Sam Greenfield",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Longboat Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-16",
@@ -2423,11 +2513,11 @@
     {
         "date": "2026-09-19",
         "artist": "Ultra Sunn",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/ultra-sunn",
         "venue": "Lee's Palace",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-20",
@@ -2441,20 +2531,20 @@
     {
         "date": "2026-09-20",
         "artist": "Liu Shuang \u2013 \u201cXuzhang (\u5e8f\u7ae0)\u201d",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/liu-shuang-xuzhang",
         "venue": "Lee's Palace",
-        "price": null,
+        "price": "N/A",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-20",
-        "artist": "Emma Harner",
+        "artist": "EMMA HARNER",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "TBD",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=F0o7vW3DkG0"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-09-24",
@@ -2477,29 +2567,29 @@
     {
         "date": "2026-09-27",
         "artist": "The White Buffalo",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-white-buffalo",
         "venue": "Lee's Palace",
         "price": "$35.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-09-29",
-        "artist": "Unsane",
+        "artist": "UNSANE",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$29.50",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=ZfR6pYt8g8M"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-09-30",
-        "artist": "Sub Urban",
+        "artist": "SUB URBAN",
         "url": "http://www.garrisontoronto.com/",
         "venue": "The Garrison",
         "price": "$35.14",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/watch?v=8wT9rV5F5E4"
+        "age": null,
+        "youtube_sample": null
     },
     {
         "date": "2026-10-01",
@@ -2513,29 +2603,29 @@
     {
         "date": "2026-10-01",
         "artist": "The Zolas",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/the-zolas",
         "venue": "Lee's Palace",
         "price": "$34.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-10-01",
         "artist": "Ghostly Kisses",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-10-03",
-        "artist": "Toronto Blues Fest Founders Night",
+        "artist": "Toronto Blues Fest Founders Night (The Jay Blues Trio, Little Magic Sam)",
         "url": "https://elmocambo.com/events-new/",
         "venue": "El Mocambo",
-        "price": "TBA",
-        "age": "19+",
-        "youtube_sample": "https://www.youtube.com/results?search_query=The+Jay+Blues+Trio"
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-10-04",
@@ -2544,61 +2634,52 @@
         "venue": "Horseshoe Tavern",
         "price": "$55.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": "https://www.youtube.com/watch?v=7uV8-iG-vI"
     },
     {
         "date": "2026-10-06",
         "artist": "Hayden Pedigo",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     },
     {
         "date": "2026-10-07",
         "artist": "Armand Hammer",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/armand-hammer",
         "venue": "Lee's Palace",
         "price": "$29.50",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-10-09",
-        "artist": "Wesley Jospeh",
-        "url": "https://www.leespalace.com/",
+        "artist": "Wesley Joseph",
+        "url": "https://www.leespalace.com/event/wesley-joseph",
         "venue": "Lee's Palace",
         "price": "$20.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-10-10",
         "artist": "Slift",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/slift",
         "venue": "Lee's Palace",
         "price": "$30.00",
         "age": "19+",
-        "youtube_sample": null
-    },
-    {
-        "date": "2026-10-13",
-        "artist": "EMEI - Night at the Opera Tour",
-        "url": "https://www.thedanforth.com/shows",
-        "venue": "The Danforth Music Hall",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-10-16",
         "artist": "Shitkid",
-        "url": "https://www.leespalace.com/",
+        "url": "https://www.leespalace.com/event/shitkid",
         "venue": "Lee's Palace (Dance Cave)",
         "price": "$25.00",
         "age": "19+",
-        "youtube_sample": null
+        "youtube_sample": ""
     },
     {
         "date": "2026-10-17",
@@ -2614,8 +2695,8 @@
         "artist": "Friko",
         "url": "https://thegreathall.ca/calendar/",
         "venue": "The Great Hall (Main Hall)",
-        "price": null,
-        "age": null,
-        "youtube_sample": null
+        "price": "",
+        "age": "",
+        "youtube_sample": ""
     }
 ]
