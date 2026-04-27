@@ -20,7 +20,7 @@ jobs:
       - name: Install Dependencies
         run: pip install google-genai
         
-      - name: Fetch Data
+      - name: Run Modular Scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python main.py
