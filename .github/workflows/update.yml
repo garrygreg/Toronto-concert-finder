@@ -23,7 +23,7 @@ jobs:
       - name: Fetch Data
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python fetch_concerts.py
+        run: python main.py
         
       - name: Save Results
         run: |
