@@ -3,21 +3,19 @@ import json
 import subprocess
 import datetime
 
-# Configuration
 CONCERTS_FILE = "concerts.json"
-VENUES_DIR = "venues"  # Folder containing your venue-specific scripts
+VENUES_DIR = "venues"
 BANNED_DOMAINS = ["ticketmaster", "livenation", "eventbrite", "dice.fm", "showpass"]
 
 def main():
     print(f"--- Starting Scrape: {datetime.datetime.now()} ---")
     
-    # 1. Reset/Empty the concerts.json file
-    with open(CONCERTS_FILE, "w") as f:
-        json.dump([], f)
-    
-    all_data = []
+    # Ensure the venues directory exists
+    if not os.path.exists(VENUES_DIR):
+        print(f"ERROR: Folder '{VENUES_DIR}' not found!")
+        return
 
-    # 2. Get all venue scripts (ending in .py)
+    all_data = []
     venue_scripts = [f for f in os.listdir(VENUES_DIR) if f.endswith(".py")]
     
     for script in venue_scripts:
@@ -25,51 +23,53 @@ def main():
         print(f"Executing: {script}...")
         
         try:
-            # Run the sub-script and capture its output
+            # Capture output
             result = subprocess.run(
                 ["python", script_path], 
                 capture_output=True, 
-                text=True, 
-                check=True
+                text=True
             )
             
-            # The sub-script should print its JSON array to the console
-            venue_concerts = json.loads(result.stdout)
+            # DEBUG: Print what the sub-script actually said
+            # This will show up in your GitHub Action logs
+            raw_output = result.stdout.strip()
+            print(f"   Raw output from {script}: {raw_output[:100]}...") 
+
+            if not raw_output:
+                print(f"   WARNING: {script} returned absolutely nothing.")
+                continue
+
+            venue_concerts = json.loads(raw_output)
             
-            # 3. Apply Banned Domain Filter
-            filtered_concerts = []
+            # Filter and Add
+            count = 0
             for concert in venue_concerts:
-                if not any(banned in concert.get('url', '').lower() for banned in BANNED_DOMAINS):
-                    filtered_concerts.append(concert)
-                else:
-                    # Fallback to venue homepage if deep link was banned
-                    # This logic assumes the sub-script passes back the venue_url too
-                    pass 
+                is_banned = any(banned in concert.get('url', '').lower() for banned in BANNED_DOMAINS)
+                if not is_banned:
+                    all_data.append(concert)
+                    count += 1
             
-            all_data.extend(filtered_concerts)
-            print(f"   Success: Found {len(filtered_concerts)} events.")
+            print(f"   Success: Added {count} events.")
 
         except Exception as e:
-            print(f"   FAILED {script}: {e}")
-            if result.stderr:
-                print(f"   Error details: {result.stderr}")
+            print(f"   FAILED to parse {script}: {e}")
+            print(f"   Sub-script Error Log: {result.stderr}")
 
-    # 4. Save final consolidated data
-    # Deduplicate and sort by date
-    unique_data = []
+    # Deduplicate and Save
+    final_list = []
     seen = set()
     for c in all_data:
         key = f"{c.get('date')}-{c.get('artist')}"
         if key not in seen:
-            unique_concerts.append(c)
+            final_list.append(c)
             seen.add(key)
             
-    all_data.sort(key=lambda x: x.get('date', '9999-12-31'))
+    final_list.sort(key=lambda x: x.get('date', '9999-12-31'))
 
     with open(CONCERTS_FILE, "w") as f:
-        json.dump(all_data, f, indent=4)
+        json.dump(final_list, f, indent=4)
     
-    print(f"--- Scrape Complete: {len(all_data)} Total Events Saved ---")
+    print(f"--- Scrape Complete: {len(final_list)} Total Events Saved ---")
 
 if __name__ == "__main__":
     main()
