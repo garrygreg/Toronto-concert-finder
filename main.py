@@ -2,6 +2,7 @@ import os
 import json
 import subprocess
 import datetime
+import re
 
 CONCERTS_FILE = "concerts.json"
 VENUES_DIR = "venues"
@@ -10,7 +11,6 @@ BANNED_DOMAINS = ["ticketmaster", "livenation", "eventbrite", "dice.fm", "showpa
 def main():
     print(f"--- Starting Scrape: {datetime.datetime.now()} ---")
     
-    # Ensure the venues directory exists
     if not os.path.exists(VENUES_DIR):
         print(f"ERROR: Folder '{VENUES_DIR}' not found!")
         return
@@ -23,37 +23,37 @@ def main():
         print(f"Executing: {script}...")
         
         try:
-            # Capture output
+            # We explicitly pass os.environ so the sub-script sees the GEMINI_API_KEY
             result = subprocess.run(
                 ["python", script_path], 
                 capture_output=True, 
-                text=True
+                text=True,
+                env=os.environ 
             )
             
-            # DEBUG: Print what the sub-script actually said
-            # This will show up in your GitHub Action logs
+            # Use regex to find the JSON array in the output, ignoring any "Sure! Here is..." text
             raw_output = result.stdout.strip()
-            print(f"   Raw output from {script}: {raw_output[:100]}...") 
+            json_match = re.search(r'\[.*\]', raw_output, re.DOTALL)
 
-            if not raw_output:
-                print(f"   WARNING: {script} returned absolutely nothing.")
-                continue
-
-            venue_concerts = json.loads(raw_output)
-            
-            # Filter and Add
-            count = 0
-            for concert in venue_concerts:
-                is_banned = any(banned in concert.get('url', '').lower() for banned in BANNED_DOMAINS)
-                if not is_banned:
-                    all_data.append(concert)
-                    count += 1
-            
-            print(f"   Success: Added {count} events.")
+            if json_match:
+                venue_data = json.loads(json_match.group(0))
+                
+                count = 0
+                for concert in venue_data:
+                    # Filter banned domains
+                    is_banned = any(banned in concert.get('url', '').lower() for banned in BANNED_DOMAINS)
+                    if not is_banned:
+                        all_data.append(concert)
+                        count += 1
+                print(f"   Success: Added {count} events.")
+            else:
+                print(f"   WARNING: {script} returned no JSON array.")
+                # If it failed, print the error log to help us debug
+                if result.stderr:
+                    print(f"   Debug Info (stderr): {result.stderr.strip()}")
 
         except Exception as e:
-            print(f"   FAILED to parse {script}: {e}")
-            print(f"   Sub-script Error Log: {result.stderr}")
+            print(f"   FAILED {script}: {e}")
 
     # Deduplicate and Save
     final_list = []
@@ -69,7 +69,7 @@ def main():
     with open(CONCERTS_FILE, "w") as f:
         json.dump(final_list, f, indent=4)
     
-    print(f"--- Scrape Complete: {len(final_list)} Total Events Saved ---")
+    print(f"--- Scrape Complete: {len(final_list)} Total Events ---")
 
 if __name__ == "__main__":
     main()
