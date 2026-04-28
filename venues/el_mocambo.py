@@ -17,15 +17,16 @@ def get_data():
     one_year_later = today + datetime.timedelta(days=365)
     
     prompt = f"""
-    Visit {LISTING_URL} and perform a forensic audit of EVERY concert container.
+    Visit {LISTING_URL} and audit every concert from {today} to {one_year_later}.
     
-    RULES:
-    1. ARTIST NAME: Extract the main bold title of the event. Do NOT use category labels like "Live Music".
-    2. DATE: Extract in YYYY-MM-DD format.
-    3. URL: The literal 'href' to the event page on elmocambo.com.
-    4. DATE RANGE: Only events from {today} to {one_year_later}.
+    CRITICAL INSTRUCTIONS:
+    1. ARTIST NAME: Extract the main bold TITLE of the event (usually the largest text in the card). 
+       - DO NOT use category tags (e.g., 'Live Music').
+       - DO NOT include descriptions.
+    2. DATE: YYYY-MM-DD.
+    3. URL: The exact 'href' to the event page.
     
-    Return ONLY a JSON array: "date", "artist", "url", "venue", "price", "age".
+    Return a JSON array: "date", "artist", "url", "venue", "price", "age".
     """
     
     try:
