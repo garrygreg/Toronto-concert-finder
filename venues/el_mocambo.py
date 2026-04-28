@@ -5,7 +5,7 @@ import sys
 from google import genai
 from google.genai import types
 
-# Setup API
+# 1. Setup API
 api_key = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=api_key)
 
@@ -13,33 +13,48 @@ VENUE_NAME = "El Mocambo"
 LISTING_URL = "https://elmocambo.com/events-new/"
 
 def get_data():
-    today = "2026-04-27"
-    
+    # Force the model to be a JSON-only machine
     prompt = f"""
-    Visit {LISTING_URL} and extract all upcoming concerts from {today} onwards.
+    Visit {LISTING_URL} and extract all upcoming concerts.
     
-    LITERAL EXTRACTION RULES:
-    1. THE "HREF" RULE: Find the <a> tag for every concert. Copy the 'href' attribute EXACTLY.
-    2. NO GUESSING: If a deep link on elmocambo.com is not visible in the HTML, skip the event.
-    3. DOMAIN LOCKDOWN: Every URL must be on elmocambo.com.
+    Return the data as a JSON array of objects with these exact keys: 
+    "date" (YYYY-MM-DD), "artist", "url", "venue", "price", "age".
     
-    Return ONLY a JSON array: "date", "artist", "url", "venue", "price", "age", "youtube_sample".
+    RULES:
+    - If you find no concerts, return an empty array: []
+    - Every 'url' must be the direct link to the event on elmocambo.com.
+    - DO NOT include any introductory text or thinking. ONLY the JSON array.
     """
     
     try:
+        # We're using a very simple config to avoid "Thinking" loops or timeouts
         response = client.models.generate_content(
-            model="gemini-3-flash-preview", 
+            model="gemini-2.0-flash", # Using 2.0 Flash for maximum speed/stability in this test
             contents=prompt,
             config=types.GenerateContentConfig(
                 tools=[types.Tool(url_context=types.UrlContext())],
-                # Re-enabling Thinking mode for precision
-                thinking_config={'include_thoughts': True}
+                # Explicitly request JSON format to help the model stay in bounds
+                response_mime_type="application/json"
             )
         )
-        print(response.text)
+        
+        # 2. Extract and Print
+        # Even with mime_type, we use regex as a safety net for main.py
+        text = response.text.strip()
+        
+        # If the model didn't return brackets, we wrap it or provide an empty one
+        if not text.startswith('['):
+            # Sometimes models return a single object instead of a list
+            if text.startswith('{'):
+                print(f"[{text}]")
+            else:
+                print("[]")
+        else:
+            print(text)
             
     except Exception as e:
-        print(f"DEBUG: {str(e)}", file=sys.stderr)
+        # Log the error to stderr so it shows up in your 'Logs:' section in main.py
+        print(f"ERROR: {str(e)}", file=sys.stderr)
         print("[]")
 
 if __name__ == "__main__":
