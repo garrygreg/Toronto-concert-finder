@@ -25,10 +25,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python main.py
         
-      - name: Save Results
+      - name: Save results
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git add concerts.json
-          git commit -m "Automated update: $(date +'%Y-%m-%d')" || exit 0
+          # This line below is the fix:
+          git pull --rebase origin main
+          git commit -m "Automated update: $(date +%Y-%m-%d)" || exit 0
           git push
