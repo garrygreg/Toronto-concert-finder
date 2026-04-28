@@ -30,10 +30,13 @@ def main():
             raw_output = result.stdout.strip()
             json_match = re.search(r'\[.*\]', raw_output, re.DOTALL)
 
-            if json_match:
+if json_match:
                 venue_data = json.loads(json_match.group(0))
                 if not venue_data:
                     print(f"   Warning: {script} returned an empty list [].")
+                    # NEW: Print the stderr to see WHY it's empty
+                    if result.stderr:
+                        print(f"   Diagnostic Logs: {result.stderr.strip()}")
                 
                 count = 0
                 for concert in venue_data:
