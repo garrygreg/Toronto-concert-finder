@@ -1,130 +1,122 @@
 [
     {
-        "date": "2026-04-30",
-        "artist": "EVERYTHING 80's PARTY",
+        "date": "Thursday, April 30, 2026",
+        "artist": "Sean Jones, Cleopatra Williams",
         "url": "https://elmocambo.com/event/everything-80s-party/",
         "venue": "El Mocambo",
-        "price": "$35",
+        "price": "$35.00",
         "age": "19+"
     },
     {
-        "date": "2026-05-01",
-        "artist": "KEiiNO Chromium Heart Tour",
+        "date": "Friday, May 01, 2026",
+        "artist": "KEiiNO",
         "url": "https://elmocambo.com/event/keiino-chromium-heart-tour/",
         "venue": "El Mocambo",
-        "price": "$60",
+        "price": "$60.00",
         "age": "19+"
     },
     {
-        "date": "2026-05-05",
-        "artist": "WE WALK WITH WARREN",
+        "date": "Tuesday, May 05, 2026",
+        "artist": "Warrior Warren",
         "url": "https://elmocambo.com/event/we-walk-with-warren/",
         "venue": "El Mocambo",
-        "price": "N/A",
+        "price": "Check Venue",
         "age": "19+"
     },
     {
-        "date": "2026-05-05",
-        "artist": "DEPARTURE SHOWCASE",
+        "date": "Tuesday, May 05, 2026",
+        "artist": "YASSiN & Sean Terrio, Maya Malkin, Lockyer Boys, G\u00e4elle",
         "url": "https://elmocambo.com/event/departure-showcase/",
         "venue": "El Mocambo",
-        "price": "N/A",
-        "age": "19+"
+        "price": "$65.00",
+        "age": "TBA"
     },
     {
-        "date": "2026-05-06",
-        "artist": "GLOBAL WARMING \u2013 2026 WAY BETTER NORTH AMERICA TOUR",
+        "date": "Wednesday, May 06, 2026",
+        "artist": "from20, HELLO GLOOM, KANG YUCHAN",
         "url": "https://elmocambo.com/event/global-warming-2026-way-better-north-america-tour/",
         "venue": "El Mocambo",
-        "price": "N/A",
-        "age": "19+"
+        "price": "Check Venue",
+        "age": "TBA"
     },
     {
-        "date": "2026-05-13",
-        "artist": "RACHEAL McCAIG \u2013 IMAGES & WORDS",
-        "url": "https://elmocambo.com/event/racheal-mccaig-images-words/",
+        "date": "Wednesday, May 13, 2026",
+        "artist": "Rachael McCaig",
+        "url": "https://elmocambo.com/event/rachael-mccaig-images-words/",
         "venue": "El Mocambo",
-        "price": "N/A",
-        "age": "All Ages"
+        "price": "Check Venue",
+        "age": "TBA"
     },
     {
-        "date": "2026-05-16",
+        "date": "Saturday, May 16, 2026",
         "artist": "The Yacht Rock Show",
         "url": "https://elmocambo.com/event/the-yacht-rock-show/",
         "venue": "El Mocambo",
-        "price": "N/A",
+        "price": "$49.00",
         "age": "19+"
     },
     {
-        "date": "2026-05-20",
-        "artist": "THE UNTOLD COLLECTION",
-        "url": "https://elmocambo.com/event/the-untold-collection-toronto-el-mocambo/",
+        "date": "Wednesday, May 20, 2026",
+        "artist": "Cassandra Harvey",
+        "url": "https://elmocambo.com/event/the-untold-collection/",
         "venue": "El Mocambo",
-        "price": "N/A",
-        "age": "19+"
+        "price": "Check Venue",
+        "age": "TBA"
     },
     {
-        "date": "2026-05-24",
-        "artist": "RAIESA \u2013 KEEP THE FIRE BURNING",
+        "date": "Sunday, May 24, 2026",
+        "artist": "Raiesa",
         "url": "https://elmocambo.com/event/raiesa-keep-the-fire-burning/",
         "venue": "El Mocambo",
-        "price": "N/A",
-        "age": "19+"
+        "price": "$10.00+",
+        "age": "TBA"
     },
     {
-        "date": "2026-05-30",
-        "artist": "FORBIDDEN NIGHTS",
+        "date": "Saturday, May 30, 2026",
+        "artist": "Forbidden Nights",
         "url": "https://elmocambo.com/event/forbidden-nights/",
         "venue": "El Mocambo",
-        "price": "N/A",
+        "price": "$125.00",
         "age": "19+"
     },
     {
-        "date": "2026-06-18",
-        "artist": "BILLY NEWTON DAVIS presents Starlight Jazz",
+        "date": "Thursday, June 18, 2026",
+        "artist": "Billy Newton-Davis",
         "url": "https://elmocambo.com/event/billy-newton-davis-presents-starlight-jazz/",
         "venue": "El Mocambo",
-        "price": "N/A",
-        "age": "19+"
+        "price": "Check Venue",
+        "age": "TBA"
     },
     {
-        "date": "2026-06-19",
-        "artist": "COMEDY LEGENDS with Headliner AVA VAL \u2013 EARLY SHOW",
+        "date": "Friday, June 19, 2026",
+        "artist": "Ava Val",
         "url": "https://elmocambo.com/event/comedy-legends-with-headliner-ava-val-early-show/",
         "venue": "El Mocambo",
-        "price": "N/A",
+        "price": "Check Venue",
         "age": "19+"
     },
     {
-        "date": "2026-06-19",
-        "artist": "COMEDY LEGENDS with Headliner AVA VAL \u2013 LATE SHOW",
-        "url": "https://elmocambo.com/event/comedy-legends-with-headliner-ava-val-late-show/",
-        "venue": "El Mocambo",
-        "price": "N/A",
-        "age": "19+"
-    },
-    {
-        "date": "2026-08-08",
-        "artist": "RUSHCON \u2013 The Convention for RUSH Fans",
+        "date": "Saturday, August 08, 2026",
+        "artist": "RushCon",
         "url": "https://elmocambo.com/event/rushcon-the-convention-for-rush-fans/",
         "venue": "El Mocambo",
-        "price": "N/A",
-        "age": "All Ages"
+        "price": "Check Venue",
+        "age": "TBA"
     },
     {
-        "date": "2026-09-05",
-        "artist": "CINEMA FACE",
+        "date": "Saturday, September 05, 2026",
+        "artist": "Cinema Face",
         "url": "https://elmocambo.com/event/cinema-face/",
         "venue": "El Mocambo",
-        "price": "N/A",
-        "age": "19+"
+        "price": "Check Venue",
+        "age": "TBA"
     },
     {
-        "date": "2026-10-03",
-        "artist": "Toronto Blues Fest Founders Night",
+        "date": "Saturday, October 03, 2026",
+        "artist": "The Jay Blues Trio, Little Magic Sam",
         "url": "https://elmocambo.com/event/toronto-blues-fest-founders-night/",
         "venue": "El Mocambo",
-        "price": "$56",
-        "age": "19+"
+        "price": "Check Venue",
+        "age": "TBA"
     }
 ]
