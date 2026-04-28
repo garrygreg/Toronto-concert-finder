@@ -13,47 +13,43 @@ VENUE_NAME = "El Mocambo"
 LISTING_URL = "https://elmocambo.com/events-new/"
 
 def get_data():
-    # Force the model to be a JSON-only machine
+    today = "2026-04-27"
+    
     prompt = f"""
-    Visit {LISTING_URL} and extract all upcoming concerts.
+    Visit {LISTING_URL} and extract all upcoming concerts from {today} onwards.
     
-    Return the data as a JSON array of objects with these exact keys: 
-    "date" (YYYY-MM-DD), "artist", "url", "venue", "price", "age".
+    LITERAL EXTRACTION RULES:
+    1. THE "HREF" RULE: You must find the <a> tag for every concert listing. Copy the 'href' attribute EXACTLY.
+    2. NO GUESSING: Only return links that exist on elmocambo.com.
+    3. SEARCH VERIFICATION: Use your search tool to verify the 'El Mocambo' calendar if the page appears empty.
     
-    RULES:
-    - If you find no concerts, return an empty array: []
-    - Every 'url' must be the direct link to the event on elmocambo.com.
-    - DO NOT include any introductory text or thinking. ONLY the JSON array.
+    Return a JSON array of objects: "date" (YYYY-MM-DD), "artist", "url", "venue", "price", "age", "youtube_sample".
     """
     
     try:
-        # We're using a very simple config to avoid "Thinking" loops or timeouts
         response = client.models.generate_content(
-            model="gemini-2.0-flash", # Using 2.0 Flash for maximum speed/stability in this test
+            model="gemini-3-flash-preview", 
             contents=prompt,
             config=types.GenerateContentConfig(
-                tools=[types.Tool(url_context=types.UrlContext())],
-                # Explicitly request JSON format to help the model stay in bounds
-                response_mime_type="application/json"
+                tools=[
+                    types.Tool(url_context=types.UrlContext()),
+                    types.Tool(google_search=types.GoogleSearch())
+                ],
+                # This 'Thinking' process is what allows it to parse the complex HTML
+                thinking_config={'include_thoughts': True}
             )
         )
         
         # 2. Extract and Print
-        # Even with mime_type, we use regex as a safety net for main.py
-        text = response.text.strip()
-        
-        # If the model didn't return brackets, we wrap it or provide an empty one
-        if not text.startswith('['):
-            # Sometimes models return a single object instead of a list
-            if text.startswith('{'):
-                print(f"[{text}]")
-            else:
-                print("[]")
+        json_match = re.search(r'\[.*\]', response.text, re.DOTALL)
+        if json_match:
+            print(json_match.group(0))
         else:
-            print(text)
+            # Send the model's actual reasoning/response to stderr for debugging
+            print(f"DEBUG: No JSON found. Model response: {response.text[:200]}", file=sys.stderr)
+            print("[]")
             
     except Exception as e:
-        # Log the error to stderr so it shows up in your 'Logs:' section in main.py
         print(f"ERROR: {str(e)}", file=sys.stderr)
         print("[]")
 
