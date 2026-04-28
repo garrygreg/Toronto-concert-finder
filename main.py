@@ -3,6 +3,7 @@ import json
 import subprocess
 import datetime
 import re
+import urllib.parse
 
 CONCERTS_FILE = "concerts.json"
 VENUES_DIR = "venues"
@@ -11,22 +12,15 @@ BANNED_DOMAINS = ["ticketmaster", "livenation", "eventbrite", "dice.fm", "showpa
 def clean_price(price_str):
     if not price_str or "Check Venue" in str(price_str):
         return "Check Venue"
-    
-    # Extract all numbers, including decimals
+    # Find all numbers (including decimals)
     prices = re.findall(r'\d+(?:\.\d{2})?', str(price_str))
+    if not prices: return "Check Venue"
     
-    if not prices:
-        return "Check Venue"
-    
-    # Convert to unique floats to avoid duplicates like "$25 / $25.00"
+    # Convert to unique floats to detect ranges
     price_floats = sorted(list(set([float(p) for p in prices])))
-    
     if len(price_floats) > 1:
-        # Multiple unique prices found
         return f"${price_floats[0]:,.2f}+"
-    else:
-        # Singular price
-        return f"${price_floats[0]:,.2f}"
+    return f"${price_floats[0]:,.2f}"
 
 def main():
     print(f"--- Starting Scrape: {datetime.datetime.now()} ---")
@@ -43,15 +37,18 @@ def main():
 
             if json_match:
                 venue_data = json.loads(json_match.group(0))
-                count = 0
                 for concert in venue_data:
                     is_banned = any(banned in concert.get('url', '').lower() for banned in BANNED_DOMAINS)
                     if not is_banned:
-                        # Apply price logic
+                        # 1. PRICE REFINEMENT
                         concert['price'] = clean_price(concert.get('price'))
+                        
+                        # 2. YOUTUBE RESTORATION (Locked Structure)
+                        # Replaces spaces with '+' for the search_query parameter
+                        artist_query = urllib.parse.quote_plus(f"{concert.get('artist')} playing live")
+                        concert['youtube_sample'] = f"https://www.youtube.com/results?search_query={artist_query}"
+                        
                         all_data.append(concert)
-                        count += 1
-                print(f"   Success: Added {count} events.")
         except Exception as e:
             print(f"   FAILED {script}: {e}")
 
@@ -77,7 +74,7 @@ def main():
     with open(CONCERTS_FILE, "w") as f:
         json.dump(unique_list, f, indent=4)
     
-    print(f"--- Scrape Complete: {len(unique_list)} Total Events Saved ---")
+    print(f"--- Scrape Complete: {len(unique_list)} Total Events ---")
 
 if __name__ == "__main__":
     main()
