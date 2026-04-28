@@ -19,16 +19,14 @@ def get_data():
     prompt = f"""
     Visit {LISTING_URL} and audit every concert from {today} to {one_year_later}.
     
-    STRICT DATA RULES (LOCKED):
-    1. ARTIST NAME: Extract the main bold TITLE of the event.
-    2. DATE: YYYY-MM-DD.
-    3. URL: The exact 'href' to the event page on elmocambo.com.
+    EXTRACTION RULES:
+    1. ARTIST: Use the main bold heading for each event.
+    2. DATE: Format as YYYY-MM-DD.
+    3. URL: Use the literal 'href' to the event page on elmocambo.com.
+    4. PRICE: Extract ALL listed prices (GA, VIP, etc.). Return as a string like "$20 / $40".
+    5. AGE: Extract '19+' or 'All Ages'.
     
-    PRICE RULES:
-    4. PRICE: Extract ALL listed prices for the event (GA, VIP, Door, etc.). 
-       Return them as a single string (e.g., "$25 / $45").
-    
-    Return a JSON array: "date", "artist", "url", "venue", "price", "age".
+    Return ONLY a JSON array. No conversational text.
     """
     
     try:
