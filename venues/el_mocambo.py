@@ -5,17 +5,21 @@ import sys
 from google import genai
 from google.genai import types
 
-# Setup
+# Setup API
 api_key = os.environ.get("GEMINI_API_KEY")
+if not api_key:
+    print("DEBUG: GEMINI_API_KEY missing!", file=sys.stderr)
+    sys.exit(1)
+
 client = genai.Client(api_key=api_key)
 
 VENUE_NAME = "El Mocambo"
 LISTING_URL = "https://elmocambo.com/events-new/"
 
 def get_data():
+    # Today's date for 2026 context
     today = "2026-04-27"
     
-    # We use the 'Forensic' instructions that finally cracked the links earlier
     prompt = f"""
     Visit this specific Toronto venue page: {LISTING_URL}
     
@@ -41,27 +45,11 @@ def get_data():
             )
         )
         
-        # Capture JSON array
-        json_match = re.search(r'\[.*\]', response.text, re.DOTALL)
-        
-        if json_match:
-            data = json.loads(json_match.group(0))
-            
-            # Ensure relative links become full URLs
-            for entry in data:
-                if entry['url'].startswith('/'):
-                    entry['url'] = f"https://elmocambo.com{entry['url']}"
-                entry['venue'] = VENUE_NAME
-            
-            # Print ONLY the final JSON for main.py to capture
-            print(json.dumps(data))
-        else:
-            # For debugging in GitHub logs if it returns empty
-            print(f"DEBUG: No JSON found. Model response: {response.text[:150]}", file=sys.stderr)
-            print("[]")
+        # We print the response to stdout; main.py will extract the JSON array
+        print(response.text)
             
     except Exception as e:
-        print(f"DEBUG: API or Script Error: {str(e)}", file=sys.stderr)
+        print(f"DEBUG: API Error: {str(e)}", file=sys.stderr)
         print("[]")
 
 if __name__ == "__main__":
