@@ -6,13 +6,17 @@ import re
 
 CONCERTS_FILE = "concerts.json"
 VENUES_DIR = "venues"
-BANNED_DOMAINS = ["ticketmaster", "livenation", "eventbrite", "dice.fm", "showpass"]
+BANNED_DOMAINS = ["ticketmaster", "livenation", "eventbrite", "dice.fm", "showpass", "universe.com", "ticketweb"]
 
 def main():
     print(f"--- Starting Scrape: {datetime.datetime.now()} ---")
     
+    if not os.path.exists(VENUES_DIR):
+        print(f"ERROR: Folder '{VENUES_DIR}' not found!")
+        return
+
     all_data = []
-    # Filter out __init__.py and other non-venue scripts
+    # Ignore __init__.py and non-python files
     venue_scripts = [f for f in os.listdir(VENUES_DIR) if f.endswith(".py") and f != "__init__.py"]
     
     for script in venue_scripts:
@@ -20,6 +24,7 @@ def main():
         print(f"Executing: {script}...")
         
         try:
+            # Explicitly pass environment variables (API Key) to the sub-process
             result = subprocess.run(
                 ["python", script_path], 
                 capture_output=True, 
@@ -28,30 +33,34 @@ def main():
             )
             
             raw_output = result.stdout.strip()
+            # Look for the JSON array in the output
             json_match = re.search(r'\[.*\]', raw_output, re.DOTALL)
 
-if json_match:
+            if json_match:
                 venue_data = json.loads(json_match.group(0))
+                
                 if not venue_data:
                     print(f"   Warning: {script} returned an empty list [].")
-                    # NEW: Print the stderr to see WHY it's empty
                     if result.stderr:
-                        print(f"   Diagnostic Logs: {result.stderr.strip()}")
+                        print(f"   Diagnostic Logs (stderr): {result.stderr.strip()}")
                 
                 count = 0
                 for concert in venue_data:
+                    # Filter out banned ticketing domains
                     is_banned = any(banned in concert.get('url', '').lower() for banned in BANNED_DOMAINS)
                     if not is_banned:
                         all_data.append(concert)
                         count += 1
                 print(f"   Success: Added {count} events.")
             else:
-                print(f"   ERROR: {script} returned no JSON.")
+                print(f"   ERROR: {script} returned no JSON array.")
                 if result.stderr:
-                    print(f"   Logs: {result.stderr.strip()}")
+                    print(f"   Diagnostic Logs (stderr): {result.stderr.strip()}")
+                elif raw_output:
+                    print(f"   Raw Output (first 100 chars): {raw_output[:100]}")
 
         except Exception as e:
-            print(f"   FAILED {script}: {e}")
+            print(f"   FAILED to execute {script}: {e}")
 
     # Deduplicate and Save
     final_list = []
@@ -67,7 +76,7 @@ if json_match:
     with open(CONCERTS_FILE, "w") as f:
         json.dump(final_list, f, indent=4)
     
-    print(f"--- Scrape Complete: {len(final_list)} Total Events ---")
+    print(f"--- Scrape Complete: {len(final_list)} Total Events Saved ---")
 
 if __name__ == "__main__":
     main()
