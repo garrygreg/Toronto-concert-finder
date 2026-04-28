@@ -30,7 +30,9 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git add concerts.json
-          # This line below is the fix:
+          # 1. Commit first to clear the index
+          git commit -m "Automated update: $(date +%Y-%m-%d)" || echo "No changes to commit"
+          # 2. Now pull and rebase to stay in sync with your manual pushes
           git pull --rebase origin main
-          git commit -m "Automated update: $(date +%Y-%m-%d)" || exit 0
+          # 3. Push the combined work
           git push
