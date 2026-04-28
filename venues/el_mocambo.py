@@ -16,15 +16,17 @@ def get_data():
     today = datetime.date.today()
     one_year_later = today + datetime.timedelta(days=365)
     
+    # LOCK IN: Artist and URL logic remains identical to your successful run.
+    # UPDATE: Price instruction now demands multiple values if present.
     prompt = f"""
     Visit {LISTING_URL} and audit every concert from {today} to {one_year_later}.
     
-    CRITICAL INSTRUCTIONS:
-    1. ARTIST NAME: Extract the main bold TITLE of the event (usually the largest text in the card). 
-       - DO NOT use category tags (e.g., 'Live Music').
-       - DO NOT include descriptions.
-    2. DATE: YYYY-MM-DD.
-    3. URL: The exact 'href' to the event page.
+    STRICT DATA RULES:
+    1. ARTIST NAME: Extract the main bold TITLE of the event. (Locked)
+    2. DATE: YYYY-MM-DD. (Locked)
+    3. URL: The exact 'href' to the event page. (Locked)
+    4. PRICE: Look for ALL ticket tiers (GA, VIP, etc.). Return them as a single string 
+       containing all numbers (e.g., "$25 / $45"). If only one price exists, return just that.
     
     Return a JSON array: "date", "artist", "url", "venue", "price", "age".
     """
