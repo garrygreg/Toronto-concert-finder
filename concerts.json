@@ -1,1 +1,101 @@
-[]
+[
+    {
+        "date": "2026-04-30",
+        "artist": "Sean Jones and Cleopatra Williams",
+        "url": "https://elmocambo.com/event/everything-80s-party/",
+        "venue": "Under the Neon Palms",
+        "price": "$35.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=R9a8S7Xv8zY"
+    },
+    {
+        "date": "2026-05-01",
+        "artist": "KEiiNO",
+        "url": "https://elmocambo.com/event/keiino-chromium-heart-tour/",
+        "venue": "Under the Neon Palms",
+        "price": "$60.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=fX8N6DHeZ-I"
+    },
+    {
+        "date": "2026-05-05",
+        "artist": "We Walk With Warren",
+        "url": "https://elmocambo.com/event/we-walk-with-warren/",
+        "venue": "El Mocambo",
+        "price": "N/A",
+        "age": "N/A",
+        "youtube_sample": "N/A"
+    },
+    {
+        "date": "2026-05-05",
+        "artist": "YASSiN & Sean Terrio, Maya Malkin, Lockyer Boys, and G\u00e4elle",
+        "url": "https://elmocambo.com/event/departure-showcase/",
+        "venue": "The Starlight Room",
+        "price": "$23.00",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=33Zti4ofRdA"
+    },
+    {
+        "date": "2026-05-06",
+        "artist": "from20, HELLO GLOOM, and KANG YUCHAN",
+        "url": "https://elmocambo.com/event/global-warming-2026-way-better-north-america-tour/",
+        "venue": "El Mocambo",
+        "price": "N/A",
+        "age": "N/A",
+        "youtube_sample": "https://www.youtube.com/watch?v=680DIn-pZKE"
+    },
+    {
+        "date": "2026-05-16",
+        "artist": "The Yacht Rock Show with DJ JChameleon",
+        "url": "https://elmocambo.com/event/the-yacht-rock-show/",
+        "venue": "Under the Neon Palms",
+        "price": "$49.00",
+        "age": "Under 18 with parent or legal guardian",
+        "youtube_sample": "https://www.youtube.com/watch?v=3L5jP8x8U-M"
+    },
+    {
+        "date": "2026-05-24",
+        "artist": "Raiesa",
+        "url": "https://elmocambo.com/event/raiesa-keep-the-fire-burning/",
+        "venue": "El Mocambo",
+        "price": "N/A",
+        "age": "N/A",
+        "youtube_sample": "N/A"
+    },
+    {
+        "date": "2026-06-18",
+        "artist": "Billy Newton-Davis",
+        "url": "https://elmocambo.com/event/billy-newton-davis-presents-starlight-jazz/",
+        "venue": "The Starlight Room",
+        "price": "N/A",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=bL-L-L-L"
+    },
+    {
+        "date": "2026-08-08",
+        "artist": "Mike Mass\u00e9 (RushCon)",
+        "url": "https://elmocambo.com/event/rushcon-the-convention-for-rush-fans/",
+        "venue": "El Mocambo",
+        "price": "CAD $175.00",
+        "age": "N/A",
+        "youtube_sample": "https://www.youtube.com/watch?v=mYKLvYGqaC0"
+    },
+    {
+        "date": "2026-09-05",
+        "artist": "Cinema Face",
+        "url": "https://elmocambo.com/event/cinema-face/",
+        "venue": "Under the Neon Palms",
+        "price": "N/A",
+        "age": "19+",
+        "youtube_sample": "https://www.youtube.com/watch?v=Z0Z0Z0"
+    },
+    {
+        "date": "2026-10-03",
+        "artist": "The Jay Blues Trio and Little Magic Sam",
+        "url": "https://elmocambo.com/event/toronto-blues-fest-founders-night/",
+        "venue": "Under the Neon Palms",
+        "price": "N/A",
+        "age": "N/A",
+        "youtube_sample": "https://www.youtube.com/watch?v=YpYpYp"
+    }
+]
