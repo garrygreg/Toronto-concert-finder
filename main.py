@@ -53,18 +53,19 @@ def main():
             unique_list.append(c)
             seen.add(key)
             
-    # 2. CHRONOLOGICAL SORT
-    # We sort while 'date' is still YYYY-MM-DD
+    # 2. CHRONOLOGICAL SORT (While date is still YYYY-MM-DD)
     unique_list.sort(key=lambda x: x.get('date', '9999-12-31'))
 
-    # 3. PRETTY DATE TRANSFORMATION
-    # We overwrite the 'date' field AFTER sorting so the website sees the day of the week
+    # 3. HIDDEN SORT KEY TRANSFORMATION
+    # We prefix the pretty date with a hidden ISO date so alphabetical sorts 
+    # on the web page become chronological.
     for entry in unique_list:
         try:
             raw_date = entry.get('date')
             date_obj = datetime.datetime.strptime(raw_date, "%Y-%m-%d")
-            # Overwriting the field the website already uses:
-            entry['date'] = date_obj.strftime("%A, %B %d, %Y")
+            pretty_date = date_obj.strftime("%A, %B %d, %Y")
+            # This is the "Magic" line:
+            entry['date'] = f'<span style="display:none">{raw_date}</span>{pretty_date}'
         except:
             continue
 
