@@ -13,50 +13,55 @@ VENUE_NAME = "El Mocambo"
 LISTING_URL = "https://elmocambo.com/events-new/"
 
 def get_data():
-    # We give the model "Hints" about the current date and what to look for
-    today = "2026-04-27" 
+    today = "2026-04-27"
     
+    # We use the 'Forensic' instructions that finally cracked the links earlier
     prompt = f"""
-    MANDATORY MISSION: Extract the concert calendar for {VENUE_NAME}.
+    Visit this specific Toronto venue page: {LISTING_URL}
     
-    PRIMARY SOURCE: {LISTING_URL}
-    BACKUP SOURCE: Use Google Search to find 'El Mocambo Toronto upcoming events April 2026' if the primary link is blocked.
+    TASK: Extract all upcoming concerts from {today} onwards.
     
-    EXTRACTION RULES:
-    1. DATE: Extract in YYYY-MM-DD. (Note: It is currently April 2026).
-    2. DEEP LINKS: Find the unique event page URL (usually starts with 'https://elmocambo.com/event/'). 
-    3. ARTIST: Extract the full headliner name.
-    4. NO HALLUCINATIONS: If you see a 'Bo Steezy' or 'Everything 80s' event, capture it.
-
-    Return ONLY a raw JSON array of objects: "date", "artist", "url", "venue", "price", "age".
+    LITERAL EXTRACTION RULES:
+    1. NO GUESSING: Do not construct URLs based on the artist name. 
+    2. THE "HREF" RULE: You must look at the HTML 'href' attribute for the "More Info" button or the Artist Name. Copy that link EXACTLY as it is written in the code.
+       - Example: If the link is '/event/global-warming-tour', copy it exactly.
+    3. DOMAIN LOCKDOWN: Every 'url' MUST stay on the official domain: elmocambo.com.
+    4. NO TICKETING: If a link goes to Ticketmaster or Eventbrite, ignore it. Find the link that stays on elmocambo.com.
+    5. DATA COMPLETENESS: Find EVERY concert listing on the page. Do not stop at the first one.
+    
+    Return a raw JSON array of objects: "date" (YYYY-MM-DD), "artist", "url" (LITERAL HREF), "venue", "price", "age", "youtube_sample".
     """
     
     try:
         response = client.models.generate_content(
-            model="gemini-3-flash-preview",
+            model="gemini-3-flash-preview", 
             contents=prompt,
             config=types.GenerateContentConfig(
-                tools=[
-                    types.Tool(url_context=types.UrlContext()),
-                    types.Tool(google_search=types.GoogleSearch()) # Backup tool
-                ]
+                tools=[types.Tool(url_context=types.UrlContext())]
             )
         )
         
-        # Look for the JSON block
+        # Capture JSON array
         json_match = re.search(r'\[.*\]', response.text, re.DOTALL)
         
         if json_match:
-            # We print ONLY the JSON to satisfy the Master script
-            print(json_match.group(0))
+            data = json.loads(json_match.group(0))
+            
+            # Ensure relative links become full URLs
+            for entry in data:
+                if entry['url'].startswith('/'):
+                    entry['url'] = f"https://elmocambo.com{entry['url']}"
+                entry['venue'] = VENUE_NAME
+            
+            # Print ONLY the final JSON for main.py to capture
+            print(json.dumps(data))
         else:
-            # If it fails, print the model's text to stderr so you can see it in logs 
-            # but it won't break the JSON parsing of the Master script.
-            print(f"DEBUG: Model failed to find JSON. Response was: {response.text[:200]}", file=sys.stderr)
+            # For debugging in GitHub logs if it returns empty
+            print(f"DEBUG: No JSON found. Model response: {response.text[:150]}", file=sys.stderr)
             print("[]")
             
     except Exception as e:
-        print(f"DEBUG: Script Error: {str(e)}", file=sys.stderr)
+        print(f"DEBUG: API or Script Error: {str(e)}", file=sys.stderr)
         print("[]")
 
 if __name__ == "__main__":
