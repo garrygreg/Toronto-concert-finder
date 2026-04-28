@@ -16,14 +16,19 @@ def get_data():
     today = "2026-04-27"
     
     prompt = f"""
-    Visit {LISTING_URL} and extract all upcoming concerts from {today} onwards.
+    Visit {LISTING_URL} and perform a forensic audit of EVERY concert container.
     
-    LITERAL EXTRACTION RULES:
-    1. THE "HREF" RULE: You must find the <a> tag for every concert listing. Copy the 'href' attribute EXACTLY.
-    2. NO GUESSING: Only return links that exist on elmocambo.com.
-    3. SEARCH VERIFICATION: Use your search tool to verify the 'El Mocambo' calendar if the page appears empty.
+    TASK: There are approximately 16-20 concerts on this page. You are currently only finding 11. You must find ALL of them.
     
-    Return a JSON array of objects: "date" (YYYY-MM-DD), "artist", "url", "venue", "price", "age", "youtube_sample".
+    AUDIT CHECKLIST:
+    1. SCAN THE WHOLE PAGE: Do not stop until you hit the footer.
+    2. IGNORE DESCRIPTIONS: Do not extract the 'Perk Check-in' or 'Bio' text. Only focus on the Date, Artist, and the 'href' link.
+    3. LITERAL HREF: For every single event, find the link that points to '{VENUE_NAME.lower()}.com/event/'. 
+       - Example: 'everything-80s-party'
+       - Example: 'global-warming-2026-way-better-north-america-tour'
+    4. NO SUMMARIZATION: Even if two shows look similar or happen in the same week, they must be separate entries.
+    
+    Return ONLY a JSON array: "date", "artist", "url", "venue", "price", "age".
     """
     
     try:
@@ -35,18 +40,25 @@ def get_data():
                     types.Tool(url_context=types.UrlContext()),
                     types.Tool(google_search=types.GoogleSearch())
                 ],
-                # This 'Thinking' process is what allows it to parse the complex HTML
+                # 'Thinking' helps it navigate the long list without getting bored
                 thinking_config={'include_thoughts': True}
             )
         )
         
-        # 2. Extract and Print
+        # Capture the JSON
         json_match = re.search(r'\[.*\]', response.text, re.DOTALL)
         if json_match:
-            print(json_match.group(0))
+            data = json.loads(json_match.group(0))
+            
+            # Python-side cleanup for URLs and Date sorting
+            for entry in data:
+                if entry['url'].startswith('/'):
+                    entry['url'] = f"https://elmocambo.com{entry['url']}"
+                entry['venue'] = VENUE_NAME
+                
+            print(json.dumps(data))
         else:
-            # Send the model's actual reasoning/response to stderr for debugging
-            print(f"DEBUG: No JSON found. Model response: {response.text[:200]}", file=sys.stderr)
+            print(f"DEBUG: No JSON found. Response: {response.text[:150]}", file=sys.stderr)
             print("[]")
             
     except Exception as e:
