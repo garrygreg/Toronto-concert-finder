@@ -11,12 +11,22 @@ BANNED_DOMAINS = ["ticketmaster", "livenation", "eventbrite", "dice.fm", "showpa
 def clean_price(price_str):
     if not price_str or "Check Venue" in str(price_str):
         return "Check Venue"
+    
+    # Extract all numbers, including decimals
     prices = re.findall(r'\d+(?:\.\d{2})?', str(price_str))
-    if not prices: return "Check Venue"
-    price_floats = [float(p) for p in prices]
+    
+    if not prices:
+        return "Check Venue"
+    
+    # Convert to unique floats to avoid duplicates like "$25 / $25.00"
+    price_floats = sorted(list(set([float(p) for p in prices])))
+    
     if len(price_floats) > 1:
-        return f"${min(price_floats):,.2f}+"
-    return f"${price_floats[0]:,.2f}"
+        # Multiple unique prices found
+        return f"${price_floats[0]:,.2f}+"
+    else:
+        # Singular price
+        return f"${price_floats[0]:,.2f}"
 
 def main():
     print(f"--- Starting Scrape: {datetime.datetime.now()} ---")
@@ -37,6 +47,7 @@ def main():
                 for concert in venue_data:
                     is_banned = any(banned in concert.get('url', '').lower() for banned in BANNED_DOMAINS)
                     if not is_banned:
+                        # Apply price logic
                         concert['price'] = clean_price(concert.get('price'))
                         all_data.append(concert)
                         count += 1
@@ -44,7 +55,7 @@ def main():
         except Exception as e:
             print(f"   FAILED {script}: {e}")
 
-    # 1. Deduplicate by Date + Artist + URL
+    # Deduplicate
     unique_list = []
     seen = set()
     for c in all_data:
@@ -53,21 +64,15 @@ def main():
             unique_list.append(c)
             seen.add(key)
             
-    # 2. CHRONOLOGICAL SORT (While date is still YYYY-MM-DD)
+    # Sort and Transform for Display (keeping the hidden span for your web sorting)
     unique_list.sort(key=lambda x: x.get('date', '9999-12-31'))
-
-    # 3. HIDDEN SORT KEY TRANSFORMATION
-    # We prefix the pretty date with a hidden ISO date so alphabetical sorts 
-    # on the web page become chronological.
     for entry in unique_list:
         try:
             raw_date = entry.get('date')
             date_obj = datetime.datetime.strptime(raw_date, "%Y-%m-%d")
             pretty_date = date_obj.strftime("%A, %B %d, %Y")
-            # This is the "Magic" line:
             entry['date'] = f'<span style="display:none">{raw_date}</span>{pretty_date}'
-        except:
-            continue
+        except: continue
 
     with open(CONCERTS_FILE, "w") as f:
         json.dump(unique_list, f, indent=4)
