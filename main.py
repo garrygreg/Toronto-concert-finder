@@ -38,20 +38,13 @@ def main():
                     is_banned = any(banned in concert.get('url', '').lower() for banned in BANNED_DOMAINS)
                     if not is_banned:
                         concert['price'] = clean_price(concert.get('price'))
-                        # Add Display Date here, but leave 'date' as ISO for sorting
-                        try:
-                            date_obj = datetime.datetime.strptime(concert['date'], "%Y-%m-%d")
-                            concert['display_date'] = date_obj.strftime("%A, %B %d, %Y")
-                        except:
-                            concert['display_date'] = concert.get('date')
-                        
                         all_data.append(concert)
                         count += 1
                 print(f"   Success: Added {count} events.")
         except Exception as e:
             print(f"   FAILED {script}: {e}")
 
-    # Deduplicate by Date + Artist + URL (to catch multi-show days)
+    # 1. Deduplicate by Date + Artist + URL
     unique_list = []
     seen = set()
     for c in all_data:
@@ -60,8 +53,20 @@ def main():
             unique_list.append(c)
             seen.add(key)
             
-    # CRITICAL: Sort by the ISO date field
+    # 2. CHRONOLOGICAL SORT
+    # We sort while 'date' is still YYYY-MM-DD
     unique_list.sort(key=lambda x: x.get('date', '9999-12-31'))
+
+    # 3. PRETTY DATE TRANSFORMATION
+    # We overwrite the 'date' field AFTER sorting so the website sees the day of the week
+    for entry in unique_list:
+        try:
+            raw_date = entry.get('date')
+            date_obj = datetime.datetime.strptime(raw_date, "%Y-%m-%d")
+            # Overwriting the field the website already uses:
+            entry['date'] = date_obj.strftime("%A, %B %d, %Y")
+        except:
+            continue
 
     with open(CONCERTS_FILE, "w") as f:
         json.dump(unique_list, f, indent=4)
